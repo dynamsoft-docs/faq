@@ -13,3 +13,4 @@ noTitleIndex: true
 - [General Troubleshooting Steps for Decode Failure](general-troubleshooting-steps-for-decode-failure.html)
 - [Get SDK Logs](get-sdk-logs.html)
 - [Resolve Magic Word](resolve-magic-word.html)
+- [How to Use Debug Mode](debug-mode.html)
