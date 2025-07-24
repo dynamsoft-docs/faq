@@ -18,7 +18,7 @@ needAutoGenerateSidebar: false
 
 ---
 
-## enable debug mode
+## Enable debug mode
 
 Append `?debug=true` to the demo URL.  
 Example: https://demo.dynamsoft.com/barcode-reader-js/?debug=true
@@ -31,10 +31,10 @@ In debug mode:
 ---
 
 <div align="left">
-    <p><img src="../assets/advanced-settings.jpg" width="40%" alt="advanced settings"></p>
+    <p><img src="../assets/undefined.png" width="40%" alt="advanced settings"></p>
 </div>
 
-## upload a custom template
+## Upload a custom template
 
 1. Enable debug mode with `?debug=true`
 2. Use the **custom template upload** button (bottom-left of the UI)
@@ -44,16 +44,15 @@ In debug mode:
 
 ---
 
-## save video frames
+## Save video frames
 
-Yes — in **debug mode**, you can save video frames for testing and analysis.
+Yes — in **debug mode**, you can save video frames for testing and analysis (top-right of the UI).
 
 ---
 
-## 🔗 Useful Links
+## Useful Links
 
 - [Demo Page](https://demo.dynamsoft.com/barcode-reader-js/)
 - [Documentation](https://www.dynamsoft.com/barcode-reader/docs/web/)
-- [Support](https://www.dynamsoft.com/Support/)
 
 ---

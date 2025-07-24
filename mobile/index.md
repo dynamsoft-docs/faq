@@ -23,6 +23,7 @@ Welcome to the FAQ for Dynamsoft Barcode Reader on mobile platforms. Browse the 
 - [No Camera Enhancer](configuration/no-camera-enhancer.html)
 - [Proguard Instructions](configuration/proguard.html)
 - [Reduce Battery Consumption](configuration/reduce-battery-consumption.html)
+- [App Size Impact](configuration/app-size-impact.html)
 
 ## Scan Settings
 

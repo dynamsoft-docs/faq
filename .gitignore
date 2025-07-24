@@ -5,4 +5,3 @@ logs/
 *.tmp
 temp/*
 !temp/keep.txt
-.DS_Store

@@ -53,6 +53,7 @@ Welcome! Browse the sections below for answers to common questions, configuratio
 - [General Troubleshooting Steps for Decode Failure](debug/general-troubleshooting-steps-for-decode-failure.html)
 - [Get SDK Logs](debug/get-sdk-logs.html)
 - [Resolve Magic Word](debug/resolve-magic-word.html)
+- [How to Use Debug Mode](debug/debug-mode.html)
 
 ## Scan Settings
 
