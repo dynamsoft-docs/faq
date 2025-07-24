@@ -46,7 +46,7 @@ When integrating the Dynamsoft Barcode Reader (DBR) SDK into your mobile applica
 
 ## Flutter / React Native / MAUI
 
-When using hybrid frameworks like Flutter, React Native, or Xamarin:
+When using hybrid frameworks like Flutter, React Native, or MAUI:
 
 - The app still includes native binaries for Android/iOS under the hood.
 - Therefore, the **size impact is similar** to native apps.

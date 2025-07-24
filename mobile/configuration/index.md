@@ -14,3 +14,4 @@ noTitleIndex: true
 - [Proguard Instructions](proguard.html)
 - [Reduce Battery Consumption](reduce-battery-consumption.html)
 - [Reduce Final Size](reduce-final-size.html)
+- [App Size Impact](app-size-impact.html)
