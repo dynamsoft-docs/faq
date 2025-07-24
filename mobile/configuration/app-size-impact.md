@@ -31,7 +31,7 @@ When integrating the Dynamsoft Barcode Reader (DBR) SDK into your mobile applica
 | Dynamsoft Barcode Reader SDK | Download Size |
 | ---------------------------- | ------------- |
 | Download Size                | **~8.6 MB**   |
-| Compressed Size              | **~24 MB**    |
+| Install Size                 | **~24 MB**    |
 
 ---
 
@@ -40,7 +40,7 @@ When integrating the Dynamsoft Barcode Reader (DBR) SDK into your mobile applica
 | Dynamsoft Barcode Reader SDK | Download Size |
 | ---------------------------- | ------------- |
 | Download Size(Thined IPA)    | **~9.3 MB**   |
-| Compressed Size              | **~24 MB**    |
+| Install Size                 | **~24.4 MB**  |
 
 ---
 
