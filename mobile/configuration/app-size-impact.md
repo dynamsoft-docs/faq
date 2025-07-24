@@ -28,19 +28,19 @@ When integrating the Dynamsoft Barcode Reader (DBR) SDK into your mobile applica
 
 ### Size impact (arm64-v8a example)
 
-| Dynamsoft Barcode Reader SDK | Download Size |
-| ---------------------------- | ------------- |
-| Download Size                | **~8.6 MB**   |
-| Install Size                 | **~24 MB**    |
+| Dynamsoft Barcode Reader SDK | Size         |
+| ---------------------------- | ------------ |
+| Download Size                | **~10.3 MB** |
+| Install Size                 | **~24 MB**   |
 
 ---
 
 ## iOS
 
-| Dynamsoft Barcode Reader SDK | Download Size |
-| ---------------------------- | ------------- |
-| Download Size(Thined IPA)    | **~9.3 MB**   |
-| Install Size                 | **~24.4 MB**  |
+| Dynamsoft Barcode Reader SDK | Size         |
+| ---------------------------- | ------------ |
+| Download Size(Thinned IPA)   | **~9.3 MB**  |
+| Install Size                 | **~24.4 MB** |
 
 ---
 
