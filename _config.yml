@@ -36,6 +36,38 @@ defaults:
       path: "Hide_Tree_Page.html"
     values:
       sitemap: false
+  - scope:
+      path: "general"
+    values:
+      highlightMenu: "/faq/barcode-reader/general/index.html"
+  - scope:
+      path: "license"
+    values:
+      highlightMenu: "/faq/barcode-reader/license/index.html"
+  - scope:
+      path: "mobile/capabilities"
+    values:
+      highlightMenu: "/faq/barcode-reader/mobile/index.html#capabilities"
+  - scope:
+      path: "mobile/configuration"
+    values:
+      highlightMenu: "/faq/barcode-reader/mobile/index.html#configuration"
+  - scope:
+      path: "mobile/cross-platform"
+    values:
+      highlightMenu: "/faq/barcode-reader/mobile/index.html#cross-platform"
+  - scope:
+      path: "mobile/debug"
+    values:
+      highlightMenu: "/faq/barcode-reader/mobile/index.html#debug"
+  - scope:
+      path: "mobile/scan-setting"
+    values:
+      highlightMenu: "/faq/barcode-reader/mobile/index.html#scan-setting"
+  - scope:
+      path: "mobile/simulator"
+    values:
+      highlightMenu: "/faq/barcode-reader/mobile/index.html#simulator"
 
 url: https://www.dynamsoft.com # sitemap root
 baseurl: /faq/barcode-reader
