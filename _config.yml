@@ -68,6 +68,34 @@ defaults:
       path: "mobile/simulator"
     values:
       highlightMenu: "/faq/barcode-reader/mobile/index.html#simulator"
+  - scope:
+      path: "server/configuration"
+    values:
+      highlightMenu: "/faq/barcode-reader/server/index.html#configuration"
+  - scope:
+      path: "web/scan-setting"
+    values:
+      highlightMenu: "/faq/barcode-reader/web/index.html#scan-setting"
+  - scope:
+      path: "web/camera"
+    values:
+      highlightMenu: "/faq/barcode-reader/web/index.html#camera"
+  - scope:
+      path: "web/capabilities"
+    values:
+      highlightMenu: "/faq/barcode-reader/web/index.html#capabilities"
+  - scope:
+      path: "web/configuration"
+    values:
+      highlightMenu: "/faq/barcode-reader/web/index.html#configuration"
+  - scope:
+      path: "web/ui-customization"
+    values:
+      highlightMenu: "/faq/barcode-reader/web/index.html#ui-customization"
+  - scope:
+      path: "web/debug"
+    values:
+      highlightMenu: "/faq/barcode-reader/web/index.html#debug"
 
 url: https://www.dynamsoft.com # sitemap root
 baseurl: /faq/barcode-reader
