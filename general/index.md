@@ -1,15 +1,15 @@
 ---
 layout: default-layout
-title: General FAQ - Dynamsoft Barcode Reader FAQ
+title: General FAQ
 keywords: faq, general, dbr, dynamsoft, barcode reader
-description: Dynamsoft Barcode Reader FAQ - General
+description: Dynamsoft Capture Vision FAQ - General
 needAutoGenerateSidebar: false
 noTitleIndex: true
 ---
 
-# Dynamsoft Barcode Reader General FAQ
+# General FAQ
 
-Welcome to the FAQ for Dynamsoft Barcode Reader. Use the links below to find answers to common questions and configuration guidance.
+Please use the links below to find answers to common questions and configuration guidance.
 
 - [How to avoid incorrect barcode results?](avoid-incorrect-barcode-results.html)
 - [How to filter incorrect results with the barcode result length?](avoid-incorrect-results.html)

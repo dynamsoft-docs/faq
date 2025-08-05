@@ -1,15 +1,15 @@
 ---
 layout: default-layout
-title: License FAQ - Dynamsoft Barcode Reader FAQ
+title: License FAQ
 keywords: faq, license, dbr, dynamsoft, barcode reader, configuration
-description: Dynamsoft Barcode Reader FAQ - License
+description: Dynamsoft Capture Vision FAQ - License
 needAutoGenerateSidebar: false
 noTitleIndex: true
 ---
 
-# Dynamsoft Barcode Reader General FAQ
+# License FAQ
 
-Welcome to the FAQ for Dynamsoft Barcode Reader License. Use the links below to find answers to common questions and configuration guidance.
+Please use the links below to find answers to common questions and configuration guidance.
 
 - [Does DBR support PDF?](dbr-supports-pdf.html)
 - [How to ensure no overuse of license?](ensure-no-overuse.html)
