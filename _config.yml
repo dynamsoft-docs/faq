@@ -1,25 +1,25 @@
 repository: dynamsoft-docs/faq
 repositoryUrl: https://github.com/dynamsoft-docs/faq/blob/main
 docFullPath: https://www.dynamsoft.com/faq/barcode-reader
-firstLevelUrl: /faq/barcode-reader
+firstLevelUrl: /faq
 docHomePage: /faq/
-product-page-url: https://www.dynamsoft.com/faq/barcode-reader
+product-page-url: https://www.dynamsoft.com/faq
 
 product-name: /faq/
 product-title: Dynamsoft FAQ
 
+dbr-faq: /faq/barcode-reader
+mrz-faq: /faq/mrz-scanner
 mobile-faq: /faq/barcode-reader/mobile
 server-faq: /faq/barcode-reader/server
 web-faq: /faq/barcode-reader/web
-general-faq: /faq/barcode-reader/general
-license-faq: /faq/barcode-reader/license
 
 useVersionTree: true
 
-assets: /faq/barcode-reader/assets/
-edit_icon: /faq/barcode-reader/assets/img-icon/edit-icon.png
-smile_icon: /faq/barcode-reader/assets/img-icon/icon-smile.png
-sad_icon: /faq/barcode-reader/assets/img-icon/icon-sad.png
+assets: /faq/assets/
+edit_icon: /faq/assets/img-icon/edit-icon.png
+smile_icon: /faq/assets/img-icon/icon-smile.png
+sad_icon: /faq/assets/img-icon/icon-sad.png
 
 plugins:
   - jekyll-sitemap
@@ -37,65 +37,73 @@ defaults:
     values:
       sitemap: false
   - scope:
-      path: "general"
+      path: "mrz-scanner"
+    values:
+      highlightMenu: "/faq/mrz-scanner/index.html"
+  - scope:
+      path: "barcode-reader"
+    values:
+      highlightMenu: "/faq/barcode-reader/index.html"
+  - scope:
+      path: "barcode-reader/general"
     values:
       highlightMenu: "/faq/barcode-reader/general/index.html"
   - scope:
-      path: "license"
+      path: "barcode-reader/license"
     values:
       highlightMenu: "/faq/barcode-reader/license/index.html"
   - scope:
-      path: "mobile/capabilities"
+      path: "barcode-reader/mobile/capabilities"
     values:
       highlightMenu: "/faq/barcode-reader/mobile/index.html#capabilities"
   - scope:
-      path: "mobile/configuration"
+      path: "barcode-reader/mobile/configuration"
     values:
       highlightMenu: "/faq/barcode-reader/mobile/index.html#configuration"
   - scope:
-      path: "mobile/cross-platform"
+      path: "barcode-reader/mobile/cross-platform"
     values:
       highlightMenu: "/faq/barcode-reader/mobile/index.html#cross-platform"
   - scope:
-      path: "mobile/debug"
+      path: "barcode-reader/mobile/debug"
     values:
       highlightMenu: "/faq/barcode-reader/mobile/index.html#debug"
   - scope:
-      path: "mobile/scan-setting"
+      path: "barcode-reader/mobile/scan-setting"
     values:
       highlightMenu: "/faq/barcode-reader/mobile/index.html#scan-setting"
   - scope:
-      path: "mobile/simulator"
+      path: "barcode-reader/mobile/simulator"
     values:
       highlightMenu: "/faq/barcode-reader/mobile/index.html#simulator"
   - scope:
-      path: "server/configuration"
+      path: "barcode-reader/server/configuration"
     values:
       highlightMenu: "/faq/barcode-reader/server/index.html#configuration"
   - scope:
-      path: "web/scan-setting"
+      path: "barcode-reader/web/scan-setting"
     values:
       highlightMenu: "/faq/barcode-reader/web/index.html#scan-setting"
   - scope:
-      path: "web/camera"
+      path: "barcode-reader/web/camera"
     values:
       highlightMenu: "/faq/barcode-reader/web/index.html#camera"
   - scope:
-      path: "web/capabilities"
+      path: "barcode-reader/web/capabilities"
     values:
       highlightMenu: "/faq/barcode-reader/web/index.html#capabilities"
   - scope:
-      path: "web/configuration"
+      path: "barcode-reader/web/configuration"
     values:
       highlightMenu: "/faq/barcode-reader/web/index.html#configuration"
   - scope:
-      path: "web/ui-customization"
+      path: "barcode-reader/web/ui-customization"
     values:
       highlightMenu: "/faq/barcode-reader/web/index.html#ui-customization"
   - scope:
-      path: "web/debug"
+      path: "barcode-reader/web/debug"
     values:
       highlightMenu: "/faq/barcode-reader/web/index.html#debug"
 
 url: https://www.dynamsoft.com # sitemap root
-baseurl: /faq/barcode-reader
+baseurl: /faq
