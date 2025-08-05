@@ -20,7 +20,7 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' }}
     uses: dynamsoft-docs/Docs-Template-Repo/.github/workflows/called-workflow-build-sync-production.yml@main
     with:
-      doc-repo: faq
+      doc-repo: faq/barcode-reader
       doc-url: faq/barcode-reader
     secrets: inherit
 
@@ -28,6 +28,6 @@ jobs:
     if: ${{ github.ref == 'refs/heads/preview' }}
     uses: dynamsoft-docs/Docs-Template-Repo/.github/workflows/called-workflow-build-sync-testing.yml@preview
     with:
-      doc-repo: faq
+      doc-repo: faq/barcode-reader
       doc-url: faq/barcode-reader
     secrets: inherit
