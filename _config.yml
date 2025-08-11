@@ -1,6 +1,6 @@
 repository: dynamsoft-docs/faq
 repositoryUrl: https://github.com/dynamsoft-docs/faq/blob/main
-docFullPath: https://www.dynamsoft.com/faq
+docFullPath: https://www.dynamsoft.com/faq/barcode-reader
 firstLevelUrl: /faq
 docHomePage: /faq/
 product-page-url: https://www.dynamsoft.com/faq
@@ -8,9 +8,11 @@ product-page-url: https://www.dynamsoft.com/faq
 product-name: /faq/
 product-title: Dynamsoft FAQ
 
-mobile-faq: /faq/dynamsoft-mobile/
-server-faq: /faq/dynamsoft-server/
-web-faq: /faq/dynamsoft-web/
+dbr-faq: /faq/barcode-reader
+mrz-faq: /faq/mrz-scanner
+mobile-faq: /faq/barcode-reader/mobile
+server-faq: /faq/barcode-reader/server
+web-faq: /faq/barcode-reader/web
 
 useVersionTree: true
 
@@ -34,6 +36,74 @@ defaults:
       path: "Hide_Tree_Page.html"
     values:
       sitemap: false
+  - scope:
+      path: "mrz-scanner"
+    values:
+      highlightMenu: "/faq/mrz-scanner/index.html"
+  - scope:
+      path: "barcode-reader"
+    values:
+      highlightMenu: "/faq/barcode-reader/index.html"
+  - scope:
+      path: "barcode-reader/general"
+    values:
+      highlightMenu: "/faq/barcode-reader/general/index.html"
+  - scope:
+      path: "barcode-reader/license"
+    values:
+      highlightMenu: "/faq/barcode-reader/license/index.html"
+  - scope:
+      path: "barcode-reader/mobile/capabilities"
+    values:
+      highlightMenu: "/faq/barcode-reader/mobile/index.html#capabilities"
+  - scope:
+      path: "barcode-reader/mobile/configuration"
+    values:
+      highlightMenu: "/faq/barcode-reader/mobile/index.html#configuration"
+  - scope:
+      path: "barcode-reader/mobile/cross-platform"
+    values:
+      highlightMenu: "/faq/barcode-reader/mobile/index.html#cross-platform"
+  - scope:
+      path: "barcode-reader/mobile/debug"
+    values:
+      highlightMenu: "/faq/barcode-reader/mobile/index.html#debug"
+  - scope:
+      path: "barcode-reader/mobile/scan-setting"
+    values:
+      highlightMenu: "/faq/barcode-reader/mobile/index.html#scan-setting"
+  - scope:
+      path: "barcode-reader/mobile/simulator"
+    values:
+      highlightMenu: "/faq/barcode-reader/mobile/index.html#simulator"
+  - scope:
+      path: "barcode-reader/server/configuration"
+    values:
+      highlightMenu: "/faq/barcode-reader/server/index.html#configuration"
+  - scope:
+      path: "barcode-reader/web/scan-setting"
+    values:
+      highlightMenu: "/faq/barcode-reader/web/index.html#scan-setting"
+  - scope:
+      path: "barcode-reader/web/camera"
+    values:
+      highlightMenu: "/faq/barcode-reader/web/index.html#camera"
+  - scope:
+      path: "barcode-reader/web/capabilities"
+    values:
+      highlightMenu: "/faq/barcode-reader/web/index.html#capabilities"
+  - scope:
+      path: "barcode-reader/web/configuration"
+    values:
+      highlightMenu: "/faq/barcode-reader/web/index.html#configuration"
+  - scope:
+      path: "barcode-reader/web/ui-customization"
+    values:
+      highlightMenu: "/faq/barcode-reader/web/index.html#ui-customization"
+  - scope:
+      path: "barcode-reader/web/debug"
+    values:
+      highlightMenu: "/faq/barcode-reader/web/index.html#debug"
 
 url: https://www.dynamsoft.com # sitemap root
 baseurl: /faq
