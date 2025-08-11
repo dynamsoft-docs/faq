@@ -48,13 +48,13 @@ defaults:
     values:
       highlightMenu: "/faq/barcode-reader/index.html"
   - scope:
-      path: "barcode-reader/general"
+      path: "general"
     values:
-      highlightMenu: "/faq/barcode-reader/general/index.html"
+      highlightMenu: "/faq/general/index.html"
   - scope:
-      path: "barcode-reader/license"
+      path: "license"
     values:
-      highlightMenu: "/faq/barcode-reader/license/index.html"
+      highlightMenu: "/faq/license/index.html"
   - scope:
       path: "barcode-reader/mobile/capabilities"
     values:
