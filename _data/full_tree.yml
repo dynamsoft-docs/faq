@@ -1,7 +1,9 @@
 tree_file_list:
+  - sidelist-full-tree.html
   - sidelist-general.html
   - sidelist-license.html
-  - sidelist-server.html
-  - sidelist-mobile.html
-  - sidelist-web.html
-  - sidelist-full-tree.html
+  - dbr-sidelist/dbr.html
+  - dbr-sidelist/server.html
+  - dbr-sidelist/mobile.html
+  - dbr-sidelist/web.html
+  - mrz-sidelist/mrz.html

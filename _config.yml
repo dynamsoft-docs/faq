@@ -1,18 +1,21 @@
 repository: dynamsoft-docs/faq
 repositoryUrl: https://github.com/dynamsoft-docs/faq/blob/main
-docFullPath: https://www.dynamsoft.com/faq/barcode-reader
+docFullPath: https://www.dynamsoft.com/faq
 firstLevelUrl: /faq
 docHomePage: /faq/
+faq-center: /faq/
 product-page-url: https://www.dynamsoft.com/faq
 
 product-name: /faq/
 product-title: Dynamsoft FAQ
 
+license-faq: /faq/license
+general-faq: /faq/general
 dbr-faq: /faq/barcode-reader
+dbr-mobile-faq: /faq/barcode-reader/mobile
+dbr-server-faq: /faq/barcode-reader/server
+dbr-web-faq: /faq/barcode-reader/web
 mrz-faq: /faq/mrz-scanner
-mobile-faq: /faq/barcode-reader/mobile
-server-faq: /faq/barcode-reader/server
-web-faq: /faq/barcode-reader/web
 
 useVersionTree: true
 
