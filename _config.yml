@@ -9,13 +9,15 @@ product-page-url: https://www.dynamsoft.com/faq
 product-name: /faq/
 product-title: Dynamsoft FAQ
 
-license-faq: /faq/license
-general-faq: /faq/general
 dbr-faq: /faq/barcode-reader
 dbr-mobile-faq: /faq/barcode-reader/mobile
 dbr-server-faq: /faq/barcode-reader/server
 dbr-web-faq: /faq/barcode-reader/web
+dbr-license-faq: /faq/barcode-reader/license
+dbr-general-faq: /faq/barcode-reader/general
 mrz-faq: /faq/mrz-scanner
+mrz-license-faq: /faq/mrz-scanner/license
+mrz-general-faq: /faq/mrz-scanner/general
 
 useVersionTree: true
 
@@ -50,11 +52,11 @@ defaults:
   - scope:
       path: "general"
     values:
-      highlightMenu: "/faq/general/index.html"
+      highlightMenu: "/general/index.html"
   - scope:
       path: "license"
     values:
-      highlightMenu: "/faq/license/index.html"
+      highlightMenu: "/license/index.html"
   - scope:
       path: "barcode-reader/mobile/capabilities"
     values:

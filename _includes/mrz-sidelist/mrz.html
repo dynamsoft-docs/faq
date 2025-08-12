@@ -1,3 +1,10 @@
 <li data-product="mrz">
-    <a href="{{ site.mrz-faq }}/index.html" class="otherLinkColour">MRZ Scanner</a>
+    <a style="cursor: pointer; color: #3c3c3c">MRZ</a>
+    <ul>
+        {%- include liquid_searchVersionTreeFile.html ver=include.ver curPath=include.curPath targetRelativePath="general.html" -%}
+        {%- include liquid_searchVersionTreeFile.html ver=include.ver curPath=include.curPath targetRelativePath="license.html" -%}
+        <li data-product="mrz">
+            <a href="{{ site.mrz-faq }}/index.html" class="otherLinkColour">MRZ Scanner</a>
+        </li>
+    </ul>
 </li>

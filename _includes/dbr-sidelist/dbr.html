@@ -1,3 +1,10 @@
-{%- include liquid_searchVersionTreeFile.html ver=include.ver curPath=include.curPath targetRelativePath="server.html" -%}
-{%- include liquid_searchVersionTreeFile.html ver=include.ver curPath=include.curPath targetRelativePath="mobile.html" -%}
-{%- include liquid_searchVersionTreeFile.html ver=include.ver curPath=include.curPath targetRelativePath="web.html" -%}
+<li data-product="dbr">
+    <a style="cursor: pointer; color: #3c3c3c">DBR</a>
+    <ul>
+        {%- include liquid_searchVersionTreeFile.html ver=include.ver curPath=include.curPath targetRelativePath="general.html" -%}
+        {%- include liquid_searchVersionTreeFile.html ver=include.ver curPath=include.curPath targetRelativePath="license.html" -%}
+        {%- include liquid_searchVersionTreeFile.html ver=include.ver curPath=include.curPath targetRelativePath="server.html" -%}
+        {%- include liquid_searchVersionTreeFile.html ver=include.ver curPath=include.curPath targetRelativePath="mobile.html" -%}
+        {%- include liquid_searchVersionTreeFile.html ver=include.ver curPath=include.curPath targetRelativePath="web.html" -%}
+    </ul>
+</li>
