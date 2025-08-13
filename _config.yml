@@ -46,10 +46,6 @@ defaults:
     values:
       highlightMenu: "/faq/mrz-scanner/index.html"
   - scope:
-      path: "barcode-reader"
-    values:
-      highlightMenu: "/faq/barcode-reader/index.html"
-  - scope:
       path: "general"
     values:
       highlightMenu: "/general/index.html"
