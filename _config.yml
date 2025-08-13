@@ -42,18 +42,6 @@ defaults:
     values:
       sitemap: false
   - scope:
-      path: "mrz-scanner"
-    values:
-      highlightMenu: "/faq/mrz-scanner/index.html"
-  - scope:
-      path: "general"
-    values:
-      highlightMenu: "/general/index.html"
-  - scope:
-      path: "license"
-    values:
-      highlightMenu: "/license/index.html"
-  - scope:
       path: "barcode-reader/mobile/capabilities"
     values:
       highlightMenu: "/faq/barcode-reader/mobile/index.html#capabilities"
