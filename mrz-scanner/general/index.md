@@ -7,6 +7,8 @@ needAutoGenerateSidebar: false
 noTitleIndex: true
 ---
 
+[<< Back to MRZ Scanner FAQ index](../index.md)
+
 # MRZ Scanner FAQ
 
 Please use the links below to find answers to common questions and configuration guidance.
