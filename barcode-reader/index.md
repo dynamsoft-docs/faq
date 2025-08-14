@@ -9,7 +9,7 @@ noTitleIndex: true
 
 [<< Back to index](../index.md)
 
-# MRZ Scanner FAQ
+# Barcode Reader FAQ
 
 Choose a category to get started.
 
