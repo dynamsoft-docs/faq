@@ -7,7 +7,7 @@ needAutoGenerateSidebar: true
 noTitleIndex: true
 ---
 
-[<< Back to index](../index.md)
+[<< Back to Product Menu](../index.md)
 
 # Barcode Reader FAQ
 
