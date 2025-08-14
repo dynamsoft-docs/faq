@@ -38,24 +38,12 @@ Select a product below to browse its FAQs.
   }
   .faq-tile h2 {
     margin: 0 0 8px 0;
-    font-size: 1.25rem;
+    font-size: 2.5rem;
     line-height: 1.2;
   }
   .faq-tile p {
     margin: 0;
     color: #444;
-  }
-  .faq-tile .eyebrow {
-    display: inline-block;
-    font-size: 0.8rem;
-    letter-spacing: .06em;
-    text-transform: uppercase;
-    color: #666;
-    margin-bottom: 6px;
-  }
-  .faq-tile .emoji {
-    font-size: 1.35rem;
-    margin-right: .35rem;
   }
 
   @media (min-width: 720px) {
@@ -68,16 +56,14 @@ Select a product below to browse its FAQs.
 <div class="faq-grid">
 
   <!-- Barcode Reader -->
-  <a class="faq-tile" href="/faq/barcode-reader/index.html" aria-label="Barcode Reader FAQs">
-    <div class="eyebrow"><span class="emoji">📲</span>Barcode Reader</div>
-    <h2>Barcode Reader</h2>
+  <a class="faq-tile" href="/faq/barcode-reader/" aria-label="Barcode Reader FAQs">
+    <h2>📲 Barcode Reader</h2>
     <p>General usage, requirements, configuration, and troubleshooting guides.</p>
   </a>
 
   <!-- MRZ Scanner -->
-  <a class="faq-tile" href="/faq/mrz-scanner/index.html" aria-label="MRZ Scanner FAQs">
-    <div class="eyebrow"><span class="emoji">🛂</span>MRZ Scanner</div>
-    <h2>MRZ Scanner</h2>
+  <a class="faq-tile" href="/faq/mrz-scanner/" aria-label="MRZ Scanner FAQs">
+    <h2>🛂 MRZ Scanner</h2>
     <p>Setup, supported formats, UI customization, and integration examples.</p>
   </a>
 
