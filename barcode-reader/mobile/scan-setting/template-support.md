@@ -6,9 +6,9 @@ description: Solve page freeze issue on iOS and learn how to import settings fro
 needAutoGenerateSidebar: true
 ---
 
-# Common Issues & Settings
+[<< Back to FAQ index](../index.md#scan-settings)
 
-[<< Back to FAQ index](index.md)
+# Common Issues & Settings
 
 ---
 

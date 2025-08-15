@@ -8,9 +8,9 @@ needGenerateH3Content: true
 noTitleIndex: true
 ---
 
-# How to prevent project build failure after shrinking code?
+[<< Back to FAQ index](../index.md#configuration)
 
-[<< Back to FAQ index](index.md)
+# How to prevent project build failure after shrinking code?
 
 This page provides you a possible solution when your project build fails after implementing the code obfuscation.
 

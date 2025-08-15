@@ -6,9 +6,9 @@ description: What are the pros and cons of using the CDN?
 needAutoGenerateSidebar: false
 ---
 
-# What are the pros and cons of using the CDN?
+[<< Back to FAQ index](../index.md#capabilities)
 
-[<< Back to FAQ index](index.md)
+# What are the pros and cons of using the CDN?
 
 **Pros**:
 

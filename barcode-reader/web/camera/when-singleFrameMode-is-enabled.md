@@ -6,9 +6,9 @@ description: When is singleFrameMode enabled?
 needAutoGenerateSidebar: false
 ---
 
-# When is singleFrameMode enabled?
+[<< Back to FAQ index](../index.md#camera)
 
-[<< Back to FAQ index](index.md)
+# When is singleFrameMode enabled?
 
 ## Verson 10
 SingleFrameMode can be enabled by calling the api from the camera enhancer module. check

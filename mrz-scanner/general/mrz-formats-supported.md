@@ -6,9 +6,9 @@ description: What MRZ formats does the Dynamsoft MRZ Scanner support? - MRZ Scan
 needAutoGenerateSidebar: true
 ---
 
-# What MRZ formats does the Dynamsoft MRZ Scanner support?
-
 [<< Back to FAQ index](index.md)
+
+# What MRZ formats does the Dynamsoft MRZ Scanner support?
 
 The Dynamsoft MRZ Scanner JavaScript edition follows the ICAO (International Civil Aviation Organization) Machine Readable Travel Documents (MRTD) standard and supports three major MRZ (Machine Readable Zone) formats:
 

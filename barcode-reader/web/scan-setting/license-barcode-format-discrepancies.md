@@ -6,9 +6,9 @@ description: Understanding the discrepancies between licensed 1D barcode formats
 needAutoGenerateSidebar: false
 ---
 
-# Why is there a difference between the barcode formats listed under the 1D license and those shown on the website?
+[<< Back to FAQ index](../index.md#scan-settings)
 
-[<< Back to FAQ index](index.md)
+# Why is there a difference between the barcode formats listed under the 1D license and those shown on the website?
 
 ## Overview
 

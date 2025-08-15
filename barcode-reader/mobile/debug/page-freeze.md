@@ -6,9 +6,9 @@ description: Why does the page sometimes freeze when I start the scanner? - DBR 
 needAutoGenerateSidebar: true
 ---
 
-# Why does the page sometimes freeze when I start the scanner?
+[<< Back to FAQ index](../index.md#debugging--troubleshooting)
 
-[<< Back to FAQ index](index.md)
+# Why does the page sometimes freeze when I start the scanner?
 
 Before a barcode reader instance can be created, a one-time connection for **license validation** must occur when the app initializes—or whenever the license is set prior to the barcode reader’s instantiation. This license check may take a second to complete, potentially causing a temporary freeze in the UI.
 

@@ -6,9 +6,9 @@ description: Can users edit the parsed MRZ results? - MRZ Scanner JS FAQs.
 needAutoGenerateSidebar: true
 ---
 
-# Can users edit the parsed MRZ results?
-
 [<< Back to FAQ index](index.md)
+
+# Can users edit the parsed MRZ results?
 
 Yes. The [`MRZResultViewConfig`](https://www.dynamsoft.com/mrz-scanner/docs/web/api/mrz-scanner.html#mrzresultviewconfig) interface includes an `allowResultEditing` property (default: `false`) that enables editing of the parsed MRZ fields. When set to `true`, the result view will display the MRZ data in an editable format, allowing users to correct any errors before proceeding.
 

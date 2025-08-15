@@ -6,9 +6,9 @@ description: How to Reduce Duplicate Scans and Optimize Scan Usage
 needAutoGenerateSidebar: false
 ---
 
-# How to Reduce Duplicate Scans and Optimize Scan Usage?
+[<< Back to FAQ index](../index.md#scan-settings)
 
-[<< Back to FAQ index](index.md)
+# How to Reduce Duplicate Scans and Optimize Scan Usage?
 
 ## Version 10
 If you're experiencing more scans usage than expected with the barcode reading SDK, use the below strategies to address this issue effectively:

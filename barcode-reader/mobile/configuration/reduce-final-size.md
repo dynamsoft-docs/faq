@@ -6,9 +6,9 @@ description: Can I reduce the size of the final Android app? - DBR Android FAQs.
 needAutoGenerateSidebar: true
 ---
 
-# Can I reduce the size of the final Android app?
+[<< Back to FAQ index](../index.md#configuration)
 
-[<< Back to FAQ index](index.md)
+# Can I reduce the size of the final Android app?
 
 It is recommended that you distribute your app using App Bundle in order to reduce the final size of the Android app.
 

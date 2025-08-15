@@ -6,6 +6,8 @@ description: How do I resolve the issue of the Barcode Reader not recognizing an
 needAutoGenerateSidebar: false
 ---
 
+[<< Back to FAQ index](../index.md#capabilities)
+
 # How do I resolve the issue of the Barcode Reader not recognizing any barcodes via video in iOS 16.7 or 17?
 
 iOS 17 and iOS 16.7 were released by Apple on September 18, 2023 and September 21, 2023 respectively. Our team has found that with these most recent iOS releases, **some** iPhones and iPads will run into an issue where it seems like no barcode can be read under any condition.

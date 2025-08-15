@@ -6,9 +6,9 @@ description: Does the MRZ Scanner perform any data validation on the decoded res
 needAutoGenerateSidebar: true
 ---
 
-# Does the MRZ Scanner perform any data validation on the decoded results?
-
 [<< Back to FAQ index](index.md)
+
+# Does the MRZ Scanner perform any data validation on the decoded results?
 
 No. The Dynamsoft MRZ Scanner performs image capture, enhancement, and MRZ parsing entirely on the client device, but it **does not validate** the decoded fields or their contents. 
 

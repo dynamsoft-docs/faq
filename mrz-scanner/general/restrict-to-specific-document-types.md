@@ -6,9 +6,9 @@ description: How do I restrict scanning to specific document types (e.g., only p
 needAutoGenerateSidebar: true
 ---
 
-# How do I restrict scanning to specific document types (e.g., only passports)?
-
 [<< Back to FAQ index](index.md)
+
+# How do I restrict scanning to specific document types (e.g., only passports)?
 
 You can restrict the Dynamsoft MRZ Scanner to only scan specific document types by setting the `mrzFormatType` property of [`MRZScannerConfig`](https://www.dynamsoft.com/mrz-scanner/docs/web/api/mrz-scanner.html#mrzscannerconfig). Specify an array of formats to limit scanning. For example, to allow only passports (TD3) and TD1 ID cards:
 

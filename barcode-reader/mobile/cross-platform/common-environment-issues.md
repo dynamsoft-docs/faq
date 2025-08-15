@@ -8,6 +8,8 @@ needGenerateH3Content: true
 noTitleIndex: true
 ---
 
+[<< Back to FAQ index](../index.md#cross-platform)
+
 # Common Environment Issues
 
 ## Failed to install

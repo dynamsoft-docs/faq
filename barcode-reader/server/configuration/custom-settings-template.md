@@ -6,6 +6,8 @@ description: How to create custom settings template?
 needAutoGenerateSidebar: false
 ---
 
+[<< Back to FAQ index](../index.md#configuration)
+
 ## How to create custom settings template?
 
 One of the strengths of the Dynamsoft Barcode Reader is its wide range of cuztomizable options that can optimize the performance of the SDK. Whether you are looking to prioritize read rate or speed, these settings can be used in many ways to match the targeted use case.

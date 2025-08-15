@@ -6,9 +6,9 @@ description: How to get intermediate result images?
 needAutoGenerateSidebar: false
 ---
 
-# How to get intermediate result images?
+[<< Back to FAQ index](../index.md#configuration)
 
-[<< Back to FAQ index](index.md)
+# How to get intermediate result images?
 
 ## Version 10
 The intermeddiate results can be retrieved using the [IntermediateResultManager]({{ site.dcvb_js_api }}capture-vision-router/intermediate-result-manager.html)

@@ -6,9 +6,9 @@ description: How to get the logs for the SDK?
 needAutoGenerateSidebar: false
 ---
 
-# How to get the logs for the SDK?
+[<< Back to FAQ index](../index.md#debug)
 
-[<< Back to FAQ index](index.md)
+# How to get the logs for the SDK?
 
 ## Version 10
 The SDK can provide logs via the `Core` module.

@@ -6,9 +6,9 @@ description: How can I implement continuous barcode scanning and one-off barcode
 needAutoGenerateSidebar: true
 ---
 
-# How can I implement continuous barcode scanning and one-off barcode scanning?
+[<< Back to FAQ index](../index.md#scan-settings)
 
-[<< Back to FAQ index](index.md)
+# How can I implement continuous barcode scanning and one-off barcode scanning?
 
 Dynamsoft Barcode Reader (DBR) supports both **one-off scanning** and **continuous scanning** modes on **Android** and **iOS**. You can refer to our official sample projects for implementation guidance.
 

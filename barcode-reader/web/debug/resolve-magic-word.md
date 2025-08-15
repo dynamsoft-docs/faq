@@ -6,9 +6,9 @@ description: How to resolve the expected magic word error that occurs when using
 needAutoGenerateSidebar: false
 ---
 
-# How to resolve the expected magic word error that occurs when using DBR-JS?
+[<< Back to FAQ index](../index.md#debug)
 
-[<< Back to FAQ index](index.md)
+# How to resolve the expected magic word error that occurs when using DBR-JS?
 
 When you build an application using DBR-JS, and you choose to self-host the resources on your own server by getting a copy of the resource files of the library, there is a chance that you could run into an error along the lines of:
 

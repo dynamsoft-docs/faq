@@ -6,9 +6,9 @@ description: Does the orientation of the MRZ code matter? - MRZ Scanner JS FAQs.
 needAutoGenerateSidebar: true
 ---
 
-# Does the orientation of the MRZ code matter?
-
 [<< Back to FAQ index](index.md)
+
+# Does the orientation of the MRZ code matter?
 
 Yes. The MRZ code must be presented in the correct orientation—just like regular readable text. Rotated MRZ codes are **not** supported by the scanner.
 

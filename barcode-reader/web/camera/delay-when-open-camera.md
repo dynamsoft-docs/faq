@@ -6,9 +6,9 @@ description: How to get rid of the delay when opening the camera?
 needAutoGenerateSidebar: false
 ---
 
-# How to get rid of the delay when opening the camera?
+[<< Back to FAQ index](../index.md#camera)
 
-[<< Back to FAQ index](index.md)
+# How to get rid of the delay when opening the camera?
 
 ## Version 10
 ### 1. Invoke loadWasm

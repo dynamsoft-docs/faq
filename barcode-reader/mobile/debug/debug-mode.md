@@ -6,9 +6,9 @@ description: How to use Debug Mode in Barcode Scanner X? - DBR Android FAQs.
 needAutoGenerateSidebar: true
 ---
 
-# How to use Debug Mode in Barcode Scanner X?
+[<< Back to FAQ index](../index.md#debugging--troubleshooting)
 
-[<< Back to FAQ index](index.md)
+# How to use Debug Mode in Barcode Scanner X?
 
 ## Debug Mode in BarcodeScannerX(Android)
 

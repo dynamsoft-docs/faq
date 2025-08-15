@@ -6,9 +6,9 @@ description: How to avoid incorrect barcode results?
 needAutoGenerateSidebar: false
 ---
 
-# How to avoid incorrect barcode results?
+[<< Back to FAQ index](../index.md#configuration)
 
-[<< Back to FAQ index](index.md)
+# How to avoid incorrect barcode results?
 
 ## Version 10
 - One method is to raise the value of [minResultConfidence](../api-reference/interfaces/simplified-barcode-reader-settings.md) of the `SimplifiedCaptureVisionSettings` interface of the capture vision router module.  It is set to `30` by default.

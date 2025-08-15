@@ -6,6 +6,7 @@ keywords: PWA, iOS, camera, javascript, js
 needAutoGenerateSidebar: false
 ---
 
+[<< Back to FAQ index](../index.md#camera)
 
 # How to Resolve Camera Cannot Open in PWA Using Dynamsoft Barcode Reader on iOS
 

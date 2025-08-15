@@ -6,6 +6,8 @@ description: How to resolve the expected magic word error that occurs when using
 needAutoGenerateSidebar: false
 ---
 
+[<< Back to FAQ index](../index.md#debug)
+
 ## What's new in version v11.0.3000?
 
 - Support for debug mode using `?debug=true`

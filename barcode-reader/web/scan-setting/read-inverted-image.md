@@ -6,9 +6,9 @@ description: How to read an inverted barcode?
 needAutoGenerateSidebar: false
 ---
 
-# How to read an inverted barcode?
+[<< Back to FAQ index](../index.md#scan-settings)
 
-[<< Back to FAQ index](index.md)
+# How to read an inverted barcode?
 
 ## Version 10
 this can be achieved by setting the value of the `grayscaleTransformationModes` array of `furtherModes` to use `GTM_INVERTED` 

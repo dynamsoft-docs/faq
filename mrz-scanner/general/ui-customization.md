@@ -6,9 +6,9 @@ description: How can I customize the scanner UI (hide the scan guide, format sel
 needAutoGenerateSidebar: true
 ---
 
-# How can I customize the scanner UI (hide the scan guide, format selector, upload button, etc.)?
-
 [<< Back to FAQ index](index.md)
+
+# How can I customize the scanner UI (hide the scan guide, format selector, upload button, etc.)?
 
 The [`MRZScannerViewConfig`](https://www.dynamsoft.com/mrz-scanner/docs/web/api/mrz-scanner.html#mrzscannerviewconfig) interface allows you to control many UI elements of the Dynamsoft MRZ Scanner. You can show or hide features such as the scan guide, file upload button, format selector, sound toggle, and the “Powered By Dynamsoft” footer. Additional options include enabling or disabling multi-frame cross filtering, specifying accepted file types, and providing a custom `uploadFileConverter`.
 

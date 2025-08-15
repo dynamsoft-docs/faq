@@ -6,9 +6,9 @@ description: What is the recommended font height to ensure reliable MRZ readabil
 needAutoGenerateSidebar: true
 ---
 
-# What is the recommended font height to ensure reliable MRZ readability?
-
 [<< Back to FAQ index](index.md)
+
+# What is the recommended font height to ensure reliable MRZ readability?
 
 The recommended font height for MRZ (Machine Readable Zone) characters is **greater than 20 pixels**. Using MRZ fonts at this size or larger helps ensure optimal readability and scanning accuracy.
 

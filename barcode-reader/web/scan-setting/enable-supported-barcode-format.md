@@ -6,8 +6,9 @@ description: When moving from a trial license to a production license, you may e
 needAutoGenerateSidebar: false
 ---
 
+[<< Back to FAQ index](../index.md#scan-settings)
+
 # How to Enable Specific Barcode Formats with Your License
-[<< Back to FAQ index](index.md)
 
 ## Problem
 When moving from a trial license to a production license, you may encounter the error `[xxx] No license found` if your enabled barcode formats don't match the formats supported by your license. This occurs because the SDK validates enabled formats against your license's capabilities.

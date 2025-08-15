@@ -6,9 +6,9 @@ description: How to resolve the "Building for iOS Simulator, but linking in dyli
 needAutoGenerateSidebar: true
 ---
 
-# How to resolve the "Building for iOS Simulator, but linking in dylib built for iOS" error when building for the iOS simulator?
+[<< Back to FAQ index](../index.md#simulator)
 
-[<< Back to FAQ index](index.md)
+# How to resolve the "Building for iOS Simulator, but linking in dylib built for iOS" error when building for the iOS simulator?
 
 DBR iOS can be used to build apps that belong to the arm64 architecture. If you try building an app for the arm64 simulator, and you migrated your app from an older version of Xcode to Xcode 12 or higher, then you might encounter the following error message:
 

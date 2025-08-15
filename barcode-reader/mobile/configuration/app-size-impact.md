@@ -6,9 +6,9 @@ description: Learn how integrating Dynamsoft Barcode Reader SDK affects the app 
 needAutoGenerateSidebar: true
 ---
 
-# How much does the SDK increase my app size?
+[<< Back to FAQ index](../index.md#configuration)
 
-[<< Back to FAQ index](index.md)
+# How much does the SDK increase my app size?
 
 When integrating the Dynamsoft Barcode Reader (DBR) SDK into your mobile application, the increase in app size is mainly due to native libraries packaged for different architectures. Here's what you need to know:
 

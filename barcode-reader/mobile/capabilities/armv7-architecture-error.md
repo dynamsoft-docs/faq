@@ -6,9 +6,9 @@ description: How can I solve the "Undefined symbols for architecture armv7" erro
 needAutoGenerateSidebar: true
 ---
 
-# How can I solve the "Undefined symbols for architecture armv7" error when building on iOS?
+[<< Back to FAQ index](../index.md#capabilities--requirements)
 
-[<< Back to FAQ index](index.md)
+# How can I solve the "Undefined symbols for architecture armv7" error when building on iOS?
 
 DBR iOS is compatible with the arm64 and x86_64 architectures only. If you attempt to build an app that is targetting the armv7 architecture, you will be met with an error from the Barcode Reader framework saying
 

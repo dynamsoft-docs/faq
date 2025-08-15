@@ -6,9 +6,9 @@ description: What file/image formats are supported when reading barcodes from fi
 needAutoGenerateSidebar: false
 ---
 
-# What file/image formats are supported when reading barcodes from files in local memory?
+[<< Back to FAQ index](../index.md#configuration)
 
-[<< Back to FAQ index](index.md)
+# What file/image formats are supported when reading barcodes from files in local memory?
 
 ## Version 10 and above
 The supported formats include .jpg,.jpeg,.icon,.gif,.svg,.webp,.png,.bmp.

@@ -6,9 +6,9 @@ description: Do we have to call loadWasm proactively?
 needAutoGenerateSidebar: false
 ---
 
-# Do we have to call loadWasm proactively?
+[<< Back to FAQ index](../index.md#configuration)
 
-[<< Back to FAQ index](index.md)
+# Do we have to call loadWasm proactively?
 
 ## Version 10
 Preload `BarcodeReader` or other specified module proactively to save time on the initial decoding by skipping the module loading at the time of instance creation.

@@ -6,9 +6,9 @@ description: How do I handle the scanned results in my application? - MRZ Scanne
 needAutoGenerateSidebar: true
 ---
 
-# How do I handle the scanned results in my application?
-
 [<< Back to FAQ index](index.md)
+
+# How do I handle the scanned results in my application?
 
 To handle scanned results, provide an `onDone` callback within [`MRZResultViewConfig`](https://www.dynamsoft.com/mrz-scanner/docs/web/api/mrz-scanner.html#mrzresultviewconfig). When the user clicks the Done button, your callback receives an [`MRZResult`](https://www.dynamsoft.com/mrz-scanner/docs/web/api/mrz-scanner.html#mrzresult) object, which includes status codes, the parsed data, and an image of the MRZ. Your application can then process the fields as needed, such as logging or submitting data.
 

@@ -6,9 +6,9 @@ description: How to add/remove a "beep" sound once a barcode is found?
 needAutoGenerateSidebar: false
 ---
 
-# How to add/remove a "beep" sound once a barcode is found?
+[<< Back to FAQ index](../index.md#ui-customization)
 
-[<< Back to FAQ index](index.md)
+# How to add/remove a "beep" sound once a barcode is found?
 
 ## Version 10
 This feature is controlled by the `Dynamsoft Camera Enhancer` module. 

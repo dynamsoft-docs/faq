@@ -6,9 +6,9 @@ description: Are there any performance options to improve accuracy or speed? - M
 needAutoGenerateSidebar: true
 ---
 
-# Are there any performance options to improve accuracy or speed?
-
 [<< Back to FAQ index](index.md)
+
+# Are there any performance options to improve accuracy or speed?
 
 Yes. The scanner uses a multi-frame result cross filter to enhance accuracy. This filter is enabled by default, which helps reduce recognition errors by cross-verifying results across multiple frames. In [`MRZScannerViewConfig`](https://www.dynamsoft.com/mrz-scanner/docs/web/api/mrz-scanner.html#mrzscannerviewconfig), you can disable it to increase scanning speed, though this may slightly reduce accuracy.
 

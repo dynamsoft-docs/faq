@@ -6,9 +6,9 @@ description: How to check the camera permissions programmatically in Dynamsoft B
 needAutoGenerateSidebar: false
 ---
 
-# How to check the camera permissions programmatically in Dynamsoft Barcode Reader JavaScript SDK?
+[<< Back to FAQ index](../index.md#camera)
 
-[<< Back to FAQ index](index.md)
+# How to check the camera permissions programmatically in Dynamsoft Barcode Reader JavaScript SDK?
 
 ## version 10 or recent
 In version 10, use the `dynamsoft camera enhancer` to utilize the [testCameraAccess](https://www.dynamsoft.com/camera-enhancer/docs/web/programming/javascript/api-reference/camera-control.html#testCameraAccess) method to check the camera status programmatically.

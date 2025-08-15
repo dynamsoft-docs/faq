@@ -6,9 +6,9 @@ description: When building my Cordova app, I get an error saying “invalid sign
 needAutoGenerateSidebar: true
 ---
 
-# When building my Cordova app, I get an error saying “invalid signature”. How do I resolve that?
+[<< Back to FAQ index](../index.md#cross-platform)
 
-[<< Back to FAQ index](index.md)
+# When building my Cordova app, I get an error saying “invalid signature”. How do I resolve that?
 
 Once the `ios` platform is added to your Cordova project, you must manually configure the signature of the application on the iOS side of things via the *.xcworkspace* of the app. The *.xcworkspace* can be found in `platforms/ios`. 
 

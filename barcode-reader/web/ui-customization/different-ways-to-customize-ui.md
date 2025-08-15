@@ -6,9 +6,9 @@ description: What are the different ways to customize the UI?
 needAutoGenerateSidebar: false
 ---
 
-# What are the different ways to customize the UI?
+[<< Back to FAQ index](../index.md#ui-customization)
 
-[<< Back to FAQ index](index.md)
+# What are the different ways to customize the UI?
 
 ## Version 10 and above
 The UI is part of the `Dynamsoft Camera Enhancer` module, read more on how to
