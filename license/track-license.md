@@ -7,9 +7,9 @@ needAutoGenerateSidebar: false
 : faq/general/track-license.html
 ---
 
-## How to track the number of devices?
-
 [<< Back to FAQ index](index.md)
+
+## How to track the number of devices?
 
 The Dynamsoft License Server (Dynamsoft hosted or self-hosted) is able to keep a track of the number of devices in different ways, depending on the edition of the SDK.
 

@@ -6,9 +6,9 @@ description: How to use offline registration license type?
 needAutoGenerateSidebar: false
 ---
 
-## How to use offline registration license type?
-
 [<< Back to FAQ index](index.md)
+
+## How to use offline registration license type?
 
 You can follow the steps below to manually register the device and get the license key for each device:
 

@@ -13,7 +13,6 @@ noTitleIndex: true
 
 Please use the links below to find answers to common questions and configuration guidance.
 
-- [Does DBR support PDF?](dbr-supports-pdf.html)
 - [How to ensure no overuse of license?](ensure-no-overuse.html)
 - [How to expand the quota for a runtime license?](expand-quota-for-runtime-license.html)
 - [How is hardware bound to a license?](how-hardware-is-bind-to-license.html)

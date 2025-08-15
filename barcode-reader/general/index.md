@@ -13,6 +13,7 @@ noTitleIndex: true
 
 Please use the links below to find answers to common questions and configuration guidance.
 
+- [Does DBR support PDF?](dbr-supports-pdf.html)
 - [How to avoid incorrect barcode results?](avoid-incorrect-barcode-results.html)
 - [How to filter incorrect results with the barcode result length?](avoid-incorrect-results.html)
 - [Check Current Version](check-current-version.html)

@@ -6,9 +6,9 @@ description: When is a new license spot taken when using a per-device licensing 
 needAutoGenerateSidebar: false
 ---
 
-# When is a new license spot taken when using a per-device licensing model?
-
 [<< Back to FAQ index](index.md)
+
+# When is a new license spot taken when using a per-device licensing model?
 
 A new license spot is required in any of these three conditions -
 

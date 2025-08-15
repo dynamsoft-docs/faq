@@ -6,9 +6,9 @@ description: How to scan barcodes on US Driver's Licenses and extract the inform
 needAutoGenerateSidebar: false
 ---
 
-## How to scan barcodes on US Driver's Licenses and extract the information?
-
 [<< Back to FAQ index](index.md)
+
+## How to scan barcodes on US Driver's Licenses and extract the information?
 
 The SDK can indeed scan driver license barcodes and extract all the information that is encoded in the barcode. The best resources to reference in order to do this are the samples available:
 
