@@ -55,6 +55,12 @@ Select a product below to browse its FAQs.
 
 <div class="faq-grid">
 
+  <!-- Dynamic Web TWAIN -->
+  <a class="faq-tile" href="https://www.dynamsoft.com/web-twain/docs/faq/" aria-label="Dynamic Web TWAIN FAQs">
+    <h2>🖨️ Dynamic Web TWAIN</h2>
+    <p>Image viewing and editing, UI customization, security, and error troubleshooting.</p>
+  </a>
+
   <!-- Barcode Reader -->
   <a class="faq-tile" href="/faq/barcode-reader/" aria-label="Barcode Reader FAQs">
     <h2>📲 Barcode Reader</h2>
