@@ -7,9 +7,7 @@ needAutoGenerateSidebar: false
 noTitleIndex: true
 ---
 
-# Dynamsoft Capture Vision FAQ
-
-Select a product below to browse its FAQs.
+# Dynamsoft FAQ
 
 <!-- Responsive 2x2-style grid (wraps to 1xN on small screens) -->
 <style>
