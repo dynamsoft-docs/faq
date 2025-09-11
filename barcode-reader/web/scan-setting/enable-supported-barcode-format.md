@@ -6,8 +6,6 @@ description: When moving from a trial license to a production license, you may e
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#scan-settings)
-
 # How to Enable Specific Barcode Formats with Your License
 
 ## Problem

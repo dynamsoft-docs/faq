@@ -7,8 +7,6 @@ needAutoGenerateSidebar: false
 noTitleIndex: true
 ---
 
-[<< Back to index](../index.md)
-
 # Dynamsoft Barcode Reader Mobile FAQ
 
 Welcome to the FAQ for Dynamsoft Barcode Reader on mobile platforms. Browse the sections below for answers to common questions and troubleshooting tips.

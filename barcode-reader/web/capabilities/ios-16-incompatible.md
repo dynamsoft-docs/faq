@@ -6,8 +6,6 @@ description: Why is the Javascript SDK not recognizing any barcodes on iOS 16.4?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#capabilities)
-
 # Why is the Javascript SDK not recognizing any barcodes on iOS 16.4?
 
 ## Background

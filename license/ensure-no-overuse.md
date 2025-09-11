@@ -6,8 +6,6 @@ description: How to properly use concurrent instance license?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](index.md)
-
 ## How to properly use concurrent instance license?
 
 The standard way to use concurrent instance license is:

@@ -6,8 +6,6 @@ description: What is the difference between BarcodeReader class and the BarcodeS
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#scan-settings)
-
 # What is the difference between the BarcodeReader class and the BarcodeScanner class? Can they be used interchangeably?
 
 **_NOTE:_** - This  is for version 9 or lower of barcode reader sdk

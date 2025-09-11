@@ -7,8 +7,6 @@ needAutoGenerateSidebar: false
 noTitleIndex: true
 ---
 
-[<< Back to index](../index.md)
-
 # General FAQ
 
 Please use the links below to find answers to common questions and configuration guidance.

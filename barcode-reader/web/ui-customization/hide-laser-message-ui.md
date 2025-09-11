@@ -6,8 +6,6 @@ description: How can I hide the laser bar and Dynamsoft message in the default U
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#ui-customization)
-
 # How can I hide the laser bar and Dynamsoft message in the default UI of the BarcodeScanner?
 
 ## Version 10

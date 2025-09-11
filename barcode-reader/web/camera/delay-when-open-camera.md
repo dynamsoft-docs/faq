@@ -6,8 +6,6 @@ description: How to get rid of the delay when opening the camera?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#camera)
-
 # How to get rid of the delay when opening the camera?
 
 ## Version 10

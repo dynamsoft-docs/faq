@@ -6,8 +6,6 @@ description: How to Reduce Duplicate Scans and Optimize Scan Usage
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#scan-settings)
-
 # How to Reduce Duplicate Scans and Optimize Scan Usage?
 
 ## Version 10

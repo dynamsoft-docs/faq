@@ -6,8 +6,6 @@ description: What are the differences between the compact edition and the full e
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#scan-settings)
-
 # What are the differences between the compact edition and the full edition? How do you switch between the two editions?
 
 *Please note that starting from v8.6 of the JavaScript Edition, the default engine that the library uses is the **full edition** engine.*

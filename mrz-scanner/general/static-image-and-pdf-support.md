@@ -6,8 +6,6 @@ description: Can the MRZ Scanner process static images or PDFs, or does it only 
 needAutoGenerateSidebar: true
 ---
 
-[<< Back to FAQ index](index.md)
-
 # Can the MRZ Scanner process static images or PDFs, or does it only work with a live camera?
 
 All editions of the Dynamsoft MRZ Scanner (server/desktop, mobile, and JavaScript) support scanning **static image files** in addition to live camera capture.

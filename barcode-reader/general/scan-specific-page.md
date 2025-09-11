@@ -6,8 +6,6 @@ description: How to scan specific pages of a pdf file?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](index.md)
-
 ## How to scan specific pages of a pdf file?
 
 We are planning to add `Pages` parameter of the `ImageParameterOptions` Parameter.

@@ -6,8 +6,6 @@ description: How to check the camera permissions programmatically in Dynamsoft B
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#camera)
-
 # How to check the camera permissions programmatically in Dynamsoft Barcode Reader JavaScript SDK?
 
 ## version 10 or recent

@@ -6,8 +6,6 @@ description: How can I use AVCaptureSession, CameraX or third-party camera modul
 needAutoGenerateSidebar: true
 ---
 
-[<< Back to FAQ index](../index.md#configuration)
-
 # How can I use AVCaptureSession, CameraX or third-party camera modules with Dynamsoft Barcode Reader - Android?
 
 # Android

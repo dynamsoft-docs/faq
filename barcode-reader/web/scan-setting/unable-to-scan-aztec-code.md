@@ -6,8 +6,6 @@ description: Why am I unable to scan an Aztec code in the helloworld sample?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#scan-settings)
-
 # Why am I unable to scan an Aztec code in the helloworld sample?
 
 # Version 10

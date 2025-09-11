@@ -6,8 +6,6 @@ description: How do you upgrade to a newer version of the SDK?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#configuration)
-
 # How do you upgrade to a newer version of the SDK?
 
 - If you are performing a **major upgrade** by upgrading from one major version to another (7.x -> 8.x), the primary contact of the license must get in touch with Dynamsoft Support by sending an email to [support@dynamsoft.com](mailto:support@dynamsoft.com) and request to upgrade their valid annual license. If you own several licenses, please specify if all or a specific subset needs to be upgraded. Once the request is received, the upgrade is processed within one business day.

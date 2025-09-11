@@ -6,8 +6,6 @@ description: How to change the domain binding of your product key?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#configuration)
-
 # How to Secure Your License Key by Managing Domain Binding?
 
 This guide explains how to protect your software product key by properly managing or changing its domain binding. Domain binding ties a product key to a specific domain, helping prevent unauthorized use or piracy. Please follow the below steps -

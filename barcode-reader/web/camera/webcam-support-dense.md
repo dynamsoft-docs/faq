@@ -6,8 +6,6 @@ description: Why isn't my webcam reading the barcode on my driver's license or I
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#camera)
-
 # Why isn't my webcam reading the barcode on my driver's license or ID card?
 
 When you attempt to read the barcode from a driver's license or an ID card using your built-in laptop webcam and our [online demo](https://demo.dynamsoft.com/barcode-reader-js/), you will notice that the barcode does not get read almost all of the time. That is due to several factors - the lack in camera quality combined with the high density of PDF417 barcodes.

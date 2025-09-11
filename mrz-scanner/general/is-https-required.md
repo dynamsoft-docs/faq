@@ -6,8 +6,6 @@ description: Does the Dynamsoft MRZ Scanner require HTTPS and which browsers are
 needAutoGenerateSidebar: true
 ---
 
-[<< Back to FAQ index](index.md)
-
 # Does the MRZ Scanner require HTTPS, and which browsers are supported?
 
 Yes. The Dynamsoft MRZ Scanner JavaScript edition requires your application to be served over **HTTPS** due to browser restrictions on camera access and licensing requirements. The only exceptions are `localhost` and local file paths during development.

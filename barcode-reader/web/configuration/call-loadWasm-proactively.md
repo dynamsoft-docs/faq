@@ -6,8 +6,6 @@ description: Do we have to call loadWasm proactively?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#configuration)
-
 # Do we have to call loadWasm proactively?
 
 ## Version 10

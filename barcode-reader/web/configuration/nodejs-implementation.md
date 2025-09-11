@@ -6,8 +6,6 @@ description: How do I create a NodeJS application using the SDK?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#configuration)
-
 # How do I create a NodeJS application using the SDK?
 
 In order to create a backend or server-side NodeJS application, it is best to use the NodeJS extension that utilizes the C/C++ edition of the Dynamsoft Barcode Reader. You can find the npm package <a target="_blank" href="https://www.npmjs.com/package/barcode4nodejs" title="here">here</a>. Instructions on how to use the package are available on the npm page.

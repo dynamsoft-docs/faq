@@ -6,8 +6,6 @@ description: How to check the version of the JS SDK I am currently using?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#debug)
-
 # How to check the version of the JS SDK I am currently using?
 
 ## For version 10

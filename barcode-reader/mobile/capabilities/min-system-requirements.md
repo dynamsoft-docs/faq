@@ -6,8 +6,6 @@ description: What are the minimum system requirements for Dynamsoft Barcode Read
 needAutoGenerateSidebar: true
 ---
 
-[<< Back to FAQ index](../index.md#capabilities--requirements)
-
 # What are the minimum system requirements for Dynamsoft Barcode Reader?
 
 Dynamsoft Barcode Reader (DBR) supports a variety of Android and iOS environments. Please refer to the platform-specific tables below.

@@ -7,8 +7,6 @@ needAutoGenerateSidebar: true
 noTitleIndex: true
 ---
 
-[<< Back to Product Menu](../index.md)
-
 # MRZ Scanner FAQ
 
 Choose a category to get started.

@@ -6,8 +6,6 @@ description: How to use the JavaScript SDK in offline mode?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#configuration)
-
 # How to use the Dynamsoft Barcode Reader JavaScript SDK in offline mode?
 
 It depends on the license option you are using:

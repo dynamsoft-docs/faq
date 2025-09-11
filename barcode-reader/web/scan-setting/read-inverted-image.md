@@ -6,8 +6,6 @@ description: How to read an inverted barcode?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#scan-settings)
-
 # How to read an inverted barcode?
 
 ## Version 10

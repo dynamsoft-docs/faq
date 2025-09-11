@@ -6,8 +6,6 @@ description: How to get the logs for the SDK?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#debug)
-
 # How to get the logs for the SDK?
 
 ## Version 10

@@ -6,8 +6,6 @@ description: The system requirements for running the latest version of Dynamsoft
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#capabilities)
-
 # What are the system requirements for running the latest version of Dynamsoft Barcode Reader?
 
 ## System Requirements

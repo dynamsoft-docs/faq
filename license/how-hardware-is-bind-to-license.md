@@ -6,8 +6,6 @@ description: What I need to know about licensing process?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](index.md)
-
 ## What I need to know about licensing process?
 
 - When devices are registered, they get a UUID that is generated based on some hardware and OS info. The exact breakdown of what is collected when using the mobile edition or server/desktop edition is mentioned [here](https://www.dynamsoft.com/license-server/docs/about/terms.html#generate-a-uuid).

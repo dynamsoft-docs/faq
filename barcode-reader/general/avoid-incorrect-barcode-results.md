@@ -6,8 +6,6 @@ description: How to avoid incorrect barcode results?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](index.md)
-
 # How to avoid incorrect barcode results?
 
 - One method is to raise the value of [minResultConfidence](https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/api-reference/interface/RuntimeSettings.html#minresultconfidence) of the `RuntimeSettings` to a value of 50 or higher. It is set to 30 by default.

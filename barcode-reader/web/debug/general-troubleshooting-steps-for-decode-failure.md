@@ -6,8 +6,6 @@ description: what are the general troubleshooting steps if I fail to scan barcod
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#debug)
-
 # What are the general troubleshooting steps if I fail to scan barcodes via the camera?
 
 You may sometimes experience issues when trying to scan some barcodes using your device via the camera. There are various factors that could play into this, such as camera resolution, lighting condition(s), damage level of the barcode, or improper scanning settings.

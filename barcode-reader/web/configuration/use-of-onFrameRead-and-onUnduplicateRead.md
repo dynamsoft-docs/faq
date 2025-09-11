@@ -6,8 +6,6 @@ description: When to use onFrameRead and when to use onUniqueRead?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#configuration)
-
 # When to use onFrameRead and when to use onUniqueRead?
 
 `onFrameRead` is triggered with each captured video frame, whether there are barcode results or not. If a barcode is within the frame, then it will show in the `results` of onFrameRead.

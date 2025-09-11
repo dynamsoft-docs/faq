@@ -6,8 +6,6 @@ description: When is singleFrameMode enabled?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#camera)
-
 # When is singleFrameMode enabled?
 
 ## Verson 10

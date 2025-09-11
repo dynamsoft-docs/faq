@@ -6,8 +6,6 @@ description: Is HTTPs absolutely required?
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#capabilities)
-
 # Is HTTPS absolutely required?
 
 HTTPS is required to utilize `getUserMedia`/`MediaDevices` and initialize online license keys. If HTTPS is not enabled, you won't be able to use a camera and you will need an offline license key.

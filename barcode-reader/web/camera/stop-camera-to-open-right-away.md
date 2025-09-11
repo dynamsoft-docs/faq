@@ -6,8 +6,6 @@ description: How to stop the camera stream from opening right away after DBR-JS 
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#camera)
-
 # How to stop the camera stream from opening right away after DBR-JS demo is loaded? How to enable the camera on the click of a button?
 
 ## Version 10

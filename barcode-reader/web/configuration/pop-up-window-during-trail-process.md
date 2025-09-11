@@ -6,8 +6,6 @@ description: How to remove the expired warning message pop-up window in Dynamsof
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#configuration)
-
 # How to remove the expired warning message pop-up window in Dynamsoft Barcode Reader online demo scanning process?
 
 Users may meet pop-up window when using our online demo, don't worry about how to remove them, after purchasing the official license it will not pop up during the usage.

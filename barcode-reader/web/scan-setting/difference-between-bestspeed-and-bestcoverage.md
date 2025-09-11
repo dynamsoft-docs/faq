@@ -6,8 +6,6 @@ description: What are the differences between the 'speed', 'coverage', 'balance,
 needAutoGenerateSidebar: false
 ---
 
-[<< Back to FAQ index](../index.md#scan-settings)
-
 # What are the differences between the 'speed', 'coverage', 'balance, and 'single' runtime templates?
 
 `SpeedFirst`, as the name suggests, prioritizes time cost over the accuracy of the results, and `ReadRateFirst` is vice versa.

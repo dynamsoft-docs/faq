@@ -7,8 +7,6 @@ needAutoGenerateSidebar: false
 breadcrumbText: FAQ
 ---
 
-[<< Back to FAQ index](index.md)
-
 ## Which edition of Barcode Reader should I use?
 
 The edition of the SDK depends on the application environment/type, which is one of: a desktop app, native mobile app, web app (server-side), or web app (client-side).
