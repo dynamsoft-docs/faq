@@ -74,13 +74,13 @@ Choose a category to get started.
 
 ## Quick Links
 
-- [What MRZ formats does the Dynamsoft MRZ Scanner support?](general/mrz-formats-supported.html)
-- [Can the MRZ Scanner process static images or PDFs, or does it only work with a live camera? ](general/static-image-and-pdf-support.html)
-- [Does the MRZ Scanner perform any data validation on the decoded results?](general/data-validation.html)
-- [How can I customize the scanner UI (hide the scan guide, format selector, upload button, etc.)?](general/ui-customization.html)
-- [How do I handle the scanned results in my application?](general/handling-results.html)
-- [How to expand the quota for a runtime license?](license/expand-quota-for-runtime-license.html)
-- [How does license tracking work?](license/how-license-tracking-works.html)
-- [SDK works without internet?](license/sdk-works-without-internet.html)
-- [How to track license usage?](license/track-license.html)
-- [How to get a free trial?](license/dbr-free-trial.html)
+- [What MRZ formats does the Dynamsoft MRZ Scanner support?](/faq/mrz-scanner/general/mrz-formats-supported.html)
+- [Can the MRZ Scanner process static images or PDFs, or does it only work with a live camera? ](/faq/mrz-scanner/general/static-image-and-pdf-support.html)
+- [Does the MRZ Scanner perform any data validation on the decoded results?](/faq/mrz-scanner/general/data-validation.html)
+- [How can I customize the scanner UI (hide the scan guide, format selector, upload button, etc.)?](/faq/mrz-scanner/general/ui-customization.html)
+- [How do I handle the scanned results in my application?](/faq/mrz-scanner/general/handling-results.html)
+- [How to expand the quota for a runtime license?](/faq/mrz-scanner/license/expand-quota-for-runtime-license.html)
+- [How does license tracking work?](/faq/mrz-scanner/license/how-license-tracking-works.html)
+- [SDK works without internet?](/faq/mrz-scanner/license/sdk-works-without-internet.html)
+- [How to track license usage?](/faq/mrz-scanner/license/track-license.html)
+- [How to get a free trial?](/faq/mrz-scanner/license/dbr-free-trial.html)
