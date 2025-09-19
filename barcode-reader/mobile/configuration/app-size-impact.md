@@ -53,13 +53,10 @@ When using hybrid frameworks like Flutter, React Native, or MAUI:
 
 ## Need to reduce the SDK size?
 
-If your app has **strict size constraints**, we offer a **paid customization service**.
+If your app has **strict size constraints**, we offer a **paid customization service**. With this service, we can typically reduce the download size to around 5 MB by:
 
-We can help:
-
-- Remove unused barcode symbologies
-- Exclude features not needed by your app
-- Deliver a **lighter-weight SDK** tailored to your usage
+- Removing unused barcode symbologies
+- Excluding features not needed by your app
 
 📩 To learn more, please [contact us](https://www.dynamsoft.com/company/contact/).
 
