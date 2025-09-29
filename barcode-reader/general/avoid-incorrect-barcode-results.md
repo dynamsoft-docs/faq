@@ -47,3 +47,4 @@ Set `IncludeTrailingCheckDigit` to `0` in the `BarcodeFormatSpecification` for C
   ],
   #...Other Settings
 }
+```
