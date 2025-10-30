@@ -8,7 +8,9 @@ needAutoGenerateSidebar: false
 
 # How to get rid of the delay when opening the camera?
 
-## Version 10
+[<< Back to FAQ index](index.md)
+
+## Version 10 or Latest Version
 ### 1. Invoke loadWasm
 Preload `BarcodeReader` or other specified module proactively to save time on the initial decoding by skipping the module loading at the time of instance creation.
 

@@ -8,6 +8,9 @@ needAutoGenerateSidebar: false
 
 # What are the general troubleshooting steps if I fail to scan barcodes via the camera?
 
+[<< Back to FAQ index](index.md)
+
+
 You may sometimes experience issues when trying to scan some barcodes using your device via the camera. There are various factors that could play into this, such as camera resolution, lighting condition(s), damage level of the barcode, or improper scanning settings.
 
 Generally, with some setting changes via our APIs, Dynamsoft Barcode Reader JavaScript SDK is able to adapt to your unique usage scenario and deliver great performance.

@@ -8,6 +8,8 @@ needAutoGenerateSidebar: true
 
 # Common Issues & Settings
 
+[<< Back to FAQ index](index.md)
+
 ---
 
 ## iOS: Why does the page sometimes freeze when I start the scanner?

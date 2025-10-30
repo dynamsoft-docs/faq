@@ -8,6 +8,8 @@ needAutoGenerateSidebar: false
 
 # Why isn't my webcam reading the barcode on my driver's license or ID card?
 
+[<< Back to FAQ index](index.md)
+
 When you attempt to read the barcode from a driver's license or an ID card using your built-in laptop webcam and our [online demo](https://demo.dynamsoft.com/barcode-reader-js/), you will notice that the barcode does not get read almost all of the time. That is due to several factors - the lack in camera quality combined with the high density of PDF417 barcodes.
 
 The barcode that is present on the back of driver licenses and ID cards is usually a [PDF417 barcode](https://www.dynamsoft.com/barcode-reader/barcode-types/pdf417/), one of the most common high-density 2D barcodes. Due to its high density, PDF417s usually require a camera that supports a minimum resolution of 720p and, more importantly, has the ability to focus, whether it is autofocus or manual focus.

@@ -8,7 +8,9 @@ needAutoGenerateSidebar: false
 
 # How to get the logs for the SDK?
 
-## Version 10
+[<< Back to FAQ index](index.md)
+
+## Version 10 or Latest Version
 The SDK can provide logs via the `Core` module.
 ```javascript
 Dynamsoft.Core.CoreModule.onLog = console.log;

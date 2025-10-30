@@ -8,6 +8,8 @@ needAutoGenerateSidebar: false
 
 # Why is there a difference between the barcode formats listed under the 1D license and those shown on the website?
 
+[<< Back to FAQ index](index.md)
+
 ## Overview
 
 There are discrepancies between the barcode formats included in the `BF_ONED` license and those listed on our website documentation. This FAQ explains these differences and how to properly configure your application.

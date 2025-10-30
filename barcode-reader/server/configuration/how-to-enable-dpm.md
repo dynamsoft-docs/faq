@@ -8,6 +8,8 @@ needAutoGenerateSidebar: false
 
 ## How to enable DPM?
 
+[<< Back to FAQ index](index.md)
+
 To enable DPM, assign the `DPMCRM_GENERAL` enumeration to the `DPMCodeReadingModes` array.
 
 You can use [OutputSettingsToFile](https://www.dynamsoft.com/capture-vision/docs/server/programming/cplusplus/api-reference/capture-vision-router/settings.html?product=dbr&repoType=server#outputsettingstofile) to save the current runtime settings into a JSON file:

@@ -8,6 +8,7 @@ needAutoGenerateSidebar: false
 
 # How to Secure Your License Key by Managing Domain Binding?
 
+[<< Back to FAQ index](index.md)
 This guide explains how to protect your software product key by properly managing or changing its domain binding. Domain binding ties a product key to a specific domain, helping prevent unauthorized use or piracy. Please follow the below steps -
   1. You will first need to log into the [customer portal](https://www.dynamsoft.com/customer/index).
   2. After login, please navigate go to [projects link](https://www.dynamsoft.com/lts/index.html#/handshakeCodes)

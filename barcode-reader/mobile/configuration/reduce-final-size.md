@@ -8,6 +8,8 @@ needAutoGenerateSidebar: true
 
 # Can I reduce the size of the final Android app?
 
+[<< Back to FAQ index](index.md)
+
 It is recommended that you distribute your app using App Bundle in order to reduce the final size of the Android app.
 
 The second step is to utilize APK splits. To learn more about this, please refer to this [page](https://developer.android.com/studio/build/configure-apk-splits#configure-abi-split).

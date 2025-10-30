@@ -8,6 +8,8 @@ needAutoGenerateSidebar: false
 
 # What are the differences between the compact edition and the full edition? How do you switch between the two editions?
 
+[<< Back to FAQ index](index.md)
+
 *Please note that starting from v8.6 of the JavaScript Edition, the default engine that the library uses is the **full edition** engine.*
 
 The main difference between the two is the set of supported barcode formats as well as the size of each edition. For the full list of differences between the two, please refer to this [article](https://www.dynamsoft.com/barcode-reader/programming/javascript/user-guide/features-requirements.html#compact-and-full-editions).

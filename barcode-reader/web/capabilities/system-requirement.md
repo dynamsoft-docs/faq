@@ -8,6 +8,8 @@ needAutoGenerateSidebar: false
 
 # What are the system requirements for running the latest version of Dynamsoft Barcode Reader?
 
+[<< Back to FAQ index](index.md)
+
 ## System Requirements
 
 The latest version of DBR requires the following features to work:

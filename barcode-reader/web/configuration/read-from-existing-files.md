@@ -8,9 +8,11 @@ needAutoGenerateSidebar: false
 
 # Can I read barcodes from existing files?
 
+[<< Back to FAQ index](index.md)
+
 Yes, the JavaScript SDK supports reading from a file in local memory. 
 
-## Version 10.x
+## Version 10 or Latest Version
 ```javascript
 let router = await Dynamsoft.CVR.CaptureVisionRouter.createInstance();
 // Use the router to perform a job.

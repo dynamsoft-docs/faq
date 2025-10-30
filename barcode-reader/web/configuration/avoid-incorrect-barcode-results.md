@@ -8,8 +8,10 @@ needAutoGenerateSidebar: false
 
 # How to avoid incorrect barcode results?
 
-## Version 10
-- One method is to raise the value of [minResultConfidence](../api-reference/interfaces/simplified-barcode-reader-settings.md) of the `SimplifiedCaptureVisionSettings` interface of the capture vision router module.  It is set to `30` by default.
+[<< Back to FAQ index](index.md)
+
+## Version 10 or Latest Version
+- One method is to raise the value of [minResultConfidence](https://www.dynamsoft.com/capture-vision/docs/web/programming/javascript/api-reference/capture-vision-router/interfaces/simplified-capture-vision-settings.html?product=dbr&lang=javascript#minresultconfidence) of the `SimplifiedCaptureVisionSettings` interface of the capture vision router module.  It is set to `30` by default.
 
 - If the issue has to do with the length of the text result, you can try setting a minimum length for the barcode text(s) that are returned by the SDK. By setting the [minBarcodeTextLength](../api-reference/interfaces/simplified-barcode-reader-settings.md) property of the `SimplifiedCaptureVisionSettings` interface of the capture vision router module, the SDK can ignore results that are consistently coming out shorter than expected. It is set to `0` by default.
 

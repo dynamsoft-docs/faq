@@ -8,7 +8,9 @@ needAutoGenerateSidebar: false
 
 # Do we have to call loadWasm proactively?
 
-## Version 10
+[<< Back to FAQ index](index.md)
+
+## Version 10 or Latest Version
 Preload `BarcodeReader` or other specified module proactively to save time on the initial decoding by skipping the module loading at the time of instance creation.
 
 ```javascript

@@ -8,6 +8,8 @@ needAutoGenerateSidebar: true
 
 # How much does the SDK increase my app size?
 
+[<< Back to FAQ index](index.md)
+
 When integrating the Dynamsoft Barcode Reader (DBR) SDK into your mobile application, the increase in app size is mainly due to native libraries packaged for different architectures. Here's what you need to know:
 
 ---
@@ -53,10 +55,13 @@ When using hybrid frameworks like Flutter, React Native, or MAUI:
 
 ## Need to reduce the SDK size?
 
-If your app has **strict size constraints**, we offer a **paid customization service**. With this service, we can typically reduce the download size to around 5 MB by:
+If your app has **strict size constraints**, we offer a **paid customization service**.
 
-- Removing unused barcode symbologies
-- Excluding features not needed by your app
+We can help:
+
+- Remove unused barcode symbologies
+- Exclude features not needed by your app
+- Deliver a **lighter-weight SDK** tailored to your usage
 
 📩 To learn more, please [contact us](https://www.dynamsoft.com/company/contact/).
 
