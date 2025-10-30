@@ -10,7 +10,7 @@ needAutoGenerateSidebar: false
 
 [<< Back to FAQ index](index.md)
 
-## version 10 or recent
+## version 10 or Latest Version
 In version 10, use the `dynamsoft camera enhancer` to utilize the [testCameraAccess](https://www.dynamsoft.com/camera-enhancer/docs/web/programming/javascript/api-reference/camera-control.html#testCameraAccess) method to check the camera status programmatically.
 
 

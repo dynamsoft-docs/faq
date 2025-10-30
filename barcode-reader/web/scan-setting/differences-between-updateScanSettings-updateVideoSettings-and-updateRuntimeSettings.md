@@ -10,7 +10,7 @@ needAutoGenerateSidebar: false
 
 [<< Back to FAQ index](index.md)
 
-## Version 10
+## Version 10 or Latest Version
 `updateVideoSettings` is used to update the [MediaStreamConstraints](https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API/Constraints) that define most of the video information such as width, height, and the camera facingMode (i.e. front or rear camera).
 
 `updateSettings` is used to update the [SimplifiedSettings](https://www.dynamsoft.com/capture-vision/docs/web/programming/javascript/api-reference/capture-vision-router/interfaces/simplified-capture-vision-settings.html?product=dbr&lang=javascript) interface. It updates the runtime settings with a given template object. 

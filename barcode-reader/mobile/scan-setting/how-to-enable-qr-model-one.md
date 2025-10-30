@@ -32,7 +32,7 @@ Most QR codes today follow the **QR Code Model 2** standard. By default, **Barco
 
 5. Send your saved template to the [Dynamsoft Support Team](https://www.dynamsoft.com/contact/?ver=latest){:target="_blank"}.
 6. Our team will generate and send you a unique link for the configuration.
-7. In the **Advanced Scan Settings** of BarcodeScannerX (on Android or iOS), tap **Import Template** and paste the link.
+7. In the **Any Codes** of BarcodeScannerX (on Android or iOS), tap **Import Template** and paste the link.
 8. You’re now ready to scan **QR Code Model 1**!
 
 ---

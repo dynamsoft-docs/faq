@@ -15,6 +15,6 @@ If the barcode is not recognized by Dynamsoft Barcode Reader, please do not hesi
 Alternatively, here is the general troubleshooting steps:
 
 1. Please ensure the lighting is not very bright or very dim.
-2. Please ensure the aiming barcode format has been checked on.(Advanced Scan -> settings -> Barcode Format -> check the barcode formats)
-3. We can decrease the Confidence level to increase the read rate.(Advanced Scan -> settings -> Result Settings -> Set Confidence Level to 10)
-4. We can increase the deblur level to increase the read rate.(Advanced Scan -> settings -> Additional Settings -> increase DeblurLevel) 
+2. Please ensure the aiming barcode format has been checked on.(Any Codes -> settings -> Barcode Format -> check the barcode formats)
+3. We can decrease the Confidence level to increase the read rate.(Any Codes -> settings -> Result Settings -> Set Confidence Level to 10)
+4. We can increase the deblur level to increase the read rate.(Any Codes -> settings -> Additional Settings -> increase DeblurLevel) 

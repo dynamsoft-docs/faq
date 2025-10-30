@@ -10,7 +10,7 @@ needAutoGenerateSidebar: false
 
 [<< Back to FAQ index](index.md)
 
-## Version 10
+## Version 10 or Latest Version
 The SDK can provide logs via the `Core` module.
 ```javascript
 Dynamsoft.Core.CoreModule.onLog = console.log;
