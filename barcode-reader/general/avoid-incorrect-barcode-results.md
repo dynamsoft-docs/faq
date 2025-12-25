@@ -14,7 +14,7 @@ needAutoGenerateSidebar: false
 ---
 
 > **Notice (Temporary Issue)**  
-> This is a known issue in the current release and will be fixed in the next version.  
+> This is a known issue in versions 11.0.0 - 11.0.6000 and has been fixed in version 11.2. 
 >  
 > As a temporary solution, please set `IncludeTrailingCheckDigit` to `0` in the `BarcodeFormatSpecification` for Code128.  
 > This will prevent the SDK from returning the trailing check digit.
