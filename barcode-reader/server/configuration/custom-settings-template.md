@@ -8,7 +8,7 @@ needAutoGenerateSidebar: false
 
 ## How to create custom settings template?
 
-One of the strengths of the Dynamsoft Barcode Reader is its wide range of cuztomizable options that can optimize the performance of the SDK. Whether you are looking to prioritize read rate or speed, these settings can be used in many ways to match the targeted use case.
+One of the strengths of the Dynamsoft Barcode Reader is its wide range of customizable options that can optimize the performance of the SDK. Whether you are looking to prioritize read rate or speed, these settings can be used in many ways to match the targeted use case.
 
 If you are looking to create your own custom template of settings to use with the [InitSettingsFromFile][https://www.dynamsoft.com/capture-vision/docs/server/programming/cplusplus/api-reference/capture-vision-router/settings.html?product=dbr&repoType=server#initsettingsfromfile] methods, here are the steps:
 
