@@ -8,8 +8,6 @@ needAutoGenerateSidebar: true
 
 # Can I extract the driver’s information from a PDF417 barcode?
 
-[<< Back to FAQ index](index.md)
-
 Yes, you can extract driver’s license information from a PDF417 barcode using the **Dynamsoft Barcode Reader** in combination with the **Dynamsoft Code Parser**.
 
 Check out the sample project on GitHub to see how to decode the PDF417 barcode and parse the data:

@@ -8,8 +8,6 @@ needAutoGenerateSidebar: false
 
 # How to avoid incorrect barcode results?
 
-[<< Back to FAQ index](index.md)
-
 ## Version 10 and above
 - One method is to raise the value of [minResultConfidence](https://www.dynamsoft.com/capture-vision/docs/web/programming/javascript/api-reference/capture-vision-router/interfaces/simplified-capture-vision-settings.html?product=dbr&lang=javascript#minresultconfidence) of the `SimplifiedCaptureVisionSettings` interface of the capture vision router module.  It is set to `30` by default.
 

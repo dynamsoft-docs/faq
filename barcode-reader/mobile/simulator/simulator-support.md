@@ -8,8 +8,6 @@ needAutoGenerateSidebar: true
 
 # Does Dynamsoft Barcode Reader support simulator devices?
 
-[<< Back to FAQ index](index.md)
-
 Yes, **Dynamsoft Barcode Reader (DBR)** supports simulator devices on both **Android** and **iOS**, but **only in limited scenarios**.
 
 ---

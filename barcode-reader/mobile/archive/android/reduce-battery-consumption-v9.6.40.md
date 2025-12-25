@@ -8,8 +8,6 @@ needAutoGenerateSidebar: true
 
 # How can I reduce battery consumption?
 
-[<< Back to FAQ index](index.md)
-
 If you are finding that the battery of your phone is being heavily consumed when using the Barcode Reader, there are a couple of things that you can do to potentially reduce the battery consumption, depending on the usage situation.
 
 For a non-continuous video scanning scenario, make sure to call the [stopScanning]({{ site.android_api }}primary-video.md#stopscanning) method when the video scanning is no longer required.

@@ -8,8 +8,6 @@ needAutoGenerateSidebar: true
 
 # How can I enable QR Code Model 1 support in BarcodeScannerX?
 
-[<< Back to FAQ index](index.md)
-
 Most QR codes today follow the **QR Code Model 2** standard. By default, **BarcodeScannerX** only supports QR Code Model 2. If you want to test **QR Code Model 1**, follow the steps below for either **Android** or **iOS**:
 
 ---

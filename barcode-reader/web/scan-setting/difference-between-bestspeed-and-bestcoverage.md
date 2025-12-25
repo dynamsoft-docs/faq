@@ -8,8 +8,6 @@ needAutoGenerateSidebar: false
 
 # What are the differences between the 'speed', 'coverage', 'balance, and 'single' runtime templates?
 
-[<< Back to FAQ index](index.md)
-
 `SpeedFirst`, as the name suggests, prioritizes time cost over the accuracy of the results, and `ReadRateFirst` is vice versa.
 
 `Balance` is the perfect middle ground between `SpeedFirst` and `ReadRateFirst`. 

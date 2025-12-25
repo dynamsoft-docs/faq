@@ -8,8 +8,6 @@ needAutoGenerateSidebar: false
 
 # How to check the version of the JS SDK I am currently using?
 
-[<< Back to FAQ index](index.md)
-
 ## For version 10 and above
 - Check the version of Barcode Reader module
 ```javascript

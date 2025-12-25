@@ -8,8 +8,6 @@ needAutoGenerateSidebar: true
 
 # How to import the settings of Barcode Scanner X app into my app?
 
-[<< Back to FAQ index](index.md)
-
 In the Barcode Scanner X app, navigate to the use case scenario you are interested in. Tap the **"Export Template"** button at the bottom right corner.
 
 Once you obtain the templates, you can implement them using either of the following methods:

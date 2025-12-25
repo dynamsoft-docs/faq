@@ -8,8 +8,6 @@ needAutoGenerateSidebar: false
 
 # What are the different ways to customize the UI?
 
-[<< Back to FAQ index](index.md)
-
 ## Version 10 and above
 The UI is part of the `Dynamsoft Camera Enhancer` module, read more on how to
 [customize the UI](https://www.dynamsoft.com/camera-enhancer/docs/web/programming/javascript/user-guide/index.html#customize-the-ui)

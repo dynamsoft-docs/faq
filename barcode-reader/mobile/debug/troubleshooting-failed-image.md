@@ -8,8 +8,6 @@ needAutoGenerateSidebar: true
 
 # How can I troubleshoot an image that fails to decode?
 
-[<< Back to FAQ index](index.md)
-
 If the barcode is not recognized by Dynamsoft Barcode Reader, please do not hesitate to contact <a href="https://www.dynamsoft.com/contact/?ver=latest" target="_blank">Dynamsoft support team</a>.
 
 Alternatively, here is the general troubleshooting steps:

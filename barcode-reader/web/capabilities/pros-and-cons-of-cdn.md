@@ -8,8 +8,6 @@ needAutoGenerateSidebar: false
 
 # What are the pros and cons of using the CDN?
 
-[<< Back to FAQ index](index.md)
-
 **Pros**:
 
 - No need for server configuration since your server is not hosting the library.

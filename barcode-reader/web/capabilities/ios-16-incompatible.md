@@ -8,8 +8,6 @@ needAutoGenerateSidebar: false
 
 # Why is the Javascript SDK not recognizing any barcodes on iOS 16.4?
 
-[<< Back to FAQ index](index.md)
-
 ## Background
 
 iOS 16.4 was released on March 27th, 2023. In this version, all browsers on iOS have begun to support `OffscreenCanvas`. Unfortunately, Apple's implementation of the API is still incomplete and is missing the important feature "webgl context". Please see the MDN docs on [OffscreenCanvas](https://developer.mozilla.org/en-US/docs/Web/API/OffscreenCanvas) for more details.

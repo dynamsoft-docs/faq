@@ -8,7 +8,6 @@ needAutoGenerateSidebar: false
 
 # Why am I unable to scan an Aztec code in the helloworld sample?
 
-[<< Back to FAQ index](index.md)
 ## For version 10 and above
 ```javascript
 let settings = await router.getSimplifiedSettings("ReadSingleBarcode");

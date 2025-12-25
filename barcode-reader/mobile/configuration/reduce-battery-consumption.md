@@ -8,8 +8,6 @@ needAutoGenerateSidebar: true
 
 # How can I reduce battery consumption?
 
-[<< Back to FAQ index](index.md)
-
 If you're noticing high battery consumption while using Dynamsoft Barcode Reader (DBR) in your mobile application, there are several ways to optimize power usage based on your scanning scenario. The following tips apply to both Android and iOS unless otherwise noted.
 
 ---

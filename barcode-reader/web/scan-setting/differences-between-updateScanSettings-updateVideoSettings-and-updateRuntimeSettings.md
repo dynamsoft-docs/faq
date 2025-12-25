@@ -8,8 +8,6 @@ needAutoGenerateSidebar: false
 
 # What are the differences between updateScanSettings/updateVideoSettings/updateRuntimeSettings ?
 
-[<< Back to FAQ index](index.md)
-
 ## Version 10 and above
 `updateVideoSettings` is used to update the [MediaStreamConstraints](https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API/Constraints) that define most of the video information such as width, height, and the camera facingMode (i.e. front or rear camera).
 

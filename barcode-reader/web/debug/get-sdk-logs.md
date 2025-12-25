@@ -8,8 +8,6 @@ needAutoGenerateSidebar: false
 
 # How to get the logs for the SDK?
 
-[<< Back to FAQ index](index.md)
-
 ## Version 10 and above
 The SDK can provide logs via the `Core` module.
 ```javascript

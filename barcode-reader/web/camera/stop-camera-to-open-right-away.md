@@ -8,8 +8,6 @@ needAutoGenerateSidebar: false
 
 # How to stop the camera stream from opening right away after DBR-JS demo is loaded? How to enable the camera on the click of a button?
 
-[<< Back to FAQ index](index.md)
-
 ## Version 10 and above
 ```javascript
 let startScanBtn = document.getElementById("StartScanning"); // double check the ID of the button

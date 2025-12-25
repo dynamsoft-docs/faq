@@ -8,8 +8,6 @@ needAutoGenerateSidebar: false
 
 # Is HTTPS absolutely required?
 
-[<< Back to FAQ index](index.md)
-
 HTTPS is required to utilize `getUserMedia`/`MediaDevices` and initialize online license keys. If HTTPS is not enabled, you won't be able to use a camera and you will need an offline license key.
 
 > 1. If you don't want to use a camera, you can enable [singleFrameMode](https://www.dynamsoft.com/barcode-reader/programming/javascript/api-reference/BarcodeScanner/properties.html?ver=latest#singleframemode) to scan barcodes on exisiting images.
