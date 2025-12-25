@@ -10,7 +10,7 @@ needAutoGenerateSidebar: false
 
 [<< Back to FAQ index](index.md)
 
-## Version 10
+## Version 10 and above
 this can be achieved by setting the value of the `grayscaleTransformationModes` array of `furtherModes` to use `GTM_INVERTED` 
 
 ```javascript

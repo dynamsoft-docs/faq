@@ -8,7 +8,7 @@ needAutoGenerateSidebar: false
 
 # How can I hide the laser bar and Dynamsoft message in the default UI of the BarcodeScanner?
 
-## Version 10
+## Version 10 and above
 To change the UI, you will need to use the CamerView from the `Camera Enhancer Module`
 for laser there is a direct api which you can reference, for other changes you need to either access via class or [customize your own ui](https://www.dynamsoft.com/camera-enhancer/docs/web/programming/javascript/user-guide/index.html#customize-the-ui).
 

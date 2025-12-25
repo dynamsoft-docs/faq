@@ -10,7 +10,7 @@ needAutoGenerateSidebar: false
 
 [<< Back to FAQ index](index.md)
 
-## Version 10 or Latest Version
+## Version 10 and above
 If you're experiencing more scans usage than expected with the barcode reading SDK, use the below strategies to address this issue effectively:
 
 ### 1. Donot count identical Result

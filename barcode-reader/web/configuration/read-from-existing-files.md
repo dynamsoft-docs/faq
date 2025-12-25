@@ -12,7 +12,7 @@ needAutoGenerateSidebar: false
 
 Yes, the JavaScript SDK supports reading from a file in local memory. 
 
-## Version 10 or Latest Version
+## Version 10 and above
 ```javascript
 let router = await Dynamsoft.CVR.CaptureVisionRouter.createInstance();
 // Use the router to perform a job.

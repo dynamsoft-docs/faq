@@ -10,7 +10,7 @@ needAutoGenerateSidebar: false
 
 [<< Back to FAQ index](index.md)
 
-## For version 10 or Latest Version
+## For version 10 and above
 - Check the version of Barcode Reader module
 ```javascript
 Dynamsoft.DBR.BarcodeReaderModule.getVersion()

@@ -68,6 +68,6 @@ Welcome! Browse the sections below for answers to common questions, configuratio
 
 ## UI Customization
 
-- [Add/Remove Beep Sound](ui-customization/add-remove-beep-sound.md)
-- [Different Ways to Customize UI](ui-customization/different-ways-to-customize-ui.md)
-- [More UI Customization FAQs](ui-customization/index.md)
+- [Add/Remove Beep Sound](ui-customization/add-remove-beep-sound.html)
+- [Different Ways to Customize UI](ui-customization/different-ways-to-customize-ui.html)
+- [Hide Laser Bar and Message in Default UI](ui-customization/hide-laser-message-ui.html)

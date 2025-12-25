@@ -10,7 +10,7 @@ needAutoGenerateSidebar: false
 
 [<< Back to FAQ index](index.md)
 
-## Version 10 or Latest Version
+## Version 10 and above
 ```javascript
 let startScanBtn = document.getElementById("StartScanning"); // double check the ID of the button
 ```
