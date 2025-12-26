@@ -1,3 +1,11 @@
+---
+layout: default-layout
+title: Debug Mode - DBR Mobile FAQs
+keywords: Dynamsoft Barcode Reader, FAQ, Mobile, tech basic, debug mode, ios, android
+description: How to use Debug Mode in Barcode Scanner X? - DBR Mobile FAQs.
+needAutoGenerateSidebar: true
+---
+
 ## How to use Debug Mode in Barcode Scanner X?
 
 If you are experiencing app crashes in your own application or you’ve come across some barcode(s) that you can’t read and you have exhausted all of the other troubleshooting methods, Debug Mode of the [BarcodeScannerX](https://www.dynamsoft.com/barcode-reader/sdk-mobile/#appDemo) demo app can help offer one last effort to resolve these issues.
@@ -44,25 +52,3 @@ If you are having trouble reading barcodes, you should use the Image Cropper to 
 
 3. Tap the image crop icon to crop and share the original frames with the [Dynamsoft support team](https://www.dynamsoft.com/contact/?ver=latest). Our support team will investigate the video frames and get back to you with a solution as soon as possible.
 
-## How to Enable QR Code Model 1 in Barcode Scanner X?
-
-Nowadays, most QR codes are QR code Model 2. BarcodeScannerX, by default, only support QR code Model 2. If you want to test QR code Model 1 on BarcodeScannerX, here is what you can do: 
-
-1. Visit Dynamsoft barcode reader <a href="https://demo.dynamsoft.com/barcode-reader/" target="_blank">online demo</a>.
-2. Click on Advanced Settings
-
-   <div align="left">
-      <p><img src="../assets/advanced-settings.jpg" width="40%" alt="advanced settings"></p>
-   </div>
-
-3. Check **EnableQRCodeModel1**.(You can modify any other settings as you like)
-4. Save the template.
-
-   <div align="left">
-      <p><img src="../assets/save-template.jpg" width="40%" alt="save template"></p>
-   </div>
-
-5. Send the template to <a href="https://www.dynamsoft.com/contact/?ver=latest" target="_blank">Dynamsoft support team</a>.
-6. We will generate and send a link to you.
-7. Click **Import Template** in the Advanced Scan settings of BarcodeScannerX. Then input the link.
-8. Now you can scan QR code Model 1!

@@ -1,4 +1,3 @@
-
 ---
 layout: default-layout
 title: How do I create a NodeJS application using the SDK?

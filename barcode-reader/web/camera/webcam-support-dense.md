@@ -20,7 +20,7 @@ Therefore, if you are required to use laptops to read barcodes from driver licen
 
 In addition, please note that this not only applies to PDF417 barcodes, but other dense types of barcodes such as high-density QR Codes.
 
-If your built-in laptop webcam does indeed have the ability to focus and you are still struggling to read these dense type of barcodes, please let us know as we could potentially use some of the [Camera Enhancer API]({{site.dce_js_api}}index.html) to hone the focus of the camera to be suited for this use case. If you have any questions on this matter, do not hesitate to [contact us](https://www.dynamsoft.com/contact/).
+If your built-in laptop webcam does indeed have the ability to focus and you are still struggling to read these dense type of barcodes, please let us know as we could potentially use some of the [Camera Enhancer API](https://www.dynamsoft.com/camera-enhancer/docs/web/programming/javascript/api-reference/index.html?product=dbr&lang=javascript) to hone the focus of the camera to be suited for this use case. If you have any questions on this matter, do not hesitate to [contact us](https://www.dynamsoft.com/contact/).
 
 
 ## Additional Information for Florida Driver's Licenses

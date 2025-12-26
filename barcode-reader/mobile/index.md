@@ -41,7 +41,7 @@ Welcome to the FAQ for Dynamsoft Barcode Reader on mobile platforms. Browse the 
 - [Simulator Support](simulator/simulator-support.html)
 - [How to resolve the "Building for iOS Simulator, but linking in dylib built for iOS" error?](simulator/arm64-simulator-error.html)
 
-## Debugging & Troubleshooting
+## Debugging
 
 - [Page Freeze Issues](debug/page-freeze.html)
 - [Troubleshooting Failed Image Decoding](debug/troubleshooting-failed-image.html)

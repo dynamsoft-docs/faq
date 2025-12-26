@@ -32,8 +32,8 @@ In continuous scanning mode, you can reduce the scanning frequency to conserve e
 
 - **Property**: `minImageCaptureInterval`  
 - **Class**:
-  - Android: [`SimplifiedCaptureVisionSettings`](https://dynamsoft.com/capture-vision/docs/mobile/programming/android/api-reference/capture-vision-router/settings.html?product=dbr&lang=android#gettemplatenames)  
-  - iOS: [`DSSimplifiedCaptureVisionSettings`](https://dynamsoft.com/capture-vision/docs/mobile/programming/ios/api-reference/capture-vision-router/settings.html?product=dbr&lang=objectivec-swift#stopcapturing)
+  - Android: [`SimplifiedCaptureVisionSettings`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/android/api-reference/capture-vision-router/auxiliary-classes/simplified-capture-vision-settings.html?product=dbr&lang=android)  
+  - iOS: [`DSSimplifiedCaptureVisionSettings`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/ios/api-reference/capture-vision-router/auxiliary-classes/simplified-capture-vision-settings.html?product=dbr&lang=objectivec-swift)
 
 Setting a **higher interval** reduces how often frames are fetched and processed, leading to:
 

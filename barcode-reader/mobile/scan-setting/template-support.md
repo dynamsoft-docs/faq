@@ -29,8 +29,8 @@ In the **Barcode Scanner X** app:
 
 Once you have the template file, you can use it in your app with either:
 
-- [`initSettings`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/android/api-reference/capture-vision-router/settings.html?product=dbr&lang=android#gettemplatenames)
-- [`initSettingsFromFile`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/android/api-reference/capture-vision-router/settings.html?product=dbr&lang=android#gettemplatenames)
+- [`initSettings`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/android/api-reference/capture-vision-router/settings.html?product=dbr&lang=android#initsettings)
+- [`initSettingsFromFile`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/android/api-reference/capture-vision-router/settings.html?product=dbr&lang=android#initsettingsfromfile)
 
 
 ---

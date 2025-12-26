@@ -24,11 +24,11 @@ If you encounter the issue, you will see the following error in the browser cons
  
 There are three solutions to the issue:
 
-### Option 1: Upgrade to the latest v9.x version (Recommended Option)
+### Option 1: Upgrade to the latest version (Recommended Option)
 
-If it is convenient, we recommend that you upgrade to the latest v9.x version to avoid the issue. Please refer to the [upgrade guide](https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/upgrade-guide/?ver=latest).
+If it is convenient, we recommend that you upgrade to the latest version to avoid the issue. Please refer to the [upgrade guide](https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/user-guide/index.html).
 
-However, if you are not able to upgrade to the v9.x, please refer to the two options below.
+However, if you are not able to upgrade to the latest version, please refer to the two options below.
 
 ### Option 2: Disable the API directly before creating a `BarcodeScanner` instance
 
