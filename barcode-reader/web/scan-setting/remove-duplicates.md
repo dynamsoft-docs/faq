@@ -50,7 +50,7 @@ settings.barcodeSettings.barcodeFormatIds =
 await router.updateSettings("ReadSingleBarcode", settings);
 ```
 
-- to set the barcode format using the template check out the [template section]({{site.dcvb_js_api}}capture-vision-router/settings.html)
+- to set the barcode format using the template check out the [template section](https://www.dynamsoft.com/capture-vision/docs/core/enums/barcode-reader/barcode-format.html?product=dbr)
 
 
 Implementing these steps can help streamline your barcode scanning process, reduce unnecessary scans, and optimize resource usage effectively.

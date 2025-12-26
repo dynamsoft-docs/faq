@@ -17,14 +17,14 @@ Dynamsoft Barcode Reader (DBR) supports both **one-off scanning** and **continuo
 ### Android
 
 - **[All Samples](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/android/samples/index.html?ver=latest){:target="\_blank"}**
-- **[Hello World (One-off Scanning)](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/android/samples/helloworld.html?ver=latest){:target="\_blank"}**
-- **[GeneralSettings (Continuous Scanning)](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/android/samples/general.html){:target="\_blank"}**
+- **[Hello World (One-off Scanning)](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/android/BarcodeScannerAPISamples/ScanSingleBarcode)**
+- **[GeneralSettings (Continuous Scanning)](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/android/FoundationalAPISamples/GeneralSettings)**
 
 ### iOS
 
 - **[All Samples](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/objectivec-swift/samples/index.html?ver=latest){:target="\_blank"}**
-- **[Hello World (One-off Scanning)](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/objectivec-swift/samples/helloworld.html?ver=latest){:target="\_blank"}**
-- **[GeneralSettings (Continuous Scanning)](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/objectivec-swift/samples/general.html?ver=latest){:target="\_blank"}**
+- **[Hello World (One-off Scanning)](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/ios/BarcodeScannerAPISamples/ScanSingleBarcode)**
+- **[GeneralSettings (Continuous Scanning)](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/ios/FoundationalAPISamples/GeneralSettings)**
 
 ---
 
