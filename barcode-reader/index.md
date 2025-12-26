@@ -87,13 +87,3 @@ Choose a category to get started.
   </a>
 
 </div>
-
----
-
-## Quick Links
-
-- [General](./general/index.html)  
-- [License](./license/index.html)  
-- [Mobile](./mobile/index.html)  
-- [Server](./server/index.html)  
-- [Web](./web/index.html)  
