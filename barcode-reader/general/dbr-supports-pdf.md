@@ -17,9 +17,10 @@ No. **Reading from PDF files does not require any additional license**. It is fu
 ### How to scan specific pages of a pdf file?
 hen processing PDF files, you can use the **[`set_pages()`](https://www.dynamsoft.com/capture-vision/docs/server/programming/python/api-reference/utility/directory-fetcher.html?product=dbr&lang=python#set_pages)** method to specify which pages should be scanned.  
 This helps improve performance by avoiding unnecessary page processing.
-- DirectoryFetcher
-```python
 
+- DirectoryFetcher
+
+```python
 # Example DirectoryFetcher: process only page 1 and page 3
 # (page index follows the SDK's page numbering rules)
 fetcher = DirectoryFetcher()
@@ -28,9 +29,10 @@ fetcher.set_pages([1, 3])
 
 cvr.set_input(fetcher)
 ```
-- FileFetcher
-```python
 
+- FileFetcher
+
+```python
 # Example FileFetcher: process only page 1 and page 3
 # (page index follows the SDK's page numbering rules)
 fetcher = FileFetcher()

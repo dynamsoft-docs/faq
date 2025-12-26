@@ -16,6 +16,5 @@ Please use the links below to find answers to common questions and configuration
 - [How to filter incorrect results with the barcode result length?](avoid-incorrect-results.html)
 - [Check Current Version](check-current-version.html)
 - [Different Editions of DBR](different-editions-of-dbr.html)
-- [How to scan specific pages of a pdf file?](scan-specific-page.html)
 - [How to scan US driver's license?](scan-us-drivers-license.html)
 - [Supported Barcode Formats](supported-barcode-formats.html)
