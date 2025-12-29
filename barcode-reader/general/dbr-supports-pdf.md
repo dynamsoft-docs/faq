@@ -15,7 +15,7 @@ The **only exceptions** are the **JavaScript edition** and the **Mobile edition*
 No. **Reading from PDF files does not require any additional license**. It is fully included in the standard SDK license.
 
 ### How to scan specific pages of a pdf file?
-hen processing PDF files, you can use the **[`set_pages()`](https://www.dynamsoft.com/capture-vision/docs/server/programming/python/api-reference/utility/directory-fetcher.html?product=dbr&lang=python#set_pages)** method to specify which pages should be scanned.  
+When processing PDF files, you can use the **[`set_pages()`](https://www.dynamsoft.com/capture-vision/docs/server/programming/python/api-reference/utility/directory-fetcher.html?product=dbr&lang=python#set_pages)** method to specify which pages should be scanned.  
 This helps improve performance by avoiding unnecessary page processing.
 
 - DirectoryFetcher
