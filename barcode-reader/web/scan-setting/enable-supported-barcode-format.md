@@ -41,16 +41,19 @@ settings.barcodeSettings.barcodeFormatIds =
   Dynamsoft.DBR.EnumBarcodeFormat.BF_ONED | Dynamsoft.DBR.EnumBarcodeFormat.BF_QR_CODE;
 await router.updateSettings("ReadSingleBarcode", settings);
 await router.startCapturing("ReadSingleBarcode");
+// View the complete list of supported barcode formats and their corresponding IDs here: [Barcode Format Documentation](https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/api-reference/enum-barcode-format.html?lang=js)
 ```
 >
 ```objc
 DSBarcodeScannerConfig *config = [[DSBarcodeScannerConfig alloc] init];
-config.barcodeFormats = DSBarcodeFormatQRCode | DSBarcodeFormatOned; ;
+config.barcodeFormats = DSBarcodeFormatQRCode | DSBarcodeFormatOned;
+// View the complete list of supported barcode formats and their corresponding IDs here: [Barcode Format Documentation](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/objectivec-swift/api-reference/enum/barcode-format.html)
 ```
 >
 ```swift
 let config = BarcodeScannerConfig()
 config.barcodeFormats = [.oneD, .qrCode]
+// View the complete list of supported barcode formats and their corresponding IDs here: [Barcode Format Documentation](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/objectivec-swift/api-reference/enum/barcode-format.html)
 ```
 >
 ```java
@@ -64,6 +67,7 @@ try {
 } catch (CaptureVisionRouterException e) {
    e.printStackTrace();
 }
+// View the complete list of supported barcode formats and their corresponding IDs here: [Barcode Format Documentation](https://www.dynamsoft.com/barcode-reader/docs/server/programming/java/api-reference/enum-barcode-format.html)
 ```
 >
 ```python
@@ -75,6 +79,7 @@ err_code, err_str, settings = cvr_instance.get_simplified_settings(EnumPresetTem
 settings.barcode_settings.barcode_format_ids = EnumBarcodeFormat.BF_QR_CODE.value | EnumBarcodeFormat.BF_ONED.  value
 # Update the settings.
 err_code, err_str = cvr_instance.update_settings(EnumPresetTemplate.PT_READ_BARCODES.value, settings)
+# View the complete list of supported barcode formats and their corresponding IDs here: [Barcode Format Documentation](https://www.dynamsoft.com/barcode-reader/docs/server/programming/python/api-reference/enum-barcode-format.html)
 ```
 >
 ```c++
@@ -88,6 +93,7 @@ cvr->GetSimplifiedSettings(CPresetTemplate::PT_READ_BARCODES, &settings);
 settings.barcodeSettings.barcodeFormatIds = BF_QR_CODE | BF_ONED;
 // Update the settings.
 cvr->UpdateSettings(CPresetTemplate::PT_READ_BARCODES, &settings, szErrorMsg, 256);
+// View the complete list of supported barcode formats and their corresponding IDs here: [Barcode Format Documentation](https://www.dynamsoft.com/barcode-reader/docs/server/programming/cplusplus/api-reference/enum-barcode-format.html?lang=cpp)
 ```
 >
 ```csharp
@@ -103,7 +109,5 @@ using (CaptureVisionRouter cvr = new CaptureVisionRouter())
    // Update the settings.
    cvr.UpdateSettings(PresetTemplate.PT_READ_BARCODES, settings, out errorMsg);  
 }
+// View the complete list of supported barcode formats and their corresponding IDs here: [Barcode Format Documentation](https://www.dynamsoft.com/barcode-reader/docs/server/programming/dotnet/api-reference/enum-barcode-format.html?product=dcv&lang=dotnet)
 ```
-
-#### Step 3. Verify Supported Formats
-View the complete list of supported barcode formats and their corresponding IDs here: [Barcode Format Documentation](https://www.dynamsoft.com/capture-vision/docs/core/enums/barcode-reader/barcode-format.html?product=dbr)
