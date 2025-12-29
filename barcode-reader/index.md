@@ -76,8 +76,8 @@ Choose a category to get started.
 
   <!-- Server -->
   <a class="faq-tile" href="/faq/barcode-reader/server/index.html" aria-label="Barcode Reader Server FAQs">
-    <h2>🖥️ Server</h2>
-    <p>Server-side integration, configuration, and processing workflows.</p>
+    <h2>🖥️ Server/Desktop/Embedded</h2>
+    <p>Server/Desktop/Embedded SDK usage, platform-specific setup, and optimization tips.</p>
   </a>
 
   <!-- Web -->
