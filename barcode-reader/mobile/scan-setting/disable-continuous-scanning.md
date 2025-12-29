@@ -1,14 +1,19 @@
 ---
 layout: default-layout
 title: One-off vs Continuous Scanning - DBR Mobile FAQs
-keywords: Dynamsoft Barcode Reader, FAQ, Mobile, Android, iOS, continuous scanning, one-off scanning
-description: How can I implement continuous barcode scanning and one-off barcode scanning? - DBR Android & iOS FAQs.
+keywords: Dynamsoft Barcode Reader, FAQ, Mobile, Android, iOS, continuous scanning, single scan
+description: How can I implement continuous barcode scanning and single scan barcode scanning? - DBR Android & iOS FAQs.
 needAutoGenerateSidebar: true
 ---
 
-# How can I implement continuous barcode scanning and one-off barcode scanning?
+# How can I implement continuous barcode scanning and single scan barcode scanning?
 
-Dynamsoft Barcode Reader (DBR) supports both **one-off scanning** and **continuous scanning** modes on **Android** and **iOS**. You can refer to our official sample projects for implementation guidance.
+Dynamsoft Barcode Reader (DBR) supports two scanning modes on **Android** and **iOS**:
+
+- **Single-scan mode**: the scanner automatically exits after successfully reading one barcode.
+- **Continuous-scan mode**: the scanner keeps running and continuously reads barcodes until it is manually stopped.
+
+You can refer to our official sample projects for implementation guidance.
 
 ---
 
@@ -17,14 +22,14 @@ Dynamsoft Barcode Reader (DBR) supports both **one-off scanning** and **continuo
 ### Android
 
 - **[All Samples](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/android/samples/index.html?ver=latest){:target="\_blank"}**
-- **[Hello World (One-off Scanning)](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/android/BarcodeScannerAPISamples/ScanSingleBarcode)**
-- **[GeneralSettings (Continuous Scanning)](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/android/FoundationalAPISamples/GeneralSettings)**
+- **[Single Scan Mode](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/android/BarcodeScannerAPISamples/ScanSingleBarcode)**
+- **[Continuous Scan Mode](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/android/FoundationalAPISamples/GeneralSettings)**
 
 ### iOS
 
 - **[All Samples](https://www.dynamsoft.com/barcode-reader/docs/mobile/programming/objectivec-swift/samples/index.html?ver=latest){:target="\_blank"}**
-- **[Hello World (One-off Scanning)](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/ios/BarcodeScannerAPISamples/ScanSingleBarcode)**
-- **[GeneralSettings (Continuous Scanning)](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/ios/FoundationalAPISamples/GeneralSettings)**
+- **[Single Scan Mode](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/ios/BarcodeScannerAPISamples/ScanSingleBarcode)**
+- **[Continuous Scan Mode](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/ios/FoundationalAPISamples/GeneralSettings)**
 
 ---
 
