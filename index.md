@@ -1,8 +1,8 @@
 ---
 layout: home-page
-title: Dynamsoft Capture Vision FAQ
-keywords: faq, capture vision, dcv, dynamsoft, barcode reader, mrz scanner
-description: Dynamsoft Capture Vision FAQ Documentation
+title: Dynamsoft FAQ
+keywords: faq, capture vision, dcv, dynamsoft, barcode reader, mrz scanner, web twain, dwt
+description: Dynamsoft FAQ Documentation
 needAutoGenerateSidebar: false
 noTitleIndex: true
 ---
