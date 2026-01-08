@@ -32,7 +32,7 @@ Here is a JSON snippet for enabling DPM, update it in your output template:
     ]
 ```
 
-Once the JSON string is set, you can initialize the runtime settings to use it via the [InitSettingsFromFile](https://www.dynamsoft.com/capture-vision/docs/server/programming/cplusplus/api-reference/capture-vision-router/settings.html?product=dbr&repoType=server#outputsettingstofile) to update your current runtime settings with your modified template:
+Once the JSON string is set, you can initialize the runtime settings to use it via the [InitSettingsFromFile](https://www.dynamsoft.com/capture-vision/docs/server/programming/cplusplus/api-reference/capture-vision-router/settings.html?product=dbr&repoType=server#initsettingsfromfile) to update your current runtime settings with your modified template:
 
 ```cpp
 int InitSettingsFromFile(const char* filePath, char errorMsgBuffer[]=NULL, const int errorMsgBufferLen=0)

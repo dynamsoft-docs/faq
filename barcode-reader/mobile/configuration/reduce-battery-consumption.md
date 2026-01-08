@@ -19,8 +19,8 @@ If you're noticing high battery consumption while using Dynamsoft Barcode Reader
 If scanning is only needed occasionally, be sure to stop the camera and barcode processing once the task is complete.  
 Call the appropriate method to stop capturing:
 
-- **Android**: [`stopCapturing`]({{ site.dcvb_android_api }}capture-vision-router/multiple-file-processing.html#stopcapturing)  
-- **iOS**: [`stopCapturing`]({{ site.dcvb_ios_api }}capture-vision-router/multiple-file-processing.html#stopcapturing)
+- **Android**: [`stopCapturing`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/android/api-reference/capture-vision-router/multiple-file-processing.html?product=dbr&lang=android#stopcapturing)  
+- **iOS**: [`stopCapturing`](http://dynamsoft.com/capture-vision/docs/mobile/programming/ios/api-reference/capture-vision-router/multiple-file-processing.html?product=dbr&lang=objectivec-swift#stopcapturing)
 
 This ensures that system resources like the camera and CPU are properly released, reducing battery drain.
 
@@ -32,8 +32,8 @@ In continuous scanning mode, you can reduce the scanning frequency to conserve e
 
 - **Property**: `minImageCaptureInterval`  
 - **Class**:
-  - Android: [`SimplifiedCaptureVisionSettings`]({{ site.dcvb_android_api }}capture-vision-router/auxiliary-classes/simplified-capture-vision-settings.html)  
-  - iOS: [`DSSimplifiedCaptureVisionSettings`]({{ site.dcvb_ios_api }}capture-vision-router/auxiliary-classes/simplified-capture-vision-settings.html)
+  - Android: [`SimplifiedCaptureVisionSettings`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/android/api-reference/capture-vision-router/auxiliary-classes/simplified-capture-vision-settings.html?product=dbr&lang=android)  
+  - iOS: [`DSSimplifiedCaptureVisionSettings`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/ios/api-reference/capture-vision-router/auxiliary-classes/simplified-capture-vision-settings.html?product=dbr&lang=objectivec-swift)
 
 Setting a **higher interval** reduces how often frames are fetched and processed, leading to:
 

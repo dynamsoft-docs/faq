@@ -18,4 +18,3 @@ Welcome to the FAQ for Dynamsoft Barcode Reader on server platforms. Use the lin
 - [How to Enable DPM?](configuration/how-to-enable-dpm.html)
 - [Non-English Characters](configuration/non-english-characters.html)
 - [Sort Barcodes in Image](configuration/sort-barcodes-image.html)
-- [Unable to Scan Aztec Code](configuration/unable-to-scan-aztec-code.html)

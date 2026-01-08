@@ -19,6 +19,7 @@ let results = await router.capture("blob:https://demo.dynamsoft.com/afb84bd2-e8c
 // Release the resources after the job is finished.
 router.dispose();
 ```
+> [this article](https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/samples-demos/index.html) shows more details.
 
 ## Version 9.x
 ```javascript
@@ -26,4 +27,4 @@ let reader = await Dynamsoft.DBR.BarcodeReader.createInstance();
 let results = await reader.decode(imageSource);
 ```
 
-> [this article](https://www.dynamsoft.com/barcode-reader/programming/javascript/samples-demos/helloworld-readfile.html) shows how to read barcodes from existing images and a list of supported input types.
+

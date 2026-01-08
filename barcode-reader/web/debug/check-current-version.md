@@ -23,7 +23,7 @@ npm show dynamsoft-barcode-reader version
 ## For version 9
 There are multiple ways to check the version currently being used -
 
-- The first way is to use the [version API](https://www.dynamsoft.com/barcode-reader/programming/javascript/api-reference/InitializationControl.html?ver=latest#version). Using this API in the browser console should print out the version of the library being used by the web app.
+- The first way is to use the [version API](https://www.dynamsoft.com/barcode-reader/docs/v9/web/programming/javascript/api-reference/InitializationControl.html#version). Using this API in the browser console should print out the version of the library being used by the web app.
 - If you are using the library via npm or yarn, then you can check the version of the package via
 
     ```bash

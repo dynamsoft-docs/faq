@@ -1,16 +1,30 @@
 ---
 layout: default-layout
-title: How to stop the camera stream from opening right away after DBR-JS demo is loaded? How to enable the camera on the click of a button?
+title: How to enable the camera on the click of a button?
 keywords: Dynamsoft Barcode Reader, FAQ, tech basic, stop camera stream, start scanning
-description: How to stop the camera stream from opening right away after DBR-JS demo is loaded? How to enable the camera on the click of a button?
+description: How to enable the camera on the click of a button?
 needAutoGenerateSidebar: false
 ---
 
-# How to stop the camera stream from opening right away after DBR-JS demo is loaded? How to enable the camera on the click of a button?
+# How to enable the camera on the click of a button?
 
 ## Version 10 and above
 ```javascript
 let startScanBtn = document.getElementById("StartScanning"); // double check the ID of the button
+
+startScanBtn.addEventListener("click", async function () {
+  router = await Dynamsoft.CVR.CaptureVisionRouter.createInstance();
+  let view = await Dynamsoft.DCE.CameraView.createInstance();
+  cameraEnhancer = await Dynamsoft.DCE.CameraEnhancer.createInstance(view);
+  router.setInput(cameraEnhancer);
+  const resultReceiver = new Dynamsoft.CVR.CapturedResultReceiver();
+  resultReceiver.onCapturedResultReceived = (result) => {
+    /* Do something with the result */
+  };
+  router.addResultReceiver(resultReceiver);
+  await cameraEnhancer.open();
+  await router.startCapturing("ReadSingleBarcode");
+})
 ```
 
 ## version 9

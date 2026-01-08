@@ -44,7 +44,6 @@ Welcome! Browse the sections below for answers to common questions, configuratio
 - [Read from existing files](configuration/read-from-existing-files.html)
 - [Scan US driver's license](configuration/scan-US-drivers-license.html)
 - [Upgrade old to new version](configuration/upgrade-old-to-new.html)
-- [Use of onFrameRead and onUnduplicateRead](configuration/use-of-onFrameRead-and-onUnduplicateRead.html)
 - [Ways to copy DBR-JS deployable files](configuration/ways-to-copy-dbr-js-deployable-files.html)
 
 ## Debug

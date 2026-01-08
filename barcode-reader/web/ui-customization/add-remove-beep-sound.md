@@ -18,6 +18,6 @@ Dynamsoft.DCE.Feedback.beep();
 
 
 ## Version 9
-This feature is controlled using the [whenToPlaySoundforSuccessfulRead](https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/api-reference/interface/ScanSettings.html?ver=latest) property. To enable the feature, set the property to either **frame** or **unique**. To disable the feature, set it to **never**.
+This feature is controlled using the [whenToPlaySoundforSuccessfulRead](https://www.dynamsoft.com/barcode-reader/docs/v9/web/programming/javascript/api-reference/interface/ScanSettings.html) property. To enable the feature, set the property to either **frame** or **unique**. To disable the feature, set it to **never**.
 
 > This feature is disabled by default.

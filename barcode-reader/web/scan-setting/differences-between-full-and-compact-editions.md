@@ -10,7 +10,7 @@ needAutoGenerateSidebar: false
 
 *Please note that starting from v8.6 of the JavaScript Edition, the default engine that the library uses is the **full edition** engine.*
 
-The main difference between the two is the set of supported barcode formats as well as the size of each edition. For the full list of differences between the two, please refer to this [article](https://www.dynamsoft.com/barcode-reader/programming/javascript/user-guide/features-requirements.html#compact-and-full-editions).
+The main difference between the two is the set of supported barcode formats as well as the size of each edition. For the full list of differences between the two, please refer to this [article](https://www.dynamsoft.com/barcode-reader/docs/v9/web/programming/javascript/user-guide/features-requirements.html?product=dbr).
 
 **Compact edition** supports `1D`, `QR`, `PDF417`, and `DataMatrix` (the most popular barcode formats), while the **full edition** supports the complete set of Dynamsoft Barcode Reader's supported barcode formats.
 In terms of API methods, the full edition supports the following features while the compact does not: `getIntermediateCanvas`, `initRuntimeSettingsWithString`, and ` outputSettingsToString`.

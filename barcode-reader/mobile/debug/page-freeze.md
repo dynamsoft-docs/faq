@@ -8,22 +8,10 @@ needAutoGenerateSidebar: true
 
 # Why does the page sometimes freeze when I start the scanner?
 
-Before a barcode reader instance can be created, a one-time connection for **license validation** must occur when the app initializes—or whenever the license is set prior to the barcode reader’s instantiation. This license check may take a second to complete, potentially causing a temporary freeze in the UI.
+Before a barcode reader instance can be created, a one-time connection for license validation needs to occur when the app initializes (or whenever the license is set before the barcode reader instance creation). Sometimes, this license validation could take a second to complete.
 
-A common cause of this issue is **calling `initLicense` multiple times** in the same process.
+A potential "freeze" of the page can occur if `initLicense()` is called multiple times in a single process. Please make sure that `initLicense` is called only once in your code.
 
-## iOS
-
-For iOS, the method is [`LicenseManager.initLicense()`]({{ site.dcvb_ios_api }}license/license-manager.html#initlicense).  
-We’ve seen cases where developers call this method in both the `AppDelegate` and `ViewController`, leading to conflicts.
-
-✅ **Recommendation**: Call `initLicense` only once—preferably in the `AppDelegate`.
-
-## Android
-
-For Android, the method is `BarcodeReader.initLicense()`.  
-To ensure it’s not being called more than once, we suggest stepping through your code using a debugger.
-
-✅ **Recommendation**: Call `initLicense` only once during app initialization.
+To help troubleshoot whether the method is being called multiple times, we recommend stepping through the code using a debugger.
 
 ---

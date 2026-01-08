@@ -14,7 +14,7 @@ needAutoGenerateSidebar: true
 
 Before a barcode reader instance can be created, a one-time license validation needs to occur when the app initializes (or whenever the license is set before the reader instance is created). Occasionally, this process may take a second to complete and could cause the UI to appear frozen.
 
-A common cause is calling [`LicenseManager.initLicense()`]({{ site.dcvb_ios_api }}license/license-manager.html#initlicense) multiple times in the same process. For example, if you call `initLicense` in both the `AppDelegate` and the `ViewController`, a conflict might occur.
+A common cause is calling [`LicenseManager.initLicense()`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/ios/api-reference/license/license-manager.html?product=dbr&lang=objectivec-swift#initlicense) multiple times in the same process. For example, if you call `initLicense` in both the `AppDelegate` and the `ViewController`, a conflict might occur.
 
 ✅ **Recommendation**: Call `initLicense` only once, ideally in the `AppDelegate`.
 
@@ -29,8 +29,8 @@ In the **Barcode Scanner X** app:
 
 Once you have the template file, you can use it in your app with either:
 
-- [`initSettings`]({{ site.dcvb_android_api }}capture-vision-router/settings.html)
-- [`initSettingsFromFile`]({{ site.dcvb_android_api }}capture-vision-router/settings.html)
+- [`initSettings`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/android/api-reference/capture-vision-router/settings.html?product=dbr&lang=android#initsettings)
+- [`initSettingsFromFile`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/android/api-reference/capture-vision-router/settings.html?product=dbr&lang=android#initsettingsfromfile)
 
 
 ---

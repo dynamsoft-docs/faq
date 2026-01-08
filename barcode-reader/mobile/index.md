@@ -20,14 +20,14 @@ Welcome to the FAQ for Dynamsoft Barcode Reader on mobile platforms. Browse the 
 ## Configuration
 
 - [Driver's License Extraction](configuration/drivers-license-extraction.html)
-- [No Camera Enhancer](configuration/no-camera-enhancer.html)
+- [How can I use AVCaptureSession, CameraX or third-party camera modules with Dynamsoft Barcode Reader - Android?](configuration/no-camera-enhancer.html)
 - [Proguard Instructions](configuration/proguard.html)
 - [Reduce Battery Consumption](configuration/reduce-battery-consumption.html)
 - [App Size Impact](configuration/app-size-impact.html)
 
 ## Scan Settings
 
-- [Disable Continuous Scanning](scan-setting/disable-continuous-scanning.html)
+- [How can I implement continuous barcode scanning and one-off barcode scanning?](scan-setting/disable-continuous-scanning.html)
 - [Enable QR Code Model 1](scan-setting/how-to-enable-qr-model-one.html)
 - [Template Support](scan-setting/template-support.html)
 
@@ -41,8 +41,8 @@ Welcome to the FAQ for Dynamsoft Barcode Reader on mobile platforms. Browse the 
 - [Simulator Support](simulator/simulator-support.html)
 - [How to resolve the "Building for iOS Simulator, but linking in dylib built for iOS" error?](simulator/arm64-simulator-error.html)
 
-## Debugging & Troubleshooting
+## Debugging
 
-- [Using Debug Mode](debug/debug-mode.html)
 - [Page Freeze Issues](debug/page-freeze.html)
 - [Troubleshooting Failed Image Decoding](debug/troubleshooting-failed-image.html)
+- [How to use Debug Mode in Barcode Scanner X?](debug/debug-mode.html)
