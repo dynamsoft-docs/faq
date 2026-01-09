@@ -18,14 +18,14 @@ Most QR codes today follow the **QR Code Model 2** standard. By default, **Barco
 2. Click **Advanced Settings**.
 
    <div align="left">
-      <p><img src="../assets/advanced-settings.jpg" width="40%" alt="advanced settings"></p>
+      <p><img src="{{site.dbr_mobile_assets}}advanced-settings.jpg" width="40%" alt="advanced settings"></p>
    </div>
 
 3. In the settings, check the option **EnableQRCodeModel1** (you can modify any other settings as well).
 4. Click **Save Template**.
 
    <div align="left">
-      <p><img src="../assets/save-template.jpg" width="40%" alt="save template"></p>
+      <p><img src="{{site.dbr_mobile_assets}}save-template.jpg" width="40%" alt="save template"></p>
    </div>
 
 5. Send your saved template to the [Dynamsoft Support Team](https://www.dynamsoft.com/contact/?ver=latest){:target="_blank"}.

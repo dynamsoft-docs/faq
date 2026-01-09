@@ -18,7 +18,7 @@ iOS 16.4 was released on March 27th, 2023. In this version, all browsers on iOS 
 
 If you encounter the issue, you will see the following error in the browser console:
 
-![ios-16-incompatible](../assets/ios-16-incompatible.png)
+![ios-16-incompatible]({{site.dbr_web_assets}}ios-16-incompatible.png)
  
 ## Solution:
  
