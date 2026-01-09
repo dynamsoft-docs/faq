@@ -12,8 +12,8 @@ Users may meet pop-up window when using our online demo, don't worry about how t
 
 The pop up window in our online demo:
 
-![warning_info](../assets/warning_information.png)
+![warning_info](/assets/warning_information.png)
 
-![expired_info](../assets/expired_information.png)
+![expired_info](/assets/expired_information.png)
 
 

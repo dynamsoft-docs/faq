@@ -16,18 +16,18 @@ Generally, with some setting changes via our APIs, Dynamsoft Barcode Reader Java
 ## Step 1 - try different scan settings with our standard online demo
 1. The first thing is to try the [JavaScript online demo](https://demo.dynamsoft.com/barcode-reader-js/). If the barcode is not being picked up under normal settings, let's try out some different settings in the demo. By default, the demo runs on the Best Speed mode, which you can see under the "Scan Settings" on the left-hand side. To potentially improve the performance, we recommend trying out the two other available modes in the demo: Balance or Best Coverage. Best Coverage will prioritize read rate over speed, while Best Speed will prioritize speed over accuracy or read rate. Balance offers the perfect mixture between the two.
 
-      <img src="../assets/best_coverage.jpg" alt="Best coverage"  width="50%" height="50%">
+      <img src="/assets/best_coverage.jpg" alt="Best coverage"  width="50%" height="50%">
 
 
 2. Enable Full HD resolution in the demo
-      <img src="../assets/full_hd.jpg" alt="Full HD"  width="50%" height="50%">
+      <img src="/assets/full_hd.jpg" alt="Full HD"  width="50%" height="50%">
 
 
 ## Step 2 - capture image frames and send to Dynamsoft for analysis
 
 1.  Go to [JavaScript online demo debug mode](https://demo.dynamsoft.com/barcode-reader-js?debug=true) -> Click "START SCAN" -> Click the "Scan Settings" button. -> Place the barcode inside the scan region -> Click the "Capture" button on the top right corner -> A zip file that contains 8 frames will be downloaded. 
 
-      <img src="../assets/Cropped Img.png" alt="Frames crop"  width="50%" height="50%">
+      <img src="/assets/Cropped Img.png" alt="Frames crop"  width="50%" height="50%">
 
 2. Share the video frames set with [Dynamsoft Support team](https://www.dynamsoft.com/contact/). Our support team will investigate the video frames and get back to you with a solution as soon as possible.
 
