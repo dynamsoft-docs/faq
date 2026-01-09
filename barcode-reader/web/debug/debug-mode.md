@@ -31,7 +31,7 @@ In debug mode:
 ---
 
 <div align="left">
-    <p><img src="/assets/undefined.png" width="40%" alt="advanced settings"></p>
+    <p><img src="../assets/undefined.png" width="40%" alt="advanced settings"></p>
 </div>
 
 ## Upload a custom template
