@@ -34,7 +34,7 @@ filter.setDuplicateForgetTime(
 );
 await router.addResultFilter(filter);
 ```
-**_NOTE:_** - setSuplicateForgetTime can be set upto 10 seconds.
+**_NOTE:_** - setDuplicateForgetTime can be set upto 10 seconds.
 
 ### 2. Limit Barcode Formats: 
 If you're specifically scanning a particular barcode format, consider limiting the barcode format options to prevent other formats from being decoded and counted unnecessarily.
