@@ -5,6 +5,8 @@ firstLevelUrl: /faq
 docHomePage: /faq/
 faq-center: /faq/
 product-page-url: https://www.dynamsoft.com/faq
+searchIndexName: Crawler-FAQ-Docs-New
+searchNeedFilter: true
 
 product-name: /faq/
 product-title: Dynamsoft FAQ
@@ -22,6 +24,9 @@ mrz-general-faq: /faq/mrz-scanner/general
 useVersionTree: true
 
 assets: /faq/assets/
+dbr_server_assets: /faq/barcode-reader/server/assets/
+dbr_web_assets: /faq/barcode-reader/web/assets/
+dbr_mobile_assets: /faq/barcode-reader/mobile/assets/
 edit_icon: /faq/assets/img-icon/edit-icon.png
 smile_icon: /faq/assets/img-icon/icon-smile.png
 sad_icon: /faq/assets/img-icon/icon-sad.png
