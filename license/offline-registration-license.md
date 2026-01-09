@@ -11,13 +11,13 @@ needAutoGenerateSidebar: false
 You can follow the steps below to manually register the device and get the license key for each device:
 
 1. Log in [Customer Portal](https://www.dynamsoft.com/customer/license/fullLicense) -> Click the Activate button to activate the license
-   ![activate](./assets/activate.jpg)
+   ![activate]({{site.dbr_server_assets}}activate.jpg)
 
 2. Select the 3rd option "No License Server. Register Offline Device(s) Manually" and click Activate.
-   ![offline-activate](./assets/offline-activate.jpg)
+   ![offline-activate]({{site.dbr_server_assets}}offline-activate.jpg)
 
 3. Click the Add Device button then it will pop up a dialog. Download the tool from the pop up.
-   ![uuid-tool](./assets/uuid-tool.jpg)
+   ![uuid-tool]({{site.dbr_server_assets}}uuid-tool.jpg)
 
 4. Unzip the file and run the GenerateUUID tool on the device to be registered and get the UUID.<br>
 
@@ -26,7 +26,7 @@ For Windows:<br>
 -Change the working directory to the one where GenerateUUID.exe is<br>
 -Run the command `GenerateUUID.exe`<br>
 The returned string, e.g. 8ECCA3B6-66F9-4fd6-B6B6-308C874140C6, is the machine ID.<br>
-![uuid](./assets/uuid.jpg)<br>
+![uuid]({{site.dbr_server_assets}}uuid.jpg)<br>
 
 For Linux:<br>
 -Open Terminal<br>
@@ -54,10 +54,10 @@ SoftbindUUID:230e089a-7dc3-4caa-9c77-f7cc6d567f9b<br>
 > ```
 
 5. Input the generated UUID and device name and click Submit.
-   ![submit-uuid](./assets/submit-uuid.jpg)
+   ![submit-uuid]({{site.dbr_server_assets}}submit-uuid.jpg)
 
 6. Then an authorization string will be generated. This string is the license for this device. Copy the license and set it in the code
-   ![cp-license](./assets/cp-license.jpg)
+   ![cp-license]({{site.dbr_server_assets}}/cp-license.jpg)
 
 Code snippet in JavaScript:
 
