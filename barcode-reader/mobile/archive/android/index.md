@@ -110,15 +110,15 @@ This next section will explain how to toggle on debug mode on the demo app, and 
 
 1. From the home screen, go to Advanced Scan.
 
-<img src="../assets/home_screen.jpg" alt="Home screen"  width="50%" height="50%">
+<img src="{{site.dbr_mobile_assets}}home_screen.jpg" alt="Home screen"  width="50%" height="50%">
 
 2. Tap the settings icon at the top-right corner.
 
-<img src="../assets/advanced_scan.jpg" alt="Advanced scan"  width="50%" height="50%">
+<img src="{{site.dbr_mobile_assets}}advanced_scan.jpg" alt="Advanced scan"  width="50%" height="50%">
 
 3. Tap Debug Mode to see the drop-down list.
 
-<img src="../assets/debug_mode.jpg" alt="Debug mode"  width="50%" height="50%">
+<img src="{{site.dbr_mobile_assets}}debug_mode.jpg" alt="Debug mode"  width="50%" height="50%">
 
 ### Debug Mode - Crash Logger
 
@@ -126,13 +126,13 @@ If you are encountering an app crash caused by Dynamsoft Barcode Reader or Dynam
 
 1. Toggle on Crash Logger
 
-<img src="../assets/crash_toggle_on.jpg" alt="Crash toggle on"  width="50%" height="50%">
+<img src="{{site.dbr_mobile_assets}}crash_toggle_on.jpg" alt="Crash toggle on"  width="50%" height="50%">
 
 2. After Crash Logger is toggled on, please go ahead and scan codes until you reproduce the crash issue.
 
 3. After the app crashes, re-open BarcodeScannerX app and go to Advanced Scan -> settings. Tap the "Share" button to share the log files with the [Dynamsoft support team](https://www.dynamsoft.com/contact/?ver=latest).
 
-<img src="../assets/crash_share.jpg" alt="Crash share"  width="50%" height="50%">
+<img src="{{site.dbr_mobile_assets}}crash_share.jpg" alt="Crash share"  width="50%" height="50%">
 
 ### Debug Mode - Image Cropper
 
@@ -140,11 +140,11 @@ If you are having trouble reading barcodes, you should use the Image Cropper to 
 
 1. Toggle on Image Cropper
 
-<img src="../assets/image_cropper_toggle.jpg" alt="Image crop toggle on"  width="50%" height="50%">
+<img src="{{site.dbr_mobile_assets}}image_cropper_toggle.jpg" alt="Image crop toggle on"  width="50%" height="50%">
 
 2. After Image Cropper is toggled on, an image crop icon will show up at the bottom left of Advanced Scan
 
-<img src="../assets/crop.jpg" alt="crop"  width="50%" height="50%">
+<img src="{{site.dbr_mobile_assets}}crop.jpg" alt="crop"  width="50%" height="50%">
 
 3. Tap the image crop icon to crop and share the original frames with the [Dynamsoft support team](https://www.dynamsoft.com/contact/?ver=latest). Our support team will investigate the video frames and get back to you with a solution as soon as possible.
 
@@ -156,14 +156,14 @@ Nowadays, most QR codes are QR code Model 2. BarcodeScannerX, by default, only s
 2. Click on Advanced Settings
 
    <div align="left">
-      <p><img src="../assets/advanced-settings.jpg" width="40%" alt="advanced settings"></p>
+      <p><img src="{{site.dbr_mobile_assets}}advanced-settings.jpg" width="40%" alt="advanced settings"></p>
    </div>
 
 3. Check **EnableQRCodeModel1**.(You can modify any other settings as you like)
 4. Save the template.
 
    <div align="left">
-      <p><img src="../assets/save-template.jpg" width="40%" alt="save template"></p>
+      <p><img src="{{site.dbr_mobile_assets}}save-template.jpg" width="40%" alt="save template"></p>
    </div>
 
 5. Send the template to <a href="https://www.dynamsoft.com/contact/?ver=latest" target="_blank">Dynamsoft support team</a>.
