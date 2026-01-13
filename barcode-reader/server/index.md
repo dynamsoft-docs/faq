@@ -18,3 +18,5 @@ Welcome to the FAQ for Dynamsoft Barcode Reader on server platforms. Use the lin
 - [How to Enable DPM?](configuration/how-to-enable-dpm.html)
 - [Non-English Characters](configuration/non-english-characters.html)
 - [Sort Barcodes in Image](configuration/sort-barcodes-image.html)
+- [The error message "-10022 The PDF DLL is missing" on Linux?](error-10022-the-PDF-DLL-is-missing.html)
+- [How to resolve error failed to read or write license buffer?](error-license-buffer.html)
