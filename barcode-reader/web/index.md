@@ -60,7 +60,7 @@ Welcome! Browse the sections below for answers to common questions, configuratio
 - [Difference between BestSpeed and BestCoverage](scan-setting/difference-between-bestspeed-and-bestcoverage.html)
 - [Differences between Full and Compact Editions](scan-setting/differences-between-full-and-compact-editions.html)
 - [Differences between updateScanSettings, updateVideoSettings, and updateRuntimeSettings](scan-setting/differences-between-updateScanSettings-updateVideoSettings-and-updateRuntimeSettings.html)
-- [Enable Supported Barcode Format](scan-setting/enable-supported-barcode-format.html)
+- [Troubleshooting - Error: [xxx] No license found](scan-setting/enable-supported-barcode-format.html)
 - [Read Inverted Image](scan-setting/read-inverted-image.html)
 - [Remove Duplicates](scan-setting/remove-duplicates.html)
 - [Unable to Scan Aztec Code](scan-setting/unable-to-scan-aztec-code.html)
