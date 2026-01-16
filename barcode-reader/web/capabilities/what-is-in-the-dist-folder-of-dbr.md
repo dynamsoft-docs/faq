@@ -60,4 +60,5 @@ These folders collectively compose the runtime environment for a JavaScript-base
 | `models/` | Contains pre-trained machine learning models used for barcode detection and recognition. These models enable the scanner to identify and decode various barcode formats from images and video streams in real-time. |
 | `parser-resources/` | Stores resources required for data parsing and interpretation. |
 | `templates/` | Contains preset CaptureVisionTemplates used for different barcode scanning scenarios. |
-| `ui/` | Preset ui in `.html` files. |
+
+| `ui/` | Preset UI in `.html` files. |
