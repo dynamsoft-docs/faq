@@ -29,6 +29,8 @@ Welcome! Browse the sections below for answers to common questions, configuratio
 - [Is HTTPS Required?](capabilities/is-https-required.html)
 - [Pros and Cons of CDN](capabilities/pros-and-cons-of-cdn.html)
 - [System Requirement](capabilities/system-requirement.html)
+- [What's in the dist Folder of dynamsoft-barcode-reader-bundle?](capabilities/what-is-in-the-dist-folder-of-dbr.html)
+- [About Adaptive WebAssembly (Wasm) Loading](capabilities/adaptive-wasm-loading.html)
 
 ## Configuration
 
