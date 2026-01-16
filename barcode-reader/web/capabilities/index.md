@@ -14,3 +14,5 @@ noTitleIndex: true
 - [Is HTTPS Required?](is-https-required.html)
 - [Pros and Cons of CDN](pros-and-cons-of-cdn.html)
 - [System Requirement](system-requirement.html)
+- [What's in the dist Folder of dynamsoft-barcode-reader-bundle?](what-is-in-the-dist-folder-of-dbrb.html)
+- [About Adaptive WebAssembly (Wasm) Loading](about-adaptive-wasm-loading.html)

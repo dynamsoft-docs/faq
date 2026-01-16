@@ -29,6 +29,8 @@ Welcome! Browse the sections below for answers to common questions, configuratio
 - [Is HTTPS Required?](capabilities/is-https-required.html)
 - [Pros and Cons of CDN](capabilities/pros-and-cons-of-cdn.html)
 - [System Requirement](capabilities/system-requirement.html)
+- [What's in the dist Folder of dynamsoft-barcode-reader-bundle?](configuration/what-is-in-the-dist-folder-of-dbrb.html)
+- [About Adaptive WebAssembly (Wasm) Loading](configuration/about-adaptive-wasm-loading.html)
 
 ## Configuration
 
@@ -45,8 +47,6 @@ Welcome! Browse the sections below for answers to common questions, configuratio
 - [Scan US driver's license](configuration/scan-US-drivers-license.html)
 - [Upgrade old to new version](configuration/upgrade-old-to-new.html)
 - [Ways to copy DBR-JS deployable files](configuration/ways-to-copy-dbr-js-deployable-files.html)
-- [What's in the dist Folder of dynamsoft-barcode-reader-bundle?](configuration/what-is-in-the-dist-folder-of-dbrb.html)
-- [About Adaptive WebAssembly (Wasm) Loading](configuration/about-adaptive-wasm-loading.html)
 
 ## Debug
 

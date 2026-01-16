@@ -23,5 +23,3 @@ noTitleIndex: true
 - [Upgrade old to new version](upgrade-old-to-new.html)
 - [Use of onFrameRead and onUnduplicateRead](use-of-onFrameRead-and-onUnduplicateRead.html)
 - [Ways to copy DBR-JS deployable files](ways-to-copy-dbr-js-deployable-files.html)
-- [What's in the dist Folder of dynamsoft-barcode-reader-bundle?](what-is-in-the-dist-folder-of-dbrb.html)
-- [About Adaptive WebAssembly (Wasm) Loading](about-adaptive-wasm-loading.html)
