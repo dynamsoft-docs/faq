@@ -10,7 +10,7 @@ needAutoGenerateSidebar: false
 
 ## What is adaptive Wasm loading?
 
-Dynamsoft Barcode Reader(JavaScript) includes **three optimized WebAssembly (Wasm) variants** — *-Baseline*, *-Pthread*, and *-SIMD-Pthread* — which can be **dynamically loaded based on the runtime environment**.  
+Dynamsoft Barcode Reader (JavaScript) includes **three optimized WebAssembly (Wasm) variants** — *-Baseline*, *-Pthread*, and *-SIMD-Pthread* — which can be **dynamically loaded based on the runtime environment**.  
 This adaptive loading mechanism ensures the SDK automatically selects the **most compatible and highest-performing** Wasm module available in each browser, further improving performance in modern environments.
 
 ---
@@ -78,4 +78,5 @@ type WasmType =
 ## Why isn't -SIMD-Pthread Wasm enabled by default on iOS?
 
 Due to iOS's strict memory allocation and management limitations, loading `-SIMD-Pthread Wasm` can sometimes lead to “out of memory” errors on older devices or iOS versions.
+
 To ensure stability and compatibility, the SDK does not load `-SIMD-Pthread Wasm` by default on iOS. Instead, it automatically falls back to the most suitable Baseline or SIMD variant depending on the environment.
