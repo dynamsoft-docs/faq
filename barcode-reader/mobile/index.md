@@ -14,13 +14,13 @@ Welcome to the FAQ for Dynamsoft Barcode Reader on mobile platforms. Browse the 
 ## Capabilities & Requirements
 
 - [Minimum System Requirements](capabilities/min-system-requirements.md)
-- [Bitcode Support](capabilities/bitcode-support.html)
-- [ARMv7 Architecture Error](capabilities/armv7-architecture-error.html)
+- [iOS - Bitcode Support](capabilities/bitcode-support.html)
+- [iOS - ARMv7 Architecture Error](capabilities/armv7-architecture-error.html)
 
 ## Configuration
 
 - [Driver's License Extraction](configuration/drivers-license-extraction.html)
-- [How can I use AVCaptureSession, CameraX or third-party camera modules with Dynamsoft Barcode Reader - Android?](configuration/no-camera-enhancer.html)
+- [How can I use AVCaptureSession, CameraX or third-party camera modules with Dynamsoft Barcode Reader](configuration/no-camera-enhancer.html)
 - [Proguard Instructions](configuration/proguard.html)
 - [Reduce Battery Consumption](configuration/reduce-battery-consumption.html)
 - [App Size Impact](configuration/app-size-impact.html)
@@ -33,13 +33,13 @@ Welcome to the FAQ for Dynamsoft Barcode Reader on mobile platforms. Browse the 
 
 ## Cross-Platform
 
-- [Common Environment Issues](cross-platform/common-environment-issues.html)
-- [Cordova Signature Error](cross-platform/cordova-signature-error.html)
+- [MAUI - Common Environment Issues](cross-platform/common-environment-issues.html)
+- [Cordova(Deprecated) - Signature Error](cross-platform/cordova-signature-error.html)
 
 ## Simulator
 
-- [Simulator Support](simulator/simulator-support.html)
-- [How to resolve the "Building for iOS Simulator, but linking in dylib built for iOS" error?](simulator/arm64-simulator-error.html)
+- [iOS - Simulator Support](simulator/simulator-support.html)
+- [iOS - How to resolve the "Building for iOS Simulator, but linking in dylib built for iOS" error?](simulator/arm64-simulator-error.html)
 
 ## Debugging
 
