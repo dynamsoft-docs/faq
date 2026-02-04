@@ -20,3 +20,4 @@ Please use the links below to find answers to common questions and configuration
 - [How to track license usage?](track-license.html)
 - [New license required for per-device licensing?](new-license-required-per-device-licensing.html)
 - [How to get a free trial?](dbr-free-trial.html)
+- [Troubleshooting - Error: [xxx] No license found](scan-setting/enable-supported-barcode-format.html)
