@@ -1,0 +1,63 @@
+mrz_license:
+  index:
+    title: "MRZ Scanner Licensing Guide – Tracking, Offline Setup & Errors"
+    description: "Dynamsoft MRZ Scanner licensing guide covering offline activation, runtime quota expansion, hardware binding, usage tracking, free trials, and license error troubleshooting."
+  dbr-free-trial:
+    title: "What I need to know about MRZ Scanner SDK trial licenses?"
+    description: "Guide to obtaining and extending an MRZ Scanner SDK trial license, including extension limits and evaluation duration details."
+  ensure-no-overuse:
+    title: "MRZ Scanner Concurrent Instance License Configuration Guide"
+    description: "Understand how to use concurrent instance licenses in Dynamsoft MRZ Scanner and avoid exceeding device instance limits."
+  expand-quota-for-runtime-license:
+    title: "How to Expand Runtime MRZ SCanner License Quota | Dynamsoft FAQ"
+    description: "Step-by-step guide to expanding a Dynamsoft MRZ Scanner runtime license quota before expiration using the portal or support-assisted purchase."
+  how-hardware-is-bind-to-license:
+    title: "MRZ Scanner SDK Licensing Process Explained"
+    description: "Guide to MRZ Scanner licensing process, explaining device registration, UUID generation, and how OS modifications affect license allocation."
+  how-license-tracking-works:
+    title: "MRZ Scanner SDK License Tracking"
+    description: "Learn how license tracking works in Dynamsoft MRZ Scanner across Per Scan, Per Device, and Per Concurrent Device licensing models."
+  new-license-required-per-device-licensing:
+    title: "MRZ Scanner License Seat Usage Explained"
+    description: "Understand when a per-device MRZ scnner SDK license takes a new seat, such as using another browser, clearing indexedDB, or opening Incognito mode."
+  offline-registration-license:
+    title: "How to Use Offline Registration License in MRZ Scanner SDK"
+    description: "Complete instructions for Dynamsoft offline license registration, covering UUID tools, manual device activation, and code integration across SDK platforms."
+  sdk-works-without-internet:
+    title: "Can MRZ Scanner SDK work without internet connection?"
+    description: "Can MRZ Scanner SDK work offline? Learn how self-hosted licensing enables MRZ scanning without internet and when a network connection is required."
+  track-license:
+    title: "How to track the number of devices for MRZ Scanner SDK?"
+    description: "Discover how Dynamsoft MRZ Scanner license servers monitor device usage, including IndexedDB tracking for browsers and UUID-based device identification."
+
+dbr_license:
+  index:
+    title: "Barcode Reader Licensing Guide – Activation, Tracking & Errors"
+    description: "Dynamsoft Barcode Reader licensing guide covering offline activation, quota expansion, hardware binding, license tracking, free trials, and error troubleshooting."
+  dbr-free-trial:
+    title: "What I need to know about Barcode Reader SDK trial licenses?"
+    description: "Get started with a Barcode Reader trial license and extend your evaluation period for up to 30 days."
+  ensure-no-overuse:
+    title: "Barcode Reader Concurrent Instance License Setup Guide"
+    description: "Understand how to manage concurrent instance licenses in Dynamsoft Barcode Reader using SetMaxConcurrentInstanceCount and MaxParallelTasks settings."
+  expand-quota-for-runtime-license:
+    title: "How to Expand Runtime Barcode Scanner License Quota | Dynamsoft FAQ"
+    description: "Step-by-step guide to adding quota to a Dynamsoft Barcode Reader runtime license using the customer portal or a support-issued quote."
+  how-hardware-is-bind-to-license:
+    title: "Barcode Reader SDK Licensing Process Explained"
+    description: "Learn how the DBR licensing process generates a device UUID and how OS upgrades or downgrades affect license usage."
+  how-license-tracking-works:
+    title: "Dynamsoft Barcode Reader License Tracking"
+    description: "Learn how license tracking works for Dynamsoft Barcode Reader, including Per Scan, Per Device, and Per Concurrent Device licensing models."
+  new-license-required-per-device-licensing:
+    title: "Barcode Scanner License Seat Usage Explained"
+    description: "Guide to per-device licensing behavior in Barcode Reader, explaining how browser storage and indexedDB resets affect license allocation."
+  offline-registration-license:
+    title: "How to Use Offline Registration License in Barcode Scanner SDK"
+    description: "Learn how to register and activate a Dynamsoft license offline using the UUID tool and authorization string setup across platforms."
+  sdk-works-without-internet:
+    title: "Can Dynamsoft Barcode Reader SDK work without internet connection?"
+    description: "Can Dynamsoft Barcode Reader SDK work offline? Learn how self-hosted licensing enables barcode scanning without internet and when network access is required."
+  track-license:
+    title: "How to track the number of devices for Barcode Reader SDK?"
+    description: "Discover how Dynamsoft hosted and self-hosted license servers monitor device counts in JavaScript and native SDK environments."
