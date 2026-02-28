@@ -2,7 +2,7 @@
 layout: default-layout
 title: About Adaptive WebAssembly (Wasm) Loading
 keywords: Dynamsoft Barcode Reader, FAQ, JavaScript, tech basic, wasm, loading
-description: How to enable -SIMD-Pthread Wasm for accelerated deep learning computation?
+description: Learn how Adaptive WebAssembly loading works in Dynamsoft Barcode Reader Web, including Baseline, SIMD, and SIMD-Pthread Wasm variants and performance optimization.
 needAutoGenerateSidebar: false
 ---
 

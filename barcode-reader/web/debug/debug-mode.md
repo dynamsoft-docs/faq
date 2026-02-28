@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-title: How to resolve the expected magic word error that occurs when using DBR-JS?
+title: Enable Debug Mode in DBR-JS | Dynamsoft
 keywords: Dynamsoft Barcode Reader, FAQ, tech basic, Magic Word, MIME
-description: How to resolve the expected magic word error that occurs when using DBR-JS?
+description: Enable debug mode, upload custom JSON templates, save video frames, and customize scan settings in Dynamsoft Barcode Reader JS.
 needAutoGenerateSidebar: false
 ---
 

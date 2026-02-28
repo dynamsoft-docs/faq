@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: MRZ Scanner FAQ
+title: MRZ Scanner FAQ - Formats, Licensing, Usage & Integration
 keywords: faq, mrz, mrz scanner, dynamsoft, license, general
 description: Index page for the MRZ Scanner FAQ site with large navigation buttons.
 needAutoGenerateSidebar: true

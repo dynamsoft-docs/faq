@@ -5,11 +5,14 @@ mrz_license:
   dbr-free-trial:
     title: "What I need to know about MRZ Scanner SDK trial licenses?"
     description: "Guide to obtaining and extending an MRZ Scanner SDK trial license, including extension limits and evaluation duration details."
+  enable-supported-barcode-format:
+    title: "Fix \"[xxx] No license found\" Error for MRZ Scanner SDK"
+    description: "Resolve the \"No license found\" error by enabling only the barcode formats supported by your MRZ scanner SDK license."
   ensure-no-overuse:
     title: "MRZ Scanner Concurrent Instance License Configuration Guide"
     description: "Understand how to use concurrent instance licenses in Dynamsoft MRZ Scanner and avoid exceeding device instance limits."
   expand-quota-for-runtime-license:
-    title: "How to Expand Runtime MRZ SCanner License Quota | Dynamsoft FAQ"
+    title: "How to Expand Runtime MRZ Scanner License Quota | Dynamsoft FAQ"
     description: "Step-by-step guide to expanding a Dynamsoft MRZ Scanner runtime license quota before expiration using the portal or support-assisted purchase."
   how-hardware-is-bind-to-license:
     title: "MRZ Scanner SDK Licensing Process Explained"
@@ -19,7 +22,7 @@ mrz_license:
     description: "Learn how license tracking works in Dynamsoft MRZ Scanner across Per Scan, Per Device, and Per Concurrent Device licensing models."
   new-license-required-per-device-licensing:
     title: "MRZ Scanner License Seat Usage Explained"
-    description: "Understand when a per-device MRZ scnner SDK license takes a new seat, such as using another browser, clearing indexedDB, or opening Incognito mode."
+    description: "Understand when a per-device MRZ scanner SDK license takes a new seat, such as using another browser, clearing indexedDB, or opening Incognito mode."
   offline-registration-license:
     title: "How to Use Offline Registration License in MRZ Scanner SDK"
     description: "Complete instructions for Dynamsoft offline license registration, covering UUID tools, manual device activation, and code integration across SDK platforms."
@@ -29,6 +32,9 @@ mrz_license:
   track-license:
     title: "How to track the number of devices for MRZ Scanner SDK?"
     description: "Discover how Dynamsoft MRZ Scanner license servers monitor device usage, including IndexedDB tracking for browsers and UUID-based device identification."
+  troubleshooting-unauthorized-device-clone-detected:
+    title: "Troubleshooting Error -20151 for MRZ Scanner SDK"
+    description: "Troubleshoot MRZ SDK error -20151 caused by device clone detection, time modification, or frequent SDK version switching."
 
 dbr_license:
   index:
@@ -37,6 +43,9 @@ dbr_license:
   dbr-free-trial:
     title: "What I need to know about Barcode Reader SDK trial licenses?"
     description: "Get started with a Barcode Reader trial license and extend your evaluation period for up to 30 days."
+  enable-supported-barcode-format:
+    title: "Fix \"[xxx] No license found\" Error for Barcode Scanner SDK"
+    description: "Fix the \"No license found\" error by enabling only the barcode formats supported by your Barcode Reader license."
   ensure-no-overuse:
     title: "Barcode Reader Concurrent Instance License Setup Guide"
     description: "Understand how to manage concurrent instance licenses in Dynamsoft Barcode Reader using SetMaxConcurrentInstanceCount and MaxParallelTasks settings."
@@ -61,3 +70,6 @@ dbr_license:
   track-license:
     title: "How to track the number of devices for Barcode Reader SDK?"
     description: "Discover how Dynamsoft hosted and self-hosted license servers monitor device counts in JavaScript and native SDK environments."
+  troubleshooting-unauthorized-device-clone-detected:
+    title: "Troubleshooting Error -20151 for Barcode Reader SDK"
+    description: "Resolve error -20151 in Dynamsoft by correcting system time settings and avoiding rapid SDK version changes that trigger clone detection."
