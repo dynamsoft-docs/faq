@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: MRZ Scanner FAQ
+title: MRZ Scanner General Questions & Configuration Help
 keywords: faq, license, mrz, dynamsoft, mrz scanner, configuration
 description: Dynamsoft MRZ Scanner FAQ
 needAutoGenerateSidebar: false

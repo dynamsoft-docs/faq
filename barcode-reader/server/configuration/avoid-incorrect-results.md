@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: How to filter incorrect results with the barcode result length?
+title: How to filter incorrect results with the barcode result length in DBR Server SDK?
 keywords: Dynamsoft Barcode Reader, FAQ, DBR Introduction, General, incorrect results
 description: How to filter incorrect results with the barcode result length?
 needAutoGenerateSidebar: false

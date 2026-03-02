@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-title: How to check the version of the JS SDK I am currently using?
+title: How to Verify the Dynamsoft Barcode Reader JS SDK Version
 keywords: Dynamsoft Barcode Reader, FAQ, tech basic, check version, current version
-description: How to check the version of the JS SDK I am currently using?
+description: Step-by-step guide to identifying the current version of the Dynamsoft JS Barcode Reader SDK in web apps using API, npm, or CDN methods.
 needAutoGenerateSidebar: false
 ---
 

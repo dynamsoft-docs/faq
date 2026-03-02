@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-title: How to avoid incorrect barcode results?
+title: Barcode Reader Web Edition: Prevent Incorrect Results
 keywords: Dynamsoft Barcode Reader, FAQ, JavaScript, Troubleshooting / User Cases, avoid incorrect barcode results
-description: How to avoid incorrect barcode results?
+description: Avoid inaccurate barcode scans in Dynamsoft Barcode Reader Web by configuring result confidence thresholds and minimum barcode text length.
 needAutoGenerateSidebar: false
 ---
 

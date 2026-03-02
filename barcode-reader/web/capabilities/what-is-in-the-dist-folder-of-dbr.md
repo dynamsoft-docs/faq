@@ -2,7 +2,7 @@
 layout: default-layout
 title: What's in the dist Folder of dynamsoft-barcode-reader-bundle?
 keywords: Dynamsoft Barcode Reader, FAQ, JavaScript, tech basic, wasm, dist, files
-description: How to enable -SIMD-Pthread Wasm for accelerated deep learning computation?
+description: Overview of the dynamsoft-barcode-reader-bundle dist folder, covering JavaScript bundles, WebAssembly modules, worker scripts, and supporting assets.
 needAutoGenerateSidebar: false
 ---
 
