@@ -6,7 +6,7 @@ description: Step-by-step guide to identifying the current version of the Dynams
 needAutoGenerateSidebar: false
 ---
 
-# How to check the version of the JS SDK I am currently using?
+# How to check the version of the SDK I am currently using?
 
 There are multiple ways to check the version currently being used -
 
