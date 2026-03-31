@@ -8,5 +8,4 @@ noTitleIndex: true
 ---
 
 - [Architecture armv7 Error](armv7-architecture-error.html)
-- [Bitcode Support](bitcode-support.html)
 - [Minimum System Requirements](min-system-requirements.html)

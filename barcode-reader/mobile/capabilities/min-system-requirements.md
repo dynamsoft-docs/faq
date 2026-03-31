@@ -28,7 +28,7 @@ Dynamsoft Barcode Reader (DBR) supports a variety of Android and iOS environment
 
 | **Component**                 | **Requirement**                                 |
 | ----------------------------- | ----------------------------------------------- |
-| **Supported OS**              | iOS 11 or higher<br>(iOS 13+ recommended)       |
+| **Supported OS**              | iOS 13+                                         |
 | **Supported ABI**             | `arm64`, `x86_64` (for simulator use)           |
 | **Development Environment**   | Xcode 13 and above<br>(Xcode 14.1+ recommended) |
 | **Simulator Support**         | Yes — must use `.xcframework`                   |

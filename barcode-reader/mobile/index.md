@@ -14,7 +14,6 @@ Welcome to the FAQ for Dynamsoft Barcode Reader on mobile platforms. Browse the 
 ## Capabilities & Requirements
 
 - [Minimum System Requirements](capabilities/min-system-requirements.md)
-- [iOS - Bitcode Support](capabilities/bitcode-support.html)
 - [iOS - ARMv7 Architecture Error](capabilities/armv7-architecture-error.html)
 
 ## Configuration
