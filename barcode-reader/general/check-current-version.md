@@ -57,16 +57,5 @@ const char* version = CCaptureVisionRouterModule::GetVersion();
 ```
 >
 ```csharp
-using (CaptureVisionRouter cvr = new CaptureVisionRouter())
-{
-   SimplifiedCaptureVisionSettings settings;
-   string errorMsg;
-   // Obtain current runtime settings of `CCaptureVisionRouter` instance.
-   cvr.GetSimplifiedSettings(PresetTemplate.PT_READ_BARCODES, out settings);
-   // Specify the barcode formats by enumeration values.
-   // Use "|" to enable multiple barcode formats at one time.
-   settings.barcodeSettings.barcodeFormatIds = (ulong)(EnumBarcodeFormat.BF_QR_CODE | EnumBarcodeFormat.BF_ONED);
-   // Update the settings.
-   cvr.UpdateSettings(PresetTemplate.PT_READ_BARCODES, settings, out errorMsg);  
-}
+string version = CaptureVisionRouterModule.GetVersion();
 ```

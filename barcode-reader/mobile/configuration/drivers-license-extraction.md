@@ -12,8 +12,8 @@ Yes, you can extract driver’s license information from a PDF417 barcode using 
 
 Check out the sample project on GitHub to see how to decode the PDF417 barcode and parse the data:
 
-👉 [DriversLicenseScanner Sample (Android)](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/android/FoundationalAPISamples/DriversLicenseScanner){:target="\_blank"}  
-👉 [DriversLicenseScanner Sample (iOS)](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/ios/FoundationalAPISamples/DriversLicenseScanner){:target="\_blank"}
+👉 [DriversLicenseScanner Sample (Android)](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/android/FoundationalAPISamples/ReadDriversLicense){:target="\_blank"}  
+👉 [DriversLicenseScanner Sample (iOS)](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/ios/FoundationalAPISamples/ReadDriversLicense){:target="\_blank"}
 
 > These samples include the `DynamsoftCodeParser` library, which is used to extract structured information (such as name, address, license number, etc.) from the raw barcode decoding result.
 >
