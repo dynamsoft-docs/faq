@@ -10,7 +10,7 @@ needAutoGenerateSidebar: false
 
 [<< Back to FAQ index](index.md)
 
-**_NOTE:_** - This  is for version 9 or lower of barcode reader sdk
+### **_NOTE:_** - This documentation applies to Barcode Reader SDK version 9 or earlier. For the latest SDK version, please refer to our latest version introduction [here\*](https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/).
 
 No, as each offers a different functionality than the other. The `BarcodeReader` class is used to decode static images (via one of the [decode\*](https://www.dynamsoft.com/barcode-reader/docs/v9/web/programming/javascript/api-reference/BarcodeReader.html#decode) methods) and does not have the ability to open the camera stream and decode barcodes directly from the video stream. 
 

@@ -58,7 +58,7 @@ Welcome! Browse the sections below for answers to common questions, configuratio
 
 ## Scan Settings
 
-- [Difference between BarcodeReader and BarcodeScanner](scan-setting/difference-between-barcodeReader-and-barcodeScanner.html)
+- [Difference between BarcodeReader and BarcodeScanner(V9 and below)](scan-setting/difference-between-barcodeReader-and-barcodeScanner.html)
 - [Difference between BestSpeed and BestCoverage](scan-setting/difference-between-bestspeed-and-bestcoverage.html)
 - [Differences between Full and Compact Editions](scan-setting/differences-between-full-and-compact-editions.html)
 - [Differences between updateScanSettings, updateVideoSettings, and updateRuntimeSettings](scan-setting/differences-between-updateScanSettings-updateVideoSettings-and-updateRuntimeSettings.html)
