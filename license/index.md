@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-title: License FAQ
+title: "Dynamsoft Barcode Reader License FAQ \u2013 Key Questions"
 keywords: faq, license, dbr, dynamsoft, barcode reader, configuration
-description: Dynamsoft Capture Vision FAQ - License
+description: "Find answers about MRZ Scanner licensing, activation, usage limits, and plans so teams can deploy Dynamsoft capture workflows confidently for modern web."
 needAutoGenerateSidebar: false
 noTitleIndex: true
 ---
