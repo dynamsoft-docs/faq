@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Barcode Reader Configuration Guide: Prevent Incorrect Results
+title: How to Avoid Incorrect Barcode Scan Results – FAQ
 keywords: Dynamsoft Barcode Reader, FAQ, JavaScript, Troubleshooting / User Cases, avoid incorrect barcode results
 description: Improve barcode decoding accuracy in Dynamsoft Barcode Reader by configuring minResultConfidence and minBarcodeTextLength.
 needAutoGenerateSidebar: false
