@@ -54,7 +54,6 @@ However, developers can **manually override** this behavior and explicitly speci
 ```javascript
 Dynamsoft.Core.CoreModule.wasmLoadOptions = {
     wasmType: "ml-simd-pthread",
-    pthreadPoolSize: 5,
 };
 ```
 
