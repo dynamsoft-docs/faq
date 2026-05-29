@@ -6,7 +6,7 @@ description: What I can do when barcode image returns messy (non-english) charac
 needAutoGenerateSidebar: false
 ---
 
-## What I can do when barcode image returns messy (non-english) characters?
+# What I can do when barcode image returns messy (non-english) characters?
 
 The barcode text of the result is of a non-Latin based language, as by default most webpages are able to display Latin-based languages.
 

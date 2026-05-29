@@ -6,7 +6,7 @@ description: How to resolve error -10022 the PDF DLL is missing?
 needAutoGenerateSidebar: false
 ---
 
-## How to troubleshoot error message "-10022 The PDF DLL is missing"
+# How to troubleshoot error message "-10022 The PDF DLL is missing"
 
 [<< Back to FAQ index](index.md)
 

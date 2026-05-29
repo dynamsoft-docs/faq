@@ -6,7 +6,7 @@ description: How to enable DPM?
 needAutoGenerateSidebar: false
 ---
 
-## How to enable DPM?
+# How to enable DPM?
 
 To enable DPM, assign the `DPMCRM_GENERAL` enumeration to the `DPMCodeReadingModes` array.
 

@@ -6,22 +6,24 @@ description: How to create custom settings template?
 needAutoGenerateSidebar: false
 ---
 
-## How to create custom settings template?
+# How to create custom settings template?
 
-One of the strengths of the Dynamsoft Barcode Reader is its wide range of customizable options that can optimize the performance of the SDK. Whether you are looking to prioritize read rate or speed, these settings can be used in many ways to match the targeted use case.
+One of the strengths of the Dynamsoft Barcode Reader is its wide range of customizable options that can optimize the performance of the SDK. Whether your priority is read rate or speed, these settings can be tailored to suit various use cases.
 
-If you are looking to create your own custom template of settings to use with the [InitSettingsFromFile](https://www.dynamsoft.com/capture-vision/docs/server/programming/cplusplus/api-reference/capture-vision-router/settings.html?product=dbr&repoType=server#initsettingsfromfile) methods, here are the steps:
+If you are looking to create your own custom settings template for use with the [InitSettingsFromFile](https://www.dynamsoft.com/capture-vision/docs/server/programming/cplusplus/api-reference/capture-vision-router/settings.html?product=dbr&repoType=server#initsettingsfromfile) method, please follow these steps:
 
 1. Visit the main [online demo](https://demo.dynamsoft.com/barcode-reader/).
 
-2. Once on that page, you will find the settings menu on the left-hand side. Please note that you can access the full settings by clicking on _Advanced Settings_
+2. On the left-hand side, locate the settings menu. Click on **Advanced Settings** to access the full range of options.
 
-3. Edit the settings that you want
+3. Modify the settings as needed.
 
-4. Once you're ready to get the template, scroll down to the bottom of the settings menu to find the full settings as a _Struct_ or a _Template_. The struct is the more readable version of the template, but the actual JSON code will be under _Template_.
+4. To obtain the template, scroll to the bottom of the settings menu where you can find the full settings presented as a **Struct** or a **Template**. The **Struct** offers a more readable format, while the actual JSON code is available under **Template**.
 
-5. Copy the JSON code under _Template_ and paste it into your own JSON file, or you can download the template JSON file straight from the demo.
+5. Copy the JSON code from the **Template** section and paste it into your own JSON file, or download the template JSON file directly from the demo.
 
-6. The template you downloaded is currently Barcode Reader version 9/version 10 template and the latest version is version 11. Use the [TemplateConverter Tool](https://www.dynamsoft.com/tools/template-upgrade/) to convert the template to Barcode Reader version 11 compatible template.
+6. The downloaded template corresponds to the specific version of Dynamsoft Barcode Reader, specified in the title at top-left corner (e.g. "Ver. 11.4.20"). Please make sure to use the template with the same version. Otherwise, it may have conflicts issue.
 
-And with that, you have your own template to use with the [InitSettingsFromFile](https://www.dynamsoft.com/capture-vision/docs/server/programming/cplusplus/api-reference/capture-vision-router/settings.html?product=dbr&repoType=server#initsettingsfromfile) method!
+With these steps, you will have your own template ready for use with the [InitSettingsFromFile](https://www.dynamsoft.com/capture-vision/docs/server/programming/cplusplus/api-reference/capture-vision-router/settings.html?product=dbr&repoType=server#initsettingsfromfile) method!
+
+For more information on using `InitSettingsFromFile` method, please refer to **User Guide** > **Explore Features** > **Advanced Features** > **Use SimplifiedCaptureVisionSettings or Templates**.

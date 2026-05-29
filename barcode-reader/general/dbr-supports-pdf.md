@@ -6,7 +6,7 @@ description: Can Barcode Reader SDK read PDF files? Do I need to pay for this fe
 needAutoGenerateSidebar: false
 ---
 
-## Can Barcode Reader SDK read PDF files? Do I need to pay for this feature?
+# Can Barcode Reader SDK read PDF files? Do I need to pay for this feature?
 
 Yes — **Dynamsoft Barcode Reader supports reading barcodes from PDF files** in most editions (see the official [Features](https://www.dynamsoft.com/barcode-reader/features/#Decode-Barcodes) page).  
 The **only exceptions** are the **JavaScript edition** and the **Mobile edition**, which currently do **not** support PDF decoding.

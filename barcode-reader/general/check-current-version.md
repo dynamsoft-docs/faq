@@ -55,9 +55,9 @@ print(reader.get_version())
 ```
 >
 ```c++
-const char* version = CCaptureVisionRouterModule::GetVersion();
+const char* version = CBarcodeReaderModule::GetVersion();
 ```
 >
 ```csharp
-string version = CaptureVisionRouterModule.GetVersion();
+string version = CBarcodeReaderModule.GetVersion();
 ```
