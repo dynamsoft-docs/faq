@@ -16,7 +16,7 @@ You can obtain a copy of the DBR JS deployable files using one of the following 
 
  The resources can be found at the path: `dynamsoft-barcode-reader-js-{version-number}\dist`.
 
-## 2. Install the library via `npm`
+## 2. Install the library via npm
 
 **For Version 10 and Above**
 
@@ -39,7 +39,7 @@ Use the command:
  npm install dynamsoft-javascript-barcode --save
 ```
 
-## 3. Install the library via `yarn`
+## 3. Install the library via yarn
 
 **For Version 10 and Above**
 
