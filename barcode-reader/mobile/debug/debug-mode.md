@@ -6,7 +6,7 @@ description: How to use Debug Mode in Barcode Scanner X? - DBR Mobile FAQs.
 needAutoGenerateSidebar: true
 ---
 
-## How to use Debug Mode in Barcode Scanner X?
+# How to use Debug Mode in Barcode Scanner X?
 
 If you are experiencing app crashes in your own application or you’ve come across some barcode(s) that you can’t read and you have exhausted all of the other troubleshooting methods, Debug Mode of the [BarcodeScannerX](https://www.dynamsoft.com/barcode-reader/sdk-mobile/#appDemo) demo app can help offer one last effort to resolve these issues.
 

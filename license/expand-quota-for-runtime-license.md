@@ -6,7 +6,7 @@ description: How to expand the quota of a runtime license?
 needAutoGenerateSidebar: false
 ---
 
-## How to expand the quota of a runtime license?
+# How to expand the quota of a runtime license?
 
 The quota of a runtime license can indeed be expanded before the expiration of the license. This can be done in a couple of ways.
 

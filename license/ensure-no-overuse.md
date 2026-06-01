@@ -6,7 +6,7 @@ description: How to properly use concurrent instance license?
 needAutoGenerateSidebar: false
 ---
 
-## How to properly use concurrent instance license?
+# How to properly use concurrent instance license?
 
 The standard way to use concurrent instance license is:
 

@@ -35,11 +35,13 @@ console.log(version);
 ```
 >
 ```objc
-NSString *version = [DSCaptureVisionRouterModule getVersion];
+NSString *version = [DSBarcodeReaderModule getVersion];
+NSLog(@"Dynamsoft Barcode Reader Version: %@", version);
 ```
 >
 ```swift
-let version = CaptureVisionRouterModule.getVersion()
+let version = BarcodeReaderModule.getVersion()
+print("Dynamsoft Barcode Reader Version: \(version)")
 ```
 >
 ```java
@@ -53,9 +55,9 @@ print(reader.get_version())
 ```
 >
 ```c++
-const char* version = CCaptureVisionRouterModule::GetVersion();
+const char* version = CBarcodeReaderModule::GetVersion();
 ```
 >
 ```csharp
-string version = CaptureVisionRouterModule.GetVersion();
+string version = CBarcodeReaderModule.GetVersion();
 ```

@@ -6,7 +6,7 @@ description: How to resolve error failed to read or write license buffer?
 needAutoGenerateSidebar: false
 ---
 
-## How to resolve error failed to read or write license buffer?
+# How to resolve error failed to read or write license buffer?
 
 [<< Back to FAQ index](index.md)
 
