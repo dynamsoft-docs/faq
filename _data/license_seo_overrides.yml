@@ -1,7 +1,7 @@
 mrz_license:
   index:
-    title: "MRZ Scanner Licensing Guide – Tracking, Offline Setup & Errors"
-    description: "Dynamsoft MRZ Scanner licensing guide covering offline activation, runtime quota expansion, hardware binding, usage tracking, free trials, and license error troubleshooting."
+    title: "Dynamsoft MRZ Scanner License FAQ & Troubleshooting"
+    description: "Explore our FAQ for quick fixes to common Dynamsoft MRZ Scanner licensing and registration issues, including offline registration, hardware binding, and how to track or expand your license quota."
   dbr-free-trial:
     title: "What I need to know about MRZ Scanner SDK trial licenses?"
     description: "Guide to obtaining and extending an MRZ Scanner SDK trial license, including extension limits and evaluation duration details."
@@ -38,8 +38,8 @@ mrz_license:
 
 dbr_license:
   index:
-    title: "Barcode Reader Licensing Guide – Activation, Tracking & Errors"
-    description: "Dynamsoft Barcode Reader licensing guide covering offline activation, quota expansion, hardware binding, license tracking, free trials, and error troubleshooting."
+    title: "Dynamsoft Barcode Reader License FAQ & Troubleshooting Guide"
+    description: "Fix common Dynamsoft Barcode Reader licensing issues. Learn about offline registration, hardware binding, and how to track or expand your license quota."
   dbr-free-trial:
     title: "What I need to know about Barcode Reader SDK trial licenses?"
     description: "Get started with a Barcode Reader trial license and extend your evaluation period for up to 30 days."

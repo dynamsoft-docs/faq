@@ -2,7 +2,7 @@
 layout: home-page
 title: Dynamsoft FAQ
 keywords: faq, capture vision, dcv, dynamsoft, barcode reader, mrz scanner, web twain, dwt
-description: Dynamsoft FAQ Documentation
+description: Explore the Dynamsoft FAQ for expert guidance on Dynamic Web TWAIN, Barcode Reader, and MRZ Scanner. Find setup tips, troubleshooting, and integration examples.
 needAutoGenerateSidebar: false
 noTitleIndex: true
 ---
