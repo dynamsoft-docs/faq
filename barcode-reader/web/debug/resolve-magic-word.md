@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-title: Fix: WebAssembly.instantiate(): expected magic word | DBR-JS
+title: "Fix: WebAssembly.instantiate(): expected magic word | DBR-JS"
 keywords: Dynamsoft Barcode Reader, FAQ, tech basic, Magic Word, MIME
-description: Learn how to fix the "expected magic word" WebAssembly error in Dynamsoft Barcode Reader JS by properly configuring the .wasm MIME type and HTTPS.
+description: "Learn how to fix the \"expected magic word\" WebAssembly error in Dynamsoft Barcode Reader JS by properly configuring the .wasm MIME type and HTTPS."
 needAutoGenerateSidebar: false
 ---
 
