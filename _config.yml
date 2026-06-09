@@ -6,7 +6,7 @@ docHomePage: /faq/
 faq-center: /faq/
 product-page-url: https://www.dynamsoft.com/faq
 searchIndexName: Crawler-FAQ-Docs
-searchNeedFilter: true
+searchNeedFilter: false
 
 product-name: /faq/
 product-title: Dynamsoft FAQ
