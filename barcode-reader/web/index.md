@@ -60,7 +60,7 @@ Welcome! Browse the sections below for answers to common questions, configuratio
 
 - [Difference between BarcodeReader and BarcodeScanner(V9 and below)](scan-setting/difference-between-barcodeReader-and-barcodeScanner.html)
 - [Difference between BestSpeed and BestCoverage](scan-setting/difference-between-bestspeed-and-bestcoverage.html)
-- [Differences between Full and Compact Editions](scan-setting/differences-between-full-and-compact-editions.html)
+- [Differences between Full and Compact Editions(V9 and earlier)](scan-setting/differences-between-full-and-compact-editions.html)
 - [Differences between updateScanSettings, updateVideoSettings, and updateRuntimeSettings](scan-setting/differences-between-updateScanSettings-updateVideoSettings-and-updateRuntimeSettings.html)
 - [Read Inverted Image](scan-setting/read-inverted-image.html)
 - [Remove Duplicates](scan-setting/remove-duplicates.html)
