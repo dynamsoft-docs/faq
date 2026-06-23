@@ -24,8 +24,7 @@ Welcome! Browse the sections below for answers to common questions, configuratio
 
 ## Capabilities
 
-- [iOS 16 Incompatible](capabilities/ios-16-incompatible.html)
-- [iOS 17 Readability](capabilities/ios-17-readability.html)
+- [iOS 17 Readability(V8 and 9 only)](capabilities/ios-17-readability.html)
 - [Is HTTPS Required?](capabilities/is-https-required.html)
 - [Pros and Cons of CDN](capabilities/pros-and-cons-of-cdn.html)
 - [System Requirement](capabilities/system-requirement.html)

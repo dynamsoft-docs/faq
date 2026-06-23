@@ -8,6 +8,9 @@ needAutoGenerateSidebar: false
 
 # How do I resolve the issue of the Barcode Reader not recognizing any barcodes via video in iOS 16.7 or 17?
 
+### **_NOTE:_** - This FAQ applies to Barcode Reader SDK version 8 and 9 only. For the current version, please refer to our latest version introduction [here](https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/).
+
+
 iOS 17 and iOS 16.7 were released by Apple on September 18, 2023 and September 21, 2023 respectively. Our team has found that with these most recent iOS releases, **some** iPhones and iPads will run into an issue where it seems like no barcode can be read under any condition.
 
 We found that this issue is inconsistent across all iPhones and iPads on iOS 17 or 16.7. However, if you find that this issue is occurring to a subset of your users, please implement the following workaround in the code:
