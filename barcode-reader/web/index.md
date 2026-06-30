@@ -24,8 +24,7 @@ Welcome! Browse the sections below for answers to common questions, configuratio
 
 ## Capabilities
 
-- [iOS 16 Incompatible](capabilities/ios-16-incompatible.html)
-- [iOS 17 Readability](capabilities/ios-17-readability.html)
+- [iOS 17 Readability(V8 and 9 only)](capabilities/ios-17-readability.html)
 - [Is HTTPS Required?](capabilities/is-https-required.html)
 - [Pros and Cons of CDN](capabilities/pros-and-cons-of-cdn.html)
 - [System Requirement](capabilities/system-requirement.html)
@@ -60,7 +59,7 @@ Welcome! Browse the sections below for answers to common questions, configuratio
 
 - [Difference between BarcodeReader and BarcodeScanner(V9 and below)](scan-setting/difference-between-barcodeReader-and-barcodeScanner.html)
 - [Difference between BestSpeed and BestCoverage](scan-setting/difference-between-bestspeed-and-bestcoverage.html)
-- [Differences between Full and Compact Editions](scan-setting/differences-between-full-and-compact-editions.html)
+- [Differences between Full and Compact Editions(V9 and earlier)](scan-setting/differences-between-full-and-compact-editions.html)
 - [Differences between updateScanSettings, updateVideoSettings, and updateRuntimeSettings](scan-setting/differences-between-updateScanSettings-updateVideoSettings-and-updateRuntimeSettings.html)
 - [Read Inverted Image](scan-setting/read-inverted-image.html)
 - [Remove Duplicates](scan-setting/remove-duplicates.html)
