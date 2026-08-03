@@ -44,7 +44,7 @@ print("Dynamsoft Barcode Reader Version: \(version)")
 ```
 >
 ```java
-BarcodeReaderModule reader = BarcodeReaderModule();
+BarcodeReaderModule reader = new BarcodeReaderModule();
 String versionInfo = reader.getVersion();
 ```
 >
