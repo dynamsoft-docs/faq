@@ -9,7 +9,7 @@ needAutoGenerateSidebar: false
 # How to check the version of the JS SDK I am currently using?
 
 ## For version 11 and above
-- Check the version of Barcode Reader module
+- Check the version of Barcode Reader module using the [`getVersion`](https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/api-reference/barcode-reader-module-class.html#getversion) API
 ```javascript
 Dynamsoft.DBR.BarcodeReaderModule.getVersion()
 ```
