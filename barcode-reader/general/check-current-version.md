@@ -11,11 +11,10 @@ needAutoGenerateSidebar: false
 There are multiple ways to check the version currently being used -
 
 - The first way is to use the [version API](https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/api-reference/barcode-reader-module-class.html#getversion). Using this API in the browser console should print out the version of the library being used by the web app.
-- If you are using the library via npm or yarn, then you can check the version of the package via
-
-    ```bash
-    npm –v dynamsoft-javascript-barcode
-    ```
+- If you are using the library via npm or yarn, then you can check the installed version of the package via `npm list`. Note that the npm package has been renamed across major versions:
+    - Version 11 and above: `npm list dynamsoft-barcode-reader-bundle`
+    - Version 10: `npm list dynamsoft-barcode-reader`
+    - Version 9: `npm list dynamsoft-javascript-barcode`
 
 - If you are including the library via the CDN link, then the version number should be mentioned in that reference link.
 
