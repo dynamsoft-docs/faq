@@ -80,7 +80,7 @@ cvr_instance = CaptureVisionRouter()
 err_code, err_str, settings = cvr_instance.get_simplified_settings(EnumPresetTemplate.PT_READ_BARCODES.value)
 # Specify the barcode formats by enumeration values.
 # Use "|" to enable multiple barcode formats at one time.
-settings.barcode_settings.barcode_format_ids = EnumBarcodeFormat.BF_QR_CODE.value | EnumBarcodeFormat.BF_ONED.  value
+settings.barcode_settings.barcode_format_ids = EnumBarcodeFormat.BF_QR_CODE.value | EnumBarcodeFormat.BF_ONED.value
 # Update the settings.
 err_code, err_str = cvr_instance.update_settings(EnumPresetTemplate.PT_READ_BARCODES.value, settings)
 # View the complete list of supported barcode formats and their corresponding IDs here
