@@ -6,9 +6,15 @@ description: Enable debug mode, upload custom JSON templates, save video frames,
 needAutoGenerateSidebar: false
 ---
 
-## What's new in version v11.0.3000?
+# How to enable and use debug mode in DBR-JS?
 
-- Support for debug mode using `?debug=true`
+## Enable debug mode
+
+Starting from v11.0.3000, you can enable the demo's debug mode by appending `?debug=true` to the demo URL, for example:  
+https://demo.dynamsoft.com/barcode-reader-js/?debug=true
+
+This version also adds:
+
 - Custom template upload feature
 - Video frame saving during debugging
 - Improved UI with:
@@ -18,20 +24,8 @@ needAutoGenerateSidebar: false
 
 ---
 
-## Enable debug mode
-
-Append `?debug=true` to the demo URL.  
-Example: https://demo.dynamsoft.com/barcode-reader-js/?debug=true
-
-In debug mode:
-
-- You can upload **custom templates** compatible with v11.0.3000
-- You can **save video frames**
-
----
-
 <div align="left">
-    <p><img src="{{site.dbr_web_assets}}undefined.png" width="40%" alt="advanced settings"></p>
+    <p><img src="{{site.dbr_web_assets}}upload-template.png" width="40%" alt="advanced settings"></p>
 </div>
 
 ## Upload a custom template
@@ -46,7 +40,7 @@ In debug mode:
 
 ## Save video frames
 
-Yes — in **debug mode**, you can save video frames for testing and analysis (top-right of the UI).
+In debug mode, you can save video frames for testing and analysis using the button in the top-right of the UI.
 
 ---
 
