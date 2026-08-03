@@ -57,7 +57,7 @@ SoftbindUUID:230e089a-7dc3-4caa-9c77-f7cc6d567f9b<br>
    ![submit-uuid]({{site.dbr_server_assets}}submit-uuid.jpg)
 
 6. Then an authorization string will be generated. This string is the license for this device. Copy the license and set it in the code
-   ![cp-license]({{site.dbr_server_assets}}/cp-license.jpg)
+   ![cp-license]({{site.dbr_server_assets}}cp-license.jpg)
 
 Code snippet in JavaScript:
 

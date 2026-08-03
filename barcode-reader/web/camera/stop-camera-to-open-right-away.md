@@ -6,7 +6,7 @@ description: How to enable the camera on the click of a button?
 needAutoGenerateSidebar: false
 ---
 
-# How to enable the camera on the click of a button?
+# How to stop the camera stream from opening right away after DBR-JS demo is loaded?
 
 ## Version 10 and above
 ```javascript

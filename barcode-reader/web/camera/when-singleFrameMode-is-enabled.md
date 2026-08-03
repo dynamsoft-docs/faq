@@ -9,11 +9,11 @@ needAutoGenerateSidebar: false
 # When is singleFrameMode enabled?
 
 ## Version 10 and above
-SingleFrameMode can be enabled by calling the api from the camera enhancer module. check
+SingleFrameMode can be enabled by calling the api from the camera enhancer module. Check
 [singleFrameMode](https://www.dynamsoft.com/camera-enhancer/docs/web/programming/javascript/api-reference/acquisition.html#singleframemode) for detailed information.
 
 ## Version 9 
-`singleFrameMode` is enable in the below two scenarios -
+`singleFrameMode` is enabled in the below two scenarios -
 
 1. When using the library from a non-secure origin (no HTTPS).
 2. When using a browser that doesn't support `getUserMedia/MediaDevices` API that is required for video streaming. To confirm whether or not your browser is supported, please refer to the [System Requirements](https://www.dynamsoft.com/barcode-reader/docs/v9/web/programming/javascript/user-guide/#system-requirements) section of the user guide.

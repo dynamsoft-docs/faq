@@ -20,7 +20,7 @@ If scanning is only needed occasionally, be sure to stop the camera and barcode 
 Call the appropriate method to stop capturing:
 
 - **Android**: [`stopCapturing`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/android/api-reference/capture-vision-router/multiple-file-processing.html?product=dbr&lang=android#stopcapturing)  
-- **iOS**: [`stopCapturing`](http://dynamsoft.com/capture-vision/docs/mobile/programming/ios/api-reference/capture-vision-router/multiple-file-processing.html?product=dbr&lang=objectivec-swift#stopcapturing)
+- **iOS**: [`stopCapturing`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/ios/api-reference/capture-vision-router/multiple-file-processing.html?product=dbr&lang=objectivec-swift#stopcapturing)
 
 This ensures that system resources like the camera and CPU are properly released, reducing battery drain.
 

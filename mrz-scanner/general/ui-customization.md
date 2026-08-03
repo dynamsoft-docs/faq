@@ -10,7 +10,7 @@ needAutoGenerateSidebar: true
 
 The [`MRZScannerViewConfig`](https://www.dynamsoft.com/mrz-scanner/docs/web/api/mrz-scanner.html#mrzscannerviewconfig) interface allows you to control many UI elements of the Dynamsoft MRZ Scanner. You can show or hide features such as the scan guide, file upload button, format selector, sound toggle, and the “Powered By Dynamsoft” footer. Additional options include enabling or disabling multi-frame cross filtering, specifying accepted file types, and providing a custom `uploadFileConverter`.
 
-For example, to hide the scan guide and disable multi-frame cross filtering:
+For example, to control the visibility of the scan guide, format selector, and upload button:
 
 ```js
 const mrzScanner = new Dynamsoft.MRZScanner({

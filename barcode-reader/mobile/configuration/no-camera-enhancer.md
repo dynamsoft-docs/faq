@@ -6,15 +6,15 @@ description: How can I use AVCaptureSession, CameraX or third-party camera modul
 needAutoGenerateSidebar: true
 ---
 
-# How can I use AVCaptureSession, CameraX or third-party camera modules with Dynamsoft Barcode Reader - Android?
+# How can I use AVCaptureSession, CameraX or third-party camera modules with Dynamsoft Barcode Reader?
 
-# Android
+## Android
 
-## CameraX
+### CameraX
 
-If you are using the CameraX, you can view [HelloWorld/DecodeWithCamerX sample](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/android/FoundationalAPISamples/DecodeWithCameraX) for a quick start.
+If you are using CameraX, you can view [HelloWorld/DecodeWithCameraX sample](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/android/FoundationalAPISamples/DecodeWithCameraX) for a quick start.
 
-## Third-Party Camera Module
+### Third-Party Camera Module
 
 If you are using a third-party camera module, what you have to do is:
 
@@ -23,13 +23,13 @@ If you are using a third-party camera module, what you have to do is:
 - Create an instance of the [CaptureVisionRouter](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/android/api-reference/capture-vision-router/multiple-file-processing.html?product=dbr&lang=android) class. Then trigger the [`setInput`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/android/api-reference/capture-vision-router/multiple-file-processing.html#setinput) method with the instance of your camera class as the parameter.
 - Trigger the [`startCapturing`](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/android/api-reference/capture-vision-router/multiple-file-processing.html#startcapturing) method to start the barcode decoding.
 
-# iOS
+## iOS
 
-## AVCaptureSession
+### AVCaptureSession
 
-If you are using the CameraX, you can view [HelloWorld/DecodeWithAVCaptureSession sample](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/ios/FoundationalAPISamples/DecodeWithAVCaptureSession) for a quick start.
+If you are using AVCaptureSession, you can view [HelloWorld/DecodeWithAVCaptureSession sample](https://github.com/Dynamsoft/barcode-reader-mobile-samples/tree/main/ios/FoundationalAPISamples/DecodeWithAVCaptureSession) for a quick start.
 
-## Third-Party Camera Module
+### Third-Party Camera Module
 
 If you are using a third-party camera module, what you have to do is:
 
