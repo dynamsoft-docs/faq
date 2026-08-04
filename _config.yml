@@ -34,6 +34,13 @@ sad_icon: /faq/assets/img-icon/icon-sad.png
 plugins:
   - jekyll-sitemap
 
+# Archived, version-pinned FAQ content. Kept in the repo for reference,
+# but not built/hosted on the live site and not listed in sitemap.xml.
+exclude:
+  - barcode-reader/mobile/archive
+  - barcode-reader/server/archive
+  - barcode-reader/web/archive
+
 defaults:
   - scope:
       path: ""
