@@ -1,6 +1,6 @@
 # Dynamsoft FAQ
 
-Source for the Dynamsoft Capture Vision FAQ site (Barcode Reader, MRZ Scanner, and licensing), published at [dynamsoft.com/faq](https://www.dynamsoft.com/faq).
+Source for the FAQ site covering Dynamsoft's products, published at [dynamsoft.com/faq](https://www.dynamsoft.com/faq). This repo holds the Barcode Reader, MRZ Scanner, and licensing FAQs; Dynamic Web TWAIN (a separate product line, not part of Capture Vision) has its own FAQ section linked from the homepage (`index.md`) but sourced from a different repo.
 
 ## Structure
 
