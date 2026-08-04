@@ -16,7 +16,7 @@ Welcome! Browse the sections below for answers to common questions, configuratio
 ## Camera
 
 - [Camera cannot open in PWA](camera/camera-cannot-open-in-pwa.html)
-- [How to check camera availability](camera/check-camera.html)
+- [How to check camera permissions programmatically](camera/check-camera.html)
 - [Delay when opening camera](camera/delay-when-open-camera.html)
 - [How to stop the camera stream from opening right away after DBR-JS demo is loaded?](camera/stop-camera-to-open-right-away.html)
 - [Why isn't my webcam reading the barcode on my driver's license or ID card?](camera/webcam-support-dense.html)
