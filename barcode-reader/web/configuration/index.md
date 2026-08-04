@@ -21,5 +21,4 @@ noTitleIndex: true
 - [Read from existing files](read-from-existing-files.html)
 - [Scan US driver's license](scan-US-drivers-license.html)
 - [Upgrade old to new version](upgrade-old-to-new.html)
-- [Use of onFrameRead and onUnduplicateRead](../archive/use-of-onFrameRead-and-onUnduplicateRead.html)
 - [Ways to copy DBR-JS deployable files](ways-to-copy-dbr-js-deployable-files.html)
