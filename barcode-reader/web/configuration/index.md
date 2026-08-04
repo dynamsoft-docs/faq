@@ -11,7 +11,7 @@ noTitleIndex: true
 
 - [How to avoid incorrect barcode results?](avoid-incorrect-barcode-results.html)
 - [Do we have to call loadWasm proactively?](call-loadWasm-proactively.html)
-- [How to change domain binding of product key?](change-domain-binding-of-product-key.html)
+- [How to change the domain binding of a product key?](change-domain-binding-of-product-key.html)
 - [Formats supported for existing files](formats-supported-for-existing-files.html)
 - [How to get intermediate result images?](get-intermediate-result-images.html)
 - [How do I create a NodeJS application using the SDK?](nodejs-implementation.html)
