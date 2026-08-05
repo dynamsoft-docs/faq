@@ -8,8 +8,6 @@ needAutoGenerateSidebar: false
 
 # How to resolve error failed to read or write license buffer?
 
-[<< Back to FAQ index](index.md)
-
 When initializing the license for cloud hosted services, it is common to come across the following error message:
 
 `Error Code - DM_LICENSE_BUFFER_FAILED. Value - 20002. Description - Failed to read or write license buffer.`

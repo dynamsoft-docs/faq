@@ -2,20 +2,32 @@
 layout: default-layout
 title: How to Verify the Dynamsoft Barcode Reader Web SDK Version
 keywords: Dynamsoft Barcode Reader, FAQ, tech basic, check version, current version
-description: Guide to identifying the installed version of Dynamsoft Barcode Reader Web SDK using module APIs, npm show commands, or CDN configuration.
+description: Guide to identifying the installed version of Dynamsoft Barcode Reader Web SDK using module APIs, npm list commands, or CDN configuration.
 needAutoGenerateSidebar: false
 ---
 
 # How to check the version of the JS SDK I am currently using?
 
-## For version 10 and above
+## For version 11 and above
+- Check the version of Barcode Reader module using the [`getVersion`](https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/api-reference/barcode-reader-module-class.html#getversion) API
+```javascript
+Dynamsoft.DBR.BarcodeReaderModule.getVersion()
+```
+- If you are using the library via npm or yarn, then you can check the installed version of the package via
+```bash
+npm list dynamsoft-barcode-reader-bundle
+```
+- If you are including the library via the CDN link, then the version number should be mentioned in that reference link.
+
+
+## For version 10
 - Check the version of Barcode Reader module
 ```javascript
 Dynamsoft.DBR.BarcodeReaderModule.getVersion()
 ```
-- If you are using the library via npm or yarn, then you can check the version of the package via
+- If you are using the library via npm or yarn, then you can check the installed version of the package via
 ```bash
-npm show dynamsoft-barcode-reader version
+npm list dynamsoft-barcode-reader
 ```
 - If you are including the library via the CDN link, then the version number should be mentioned in that reference link.
 
@@ -24,10 +36,10 @@ npm show dynamsoft-barcode-reader version
 There are multiple ways to check the version currently being used -
 
 - The first way is to use the [version API](https://www.dynamsoft.com/barcode-reader/docs/v9/web/programming/javascript/api-reference/InitializationControl.html#version). Using this API in the browser console should print out the version of the library being used by the web app.
-- If you are using the library via npm or yarn, then you can check the version of the package via
+- If you are using the library via npm or yarn, then you can check the installed version of the package via
 
     ```bash
-    npm –v dynamsoft-javascript-barcode
+    npm list dynamsoft-javascript-barcode
     ```
 
 - If you are including the library via the CDN link, then the version number should be mentioned in that reference link.

@@ -7,5 +7,7 @@ needAutoGenerateSidebar: false
 noTitleIndex: true
 ---
 
+# Capabilities Index
+
 - [Architecture armv7 Error](armv7-architecture-error.html)
 - [Minimum System Requirements](min-system-requirements.html)

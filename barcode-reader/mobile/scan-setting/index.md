@@ -11,4 +11,4 @@ noTitleIndex: true
 
 - [One-off vs Continuous Scanning](disable-continuous-scanning.html)
 - [How to Enable QR Code Model 1](how-to-enable-qr-model-one.html)
-- [Common Issues & Settings](template-support.html)
+- [Import Settings from Barcode Scanner X](template-support.html)

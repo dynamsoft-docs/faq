@@ -15,8 +15,8 @@ Preload `BarcodeReader` or other specified module proactively to save time on th
 ```javascript
 await Dynamsoft.Core.CoreModule.loadWasm(["DBR"]);
 ```
-### 2. skip camera inspection
-You can bypass the camera selection[ifSkipCameraInspection](https://www.dynamsoft.com/camera-enhancer/docs/web/programming/javascript/api-reference/camera-control.html#ifskipcamerainspection)
+### 2. Skip camera inspection
+You can bypass camera selection using [ifSkipCameraInspection](https://www.dynamsoft.com/camera-enhancer/docs/web/programming/javascript/api-reference/camera-control.html#ifskipcamerainspection).
 ```javascript
 	cameraEnhancer.ifSkipCameraInspection
 ```

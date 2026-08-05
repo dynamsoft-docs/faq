@@ -86,7 +86,7 @@ func onDecodedBarcodesReceived(_ result: DecodedBarcodesResult) {
 }
 ```
 
-## How to resolve the "Building for iOS Simulator, but linking in dylib built for iOS" error when building for the iOS simulator?](arm64-simulator-error.md)
+## How to resolve the "Building for iOS Simulator, but linking in dylib built for iOS" error when building for the iOS simulator?
 
 DBR iOS can be used to build apps that belong to the arm64 architecture. If you try building an app for the arm64 simulator, and you migrated your app from an older version of Xcode to Xcode 12 or higher, then you might encounter the following error message:
 
@@ -238,7 +238,7 @@ Nowadays, most QR codes are QR code Model 2. BarcodeScannerX, by default, only s
 7. Click **Import Template** in the Advanced Scan settings of BarcodeScannerX. Then input the link.
 8. Now you can scan QR code Model 1!
 
-## How to Handle Non-printable Characters Like "\u{1D}" or "{GS}" from the Barcode Text?]({{site.faq_general}}unprintable-character.html?lang=objc,swift)
+## How to Handle Non-printable Characters Like "\u{1D}" or "{GS}" from the Barcode Text?
 
 This page helps to you modify the barcode results when non-printable characters exists in the barcode text you decoded.
 

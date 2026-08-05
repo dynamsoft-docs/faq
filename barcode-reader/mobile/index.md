@@ -13,7 +13,7 @@ Welcome to the FAQ for Dynamsoft Barcode Reader on mobile platforms. Browse the 
 
 ## Capabilities & Requirements
 
-- [Minimum System Requirements](capabilities/min-system-requirements.md)
+- [Minimum System Requirements](capabilities/min-system-requirements.html)
 - [iOS - ARMv7 Architecture Error](capabilities/armv7-architecture-error.html)
 
 ## Configuration
@@ -37,7 +37,7 @@ Welcome to the FAQ for Dynamsoft Barcode Reader on mobile platforms. Browse the 
 
 ## Simulator
 
-- [iOS - Simulator Support](simulator/simulator-support.html)
+- [Simulator Support](simulator/simulator-support.html)
 - [iOS - How to resolve the "Building for iOS Simulator, but linking in dylib built for iOS" error?](simulator/arm64-simulator-error.html)
 
 ## Debugging

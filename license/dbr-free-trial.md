@@ -6,7 +6,7 @@ description: What I need to know about trial licenses?
 needAutoGenerateSidebar: false
 ---
 
-# What I need to know about trial licenses?
+# How to get a free trial?
 
 To get a free trial of the SDK, please download it from [our website](https://www.dynamsoft.com/barcode-reader/downloads/).
 
