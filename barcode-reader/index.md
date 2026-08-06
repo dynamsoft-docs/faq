@@ -84,7 +84,7 @@ Choose a category to get started.
 
     margin: 0 0 12px;
 
-    font-size: clamp(1.35rem, 2vw, 1.75rem);
+    font-size: clamp(1.75rem, 1.1rem + 1.2vw, 2.5rem);
     line-height: 1.25;
     font-weight: 600;
 
@@ -98,7 +98,7 @@ Choose a category to get started.
   .faq-icon {
     flex: 0 0 auto;
 
-    font-size: 1.3rem;
+    font-size: 1em;
     line-height: 1.3;
   }
 
@@ -110,7 +110,6 @@ Choose a category to get started.
     margin: 0;
 
     color: #4b5563;
-    font-size: 1rem;
     line-height: 1.55;
   }
 
