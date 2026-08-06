@@ -17,7 +17,7 @@ Choose a category to get started.
 
     /*
      * Automatically switches between one and multiple columns according
-     * to the actual content width, not the browser viewport width.
+     * to the available container width, not the browser viewport width.
      */
     grid-template-columns: repeat(
       auto-fit,
@@ -169,7 +169,7 @@ Choose a category to get started.
 ## Quick Links
 
 - [What MRZ formats does the Dynamsoft MRZ Scanner support?](/faq/mrz-scanner/general/mrz-formats-supported.html)
-- [Can the MRZ Scanner process static images or PDFs, or does it only work with a live camera? ](/faq/mrz-scanner/general/static-image-and-pdf-support.html)
+- [Can the MRZ Scanner process static images or PDFs, or does it only work with a live camera?](/faq/mrz-scanner/general/static-image-and-pdf-support.html)
 - [Does the MRZ Scanner perform any data validation on the decoded results?](/faq/mrz-scanner/general/data-validation.html)
 - [How can I customize the scanner UI (hide the scan guide, format selector, upload button, etc.)?](/faq/mrz-scanner/general/ui-customization.html)
 - [How do I handle the scanned results in my application?](/faq/mrz-scanner/general/handling-results.html)

@@ -17,7 +17,7 @@ Choose a category to get started.
 
     /*
      * Automatically switches between one and multiple columns according
-     * to the actual content width, not the browser viewport width.
+     * to the available container width, not the browser viewport width.
      */
     grid-template-columns: repeat(
       auto-fit,
