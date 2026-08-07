@@ -41,7 +41,7 @@ Welcome! Browse the sections below for answers to common questions, configuratio
 - [How do I create a NodeJS application using the SDK?](configuration/nodejs-implementation.html)
 - [Offline mode usage for JavaScript SDK](configuration/javascript-sdk-offline-mode-use.html)
 - [Newline character not being rendered](configuration/newline-character-not-being-rendered.html)
-- [Pop-up window during trial process](configuration/pop-up-window-during-trail-process.html)
+- [Pop-up window during trial process](configuration/pop-up-window-during-trial-process.html)
 - [Read from existing files](configuration/read-from-existing-files.html)
 - [Scan US driver's license](configuration/scan-US-drivers-license.html)
 - [Upgrade old to new version](configuration/upgrade-old-to-new.html)
