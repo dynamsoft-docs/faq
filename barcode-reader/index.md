@@ -3,7 +3,7 @@ layout: default-layout
 title: Barcode Reader FAQ
 keywords: faq, dbr, barcode reader, dynamsoft, license, general, mobile, server, web
 description: Index page for the Barcode Reader FAQ site.
-needAutoGenerateSidebar: true
+needAutoGenerateSidebar: false
 noTitleIndex: true
 ---
 
