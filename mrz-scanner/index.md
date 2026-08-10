@@ -16,12 +16,12 @@ Choose a category to get started.
     display: grid;
 
     /*
-     * Automatically switches between one and multiple columns according
-     * to the available container width, not the browser viewport width.
+     * Resizes fluidly with the container width (not the browser viewport
+     * width), but never more than 2 tiles per row.
      */
     grid-template-columns: repeat(
       auto-fit,
-      minmax(min(100%, 280px), 1fr)
+      minmax(min(100%, max(280px, (100% - 20px) / 2)), 1fr)
     );
 
     gap: 20px;
@@ -84,9 +84,8 @@ Choose a category to get started.
 
     margin: 0 0 12px;
 
-    font-size: clamp(1.75rem, 1.1rem + 1.2vw, 2.5rem);
-    line-height: 1.25;
-    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.2;
 
     /*
      * Allows long titles to wrap instead of changing the grid width.
@@ -97,9 +96,6 @@ Choose a category to get started.
 
   .faq-icon {
     flex: 0 0 auto;
-
-    font-size: 1em;
-    line-height: 1.3;
   }
 
   .faq-title {

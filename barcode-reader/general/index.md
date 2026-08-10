@@ -11,10 +11,11 @@ noTitleIndex: true
 
 Please use the links below to find answers to common questions and configuration guidance.
 
-- [Does DBR support PDF?](dbr-supports-pdf.html)
+- [Does Dynamsoft Barcode Reader (DBR) support PDF?](dbr-supports-pdf.html)
 - [How to avoid incorrect barcode results?](avoid-incorrect-barcode-results.html)
 - [How to filter incorrect results with the barcode result length?](avoid-incorrect-results.html)
 - [Check Current Version](check-current-version.html)
 - [Different Editions of DBR](different-editions-of-dbr.html)
 - [How to scan US driver's license?](scan-us-drivers-license.html)
 - [Supported Barcode Formats](supported-barcode-formats.html)
+- [Is Dynamsoft Barcode Reader (DBR) Deterministic?](is-dbr-deterministic.html)
