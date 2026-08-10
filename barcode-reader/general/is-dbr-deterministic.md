@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: Is Dynamsoft Barcode Reader (DBR) Deterministic?
-keywords: Dynamsoft Barcode Reader, FAQ, tech basic, deterministic, result variability, 
+keywords: Dynamsoft Barcode Reader, FAQ, tech basic, deterministic, result variability
 description: Dynamsoft Barcode Reader (DBR) generally produces consistent results under unchanged conditions but can show variability in specific scenarios due to parallel processing and result limits. 
 needAutoGenerateSidebar: true
 ---
