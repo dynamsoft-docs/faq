@@ -59,7 +59,7 @@ All decoded results originate directly from information present in the source im
 
 This behavior is fundamentally different from large language models (LLMs), whose outputs are generated probabilistically.
 
-> [!Enterprise Note:]
+**Enterprise Note:**
 > Dynamsoft barcode decoding is not a generative AI system. All returned results are derived from image content and supported by the data present in the image. Any observed variability is due to processing and result-selection order, not the creation of new, inferred, or fabricated information. This distinction is particularly important for organizations evaluating determinism, validation, auditability, or regulatory requirements.
 
 ---
