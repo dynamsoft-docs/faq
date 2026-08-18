@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-title: Is HTTPs absolutely required?
+title: Is HTTPS absolutely required?
 keywords: Dynamsoft Barcode Reader, FAQ, tech basic, HTTPS
-description: Is HTTPs absolutely required?
+description: Is HTTPS absolutely required?
 needAutoGenerateSidebar: false
 ---
 

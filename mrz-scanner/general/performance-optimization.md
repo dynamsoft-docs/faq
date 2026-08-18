@@ -8,7 +8,7 @@ needAutoGenerateSidebar: true
 
 # Are there any performance options to improve accuracy or speed?
 
-Yes. The scanner uses a multi-frame result cross filter to enhance accuracy. This filter is enabled by default, which helps reduce recognition errors by cross-verifying results across multiple frames. In [`MRZScannerViewConfig`](https://www.dynamsoft.com/mrz-scanner/docs/web/api/mrz-scanner.html#mrzscannerviewconfig), you can disable it to increase scanning speed, though this may slightly reduce accuracy.
+Yes. The scanner uses a multi-frame result cross filter to enhance accuracy. Starting from v4.0.0, this filter is enabled by default, which helps reduce recognition errors by cross-verifying results across multiple frames. In [`MRZScannerViewConfig`](https://www.dynamsoft.com/mrz-scanner/docs/web/api/mrz-scanner.html#mrzscannerviewconfig), you can disable it to increase scanning speed, though this may slightly reduce accuracy.
 
 To disable the cross filter:
 
@@ -16,16 +16,16 @@ To disable the cross filter:
 const mrzScanner = new Dynamsoft.MRZScanner({
     license: "YOUR_LICENSE_KEY",
     scannerViewConfig: {
-        enableMultiFrameCrossFilter: false // default: false
+        enableMultiFrameCrossFilter: false // default: true (as of v4.0.0)
     }
 });
-````
+```
 
 ---
 
 | **Option**                  | **Property**                  | **Default** | **Effect**                                      |
 | --------------------------- | ----------------------------- | ----------- | ----------------------------------------------- |
-| Multi-frame cross filtering | `enableMultiFrameCrossFilter` | `false`      | Improves accuracy; disabling may increase speed |
+| Multi-frame cross filtering | `enableMultiFrameCrossFilter` | `true`      | Improves accuracy; disabling may increase speed |
 
 ---
 

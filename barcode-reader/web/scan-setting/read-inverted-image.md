@@ -9,7 +9,7 @@ needAutoGenerateSidebar: false
 # How to read an inverted barcode?
 
 ## Version 10 and above
-this can be achieved by setting the value of the `grayscaleTransformationModes` array of `furtherModes` to use `GTM_INVERTED` 
+This can be achieved by setting the value of the `grayscaleTransformationModes` array of `furtherModes` to use `GTM_INVERTED`. 
 
 ```javascript
 let settings = await router.getSimplifiedSettings("ReadSingleBarcode");

@@ -1,13 +1,13 @@
 ---
 layout: default-layout
-title: What I can do when barcode image returns messy (non-english) characters?
+title: How to handle non-English characters?
 keywords: Dynamsoft Barcode Reader, FAQ, DBR Introduction, messy characters, non-English characters
-description: What I can do when barcode image returns messy (non-english) characters?
+description: How to handle non-English characters?
 needAutoGenerateSidebar: false
 ---
 
-# What I can do when barcode image returns messy (non-english) characters?
+# How to handle non-English characters?
 
-The barcode text of the result is of a non-Latin based language, as by default most webpages are able to display Latin-based languages.
+This happens when the barcode text is in a non-Latin-based language, as by default most webpages are only able to display Latin-based languages.
 
 In order to display the barcode text, it is best to do it via the [`getBytes`](https://www.dynamsoft.com/barcode-reader/docs/server/programming/cplusplus/api-reference/barcode-result-item.html#getbytes) of the CBarcodeResultItem. Once the bytes are obtained, you can 'translate' them to a string based on the encoding identifier of the language that you are trying to display.

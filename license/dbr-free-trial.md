@@ -1,12 +1,12 @@
 ---
 layout: default-layout
-title: What I need to know about trial licenses?
+title: How to get a free trial?
 keywords: Dynamsoft Barcode Reader, FAQ, DBR Introduction, General, free trial
-description: What I need to know about trial licenses?
+description: How to get a free trial?
 needAutoGenerateSidebar: false
 ---
 
-# What I need to know about trial licenses?
+# How to get a free trial?
 
 To get a free trial of the SDK, please download it from [our website](https://www.dynamsoft.com/barcode-reader/downloads/).
 

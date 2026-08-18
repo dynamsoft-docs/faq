@@ -13,21 +13,15 @@ needAutoGenerateSidebar: false
 
 ---
 
-> **Notice (Temporary Issue)**  
-> This is a known issue in versions 11.0.0 - 11.0.6000 and has been fixed in version 11.2. 
->  
-> As a temporary solution, please set `IncludeTrailingCheckDigit` to `0` in the `BarcodeFormatSpecification` for Code128.  
-> This will prevent the SDK from returning the trailing check digit.
-
 ### CODE_128 decoding returns an extra byte?
 
 When using DBR v11, you may notice that decoding a **CODE_128** barcode returns one extra byte at the end if you call `item.get_bytes()`.
 
 **Cause**  
-By default, DBR includes the trailing check digit for CODE_128 in the decoded byte results.
+By default, DBR includes the trailing check digit for CODE_128 in the decoded byte results. This is a known issue in versions 11.0.0 - 11.0.6000 and has been fixed in version 11.2.
 
 **Solution**  
-Set `IncludeTrailingCheckDigit` to `0` in the `BarcodeFormatSpecification` for Code128.
+Set `IncludeTrailingCheckDigit` to `0` in the `BarcodeFormatSpecification` for Code128. This will prevent the SDK from returning the trailing check digit.
 
 **Example JSON Configuration**
 

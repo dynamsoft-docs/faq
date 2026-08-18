@@ -1,84 +1,19 @@
----
-layout: default-layout
-title: Dynamsoft Capture Vision FAQ
-keywords: faq, capture vision, dcv, dynamsoft, barcode reader, mrz scanner
-description: Dynamsoft Capture Vision FAQ Documentation
-needAutoGenerateSidebar: false
-noTitleIndex: true
----
+# Dynamsoft FAQ
 
-# Dynamsoft Capture Vision FAQ
+Source for the FAQ site covering Dynamsoft's products, published at [dynamsoft.com/faq](https://www.dynamsoft.com/faq). This repo holds the Barcode Reader, MRZ Scanner, and licensing FAQs; Dynamic Web TWAIN (a separate product line, not part of Capture Vision) has its own FAQ section linked from the homepage (`index.md`) but sourced from a different repo.
 
-Select a product below to browse its FAQs.
+## Writing or editing an article
 
-<!-- Responsive 2x2-style grid (wraps to 1xN on small screens) -->
-<style>
-  .faq-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 20px;
-    margin: 24px 0 8px 0;
-  }
-  .faq-tile {
-    display: block;
-    text-decoration: none;
-    padding: 28px 24px;
-    border-radius: 16px;
-    border: 1px solid rgba(0,0,0,0.06);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.06);
-    transition: transform 0.08s ease, box-shadow 0.12s ease, border-color 0.12s ease;
-    background: #fff;
-  }
-  .faq-tile:hover,
-  .faq-tile:focus {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 22px rgba(0,0,0,0.10);
-    border-color: rgba(0,0,0,0.12);
-    outline: none;
-  }
-  .faq-tile h2 {
-    margin: 0 0 8px 0;
-    font-size: 1.25rem;
-    line-height: 1.2;
-  }
-  .faq-tile p {
-    margin: 0;
-    color: #444;
-  }
-  .faq-tile .eyebrow {
-    display: inline-block;
-    font-size: 0.8rem;
-    letter-spacing: .06em;
-    text-transform: uppercase;
-    color: #666;
-    margin-bottom: 6px;
-  }
-  .faq-tile .emoji {
-    font-size: 1.35rem;
-    margin-right: .35rem;
-  }
+See [`AGENTS.md`](AGENTS.md) for the FAQ article structure, frontmatter, linking, and archive-directory conventions.
 
-  @media (min-width: 720px) {
-    .faq-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-</style>
+## Building and deploying
 
-<div class="faq-grid">
+The site is built with Jekyll using a shared theme/layout maintained in [dynamsoft-docs/Docs-Template-Repo](https://github.com/dynamsoft-docs/Docs-Template-Repo), which this repo doesn't include locally. Pushes to `main` and `preview` trigger the CI workflows in `.github/workflows/main.yml`, which build and sync to production and the preview/testing environment respectively.
 
-  <!-- Barcode Reader -->
-  <a class="faq-tile" href="/faq/barcode-reader/index.html" aria-label="Barcode Reader FAQs">
-    <div class="eyebrow"><span class="emoji">📲</span>Barcode Reader</div>
-    <h2>Barcode Reader</h2>
-    <p>General usage, requirements, configuration, and troubleshooting guides.</p>
-  </a>
+## Checking links
 
-  <!-- MRZ Scanner -->
-  <a class="faq-tile" href="/faq/mrz-scanner/index.html" aria-label="MRZ Scanner FAQs">
-    <div class="eyebrow"><span class="emoji">🛂</span>MRZ Scanner</div>
-    <h2>MRZ Scanner</h2>
-    <p>Setup, supported formats, UI customization, and integration examples.</p>
-  </a>
+`check_links.py` crawls the repo's Markdown files and reports broken links. Run it before submitting a change that touches links:
 
-</div>
+```bash
+python check_links.py
+```

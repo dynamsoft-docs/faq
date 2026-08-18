@@ -11,7 +11,7 @@ needAutoGenerateSidebar: false
 ## Version 10 and above
 If you're experiencing more scans usage than expected with the barcode reading SDK, use the below strategies to address this issue effectively:
 
-### 1. Donot count identical Result
+### 1. Do Not Count Identical Results
 With version 10 and above of the DBR SDK, the `enableResultDeduplication` is set to forget a result 3 seconds after it is first received. During this time frame, if an identical result appears, it is ignored. If you want to forget the identical result for more duration you can use the setDuplicateForgetTime function as well with `enableResultDeduplication`. 
 
 ```javascript
@@ -39,7 +39,7 @@ await router.addResultFilter(filter);
 ### 2. Limit Barcode Formats: 
 If you're specifically scanning a particular barcode format, consider limiting the barcode format options to prevent other formats from being decoded and counted unnecessarily.
 
-you can limit the barcode formats in two ways:
+You can limit the barcode formats in two ways:
 
 - set the barcode format using the `getSimplifiedSettings`
 ```javascript
