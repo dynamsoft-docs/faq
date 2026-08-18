@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-title: How to enable the camera on the click of a button?
+title: How to stop the camera stream from opening right away after DBR-JS demo is loaded?
 keywords: Dynamsoft Barcode Reader, FAQ, tech basic, stop camera stream, start scanning
-description: How to enable the camera on the click of a button?
+description: How to stop the camera stream from opening right away after DBR-JS demo is loaded?
 needAutoGenerateSidebar: false
 ---
 

@@ -21,7 +21,7 @@ const mrzScanner = new Dynamsoft.MRZScanner({
         showUploadImage: true,
     }
 });
-````
+```
 
 For more configurable elements, please view our guide [here](https://www.dynamsoft.com/mrz-scanner/docs/web/guides/mrz-scanner-customization.html#mrzscannerviewconfig-overview).
 

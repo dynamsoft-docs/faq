@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-title: What I need to know about trial licenses?
+title: How to get a free trial?
 keywords: Dynamsoft Barcode Reader, FAQ, DBR Introduction, General, free trial
-description: What I need to know about trial licenses?
+description: How to get a free trial?
 needAutoGenerateSidebar: false
 ---
 

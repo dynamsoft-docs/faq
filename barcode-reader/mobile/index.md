@@ -28,7 +28,7 @@ Welcome to the FAQ for Dynamsoft Barcode Reader on mobile platforms. Browse the 
 
 - [How can I implement continuous barcode scanning and one-off barcode scanning?](scan-setting/disable-continuous-scanning.html)
 - [Enable QR Code Model 1](scan-setting/how-to-enable-qr-model-one.html)
-- [Template Support](scan-setting/template-support.html)
+- [Import Settings from Barcode Scanner X](scan-setting/template-support.html)
 
 ## Cross-Platform
 

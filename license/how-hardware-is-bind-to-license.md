@@ -1,8 +1,8 @@
 ---
 layout: default-layout
-title: What I need to know about licensing process?
+title: How is hardware bound to a license?
 keywords: Dynamsoft Barcode Reader, FAQ, Pricing/Licensing, General, information gathered, hardware bind, new license consumption
-description: What I need to know about licensing process?
+description: How is hardware bound to a license?
 needAutoGenerateSidebar: false
 ---
 

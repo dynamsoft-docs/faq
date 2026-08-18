@@ -2,7 +2,7 @@
 layout: default-layout
 title: Use AVCaptureSession, CameraX or third-party camera modules - DBR Mobile FAQs.
 keywords: Dynamsoft Barcode Reader, FAQ, Mobile, tech basic, android, ios, requirements
-description: How can I use AVCaptureSession, CameraX or third-party camera modules with Dynamsoft Barcode Reader? - DBR Android FAQs.
+description: How can I use AVCaptureSession, CameraX or third-party camera modules with Dynamsoft Barcode Reader? - DBR Mobile FAQs.
 needAutoGenerateSidebar: true
 ---
 
