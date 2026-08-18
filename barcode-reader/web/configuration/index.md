@@ -17,7 +17,7 @@ noTitleIndex: true
 - [How do I create a NodeJS application using the SDK?](nodejs-implementation.html)
 - [Offline mode usage for JavaScript SDK](javascript-sdk-offline-mode-use.html)
 - [Newline character not being rendered](newline-character-not-being-rendered.html)
-- [Pop-up window during trial process](pop-up-window-during-trail-process.html)
+- [Pop-up window during trial process](pop-up-window-during-trial-process.html)
 - [Read from existing files](read-from-existing-files.html)
 - [Scan US driver's license](scan-US-drivers-license.html)
 - [Upgrade old to new version](upgrade-old-to-new.html)
