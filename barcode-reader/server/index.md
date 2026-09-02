@@ -13,7 +13,7 @@ Welcome to the FAQ for Dynamsoft Barcode Reader on server platforms. Use the lin
 
 ## Configuration
 
-- [Avoid Incorrect Results](configuration/avoid-incorrect-results.html)
+- [Avoid Incorrect Results](../general/avoid-incorrect-barcode-results.html)
 - [Custom Settings Template](configuration/custom-settings-template.html)
 - [How to Enable DPM?](configuration/how-to-enable-dpm.html)
 - [Non-English Characters](configuration/non-english-characters.html)
