@@ -9,7 +9,7 @@ noTitleIndex: true
 
 # Configuration Index
 
-- [How to avoid incorrect barcode results?](avoid-incorrect-barcode-results.html)
+- [How to avoid incorrect barcode results?](../../general/avoid-incorrect-barcode-results.html)
 - [Do we have to call loadWasm proactively?](call-loadWasm-proactively.html)
 - [How to change the domain binding of a product key?](change-domain-binding-of-product-key.html)
 - [Formats supported for existing files](formats-supported-for-existing-files.html)

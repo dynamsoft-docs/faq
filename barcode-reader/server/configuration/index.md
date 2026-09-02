@@ -9,7 +9,7 @@ noTitleIndex: true
 
 # Configuration Index
 
-- [How to filter incorrect results with the barcode result length?](avoid-incorrect-results.html)
+- [How to avoid incorrect barcode results?](../../general/avoid-incorrect-barcode-results.html)
 - [How to create custom settings template?](custom-settings-template.html)
 - [How to enable DPM?](how-to-enable-dpm.html)
 - [How can I sort the barcodes of my image in reading order?](sort-barcodes-image.html)

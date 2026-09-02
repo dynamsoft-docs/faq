@@ -33,7 +33,7 @@ Welcome! Browse the sections below for answers to common questions, configuratio
 
 ## Configuration
 
-- [How to avoid incorrect barcode results?](configuration/avoid-incorrect-barcode-results.html)
+- [How to avoid incorrect barcode results?](../general/avoid-incorrect-barcode-results.html)
 - [Do we have to call loadWasm proactively?](configuration/call-loadWasm-proactively.html)
 - [How to change the domain binding of a product key?](configuration/change-domain-binding-of-product-key.html)
 - [Formats supported for existing files](configuration/formats-supported-for-existing-files.html)

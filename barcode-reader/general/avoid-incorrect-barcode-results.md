@@ -1,45 +1,22 @@
 ---
 layout: default-layout
-title: How to Avoid Incorrect Barcode Scan Results – FAQ
-keywords: Dynamsoft Barcode Reader, FAQ, Troubleshooting / User Cases, avoid incorrect barcode results
-description: Improve barcode decoding accuracy in Dynamsoft Barcode Reader by configuring minResultConfidence and minBarcodeTextLength.
+title: How to Avoid Incorrect Barcode Results?
+keywords: Dynamsoft Barcode Reader, FAQ, Troubleshooting / User Cases, avoid incorrect barcode results, minResultConfidence, minBarcodeTextLength
+description: Improve barcode decoding accuracy in Dynamsoft Barcode Reader by configuring minResultConfidence and minBarcodeTextLength on SimplifiedBarcodeReaderSettings.
 needAutoGenerateSidebar: false
 ---
 
 # How to avoid incorrect barcode results?
 
-- One method is to raise the value of [minResultConfidence](https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/api-reference/interfaces/simplified-barcode-reader-settings.html#minresultconfidence) of the `SimplifiedBarcodeReaderSettings` to a value of 50 or higher. It is set to 30 by default.
-- If the issue has to do with the length of the text result, you can try setting a minimum length for the barcode text(s) that are returned by the SDK. By setting the [minBarcodeTextLength](https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/api-reference/interfaces/simplified-barcode-reader-settings.html#minbarcodetextlength) property of the `SimplifiedBarcodeReaderSettings`, the SDK can ignore results that are consistently coming out shorter than expected.
+`SimplifiedBarcodeReaderSettings` — a sub-parameter of `SimplifiedCaptureVisionSettings` — exposes the same two filtering properties across every edition of Dynamsoft Barcode Reader (Server, Web, and Mobile), under each platform's own API reference, e.g. [C++](https://www.dynamsoft.com/barcode-reader/docs/server/programming/cplusplus/api-reference/simplified-barcode-reader-settings.html) and [JavaScript](https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/api-reference/interfaces/simplified-barcode-reader-settings.html):
 
----
+- **minResultConfidence** – raise this value (default `30`) to require a higher confidence before a result is returned. 50 or higher is a good starting point if you're seeing unreliable reads.
+- **minBarcodeTextLength** – set this to the minimum length your barcode text should be; results shorter than this are discarded. For example, if your barcode text should always be at least 10 characters long, set it to `10` so the SDK ignores shorter, likely-incorrect results.
 
-### CODE_128 decoding returns an extra byte?
-
-When using DBR v11, you may notice that decoding a **CODE_128** barcode returns one extra byte at the end if you call `item.get_bytes()`.
-
-**Cause**  
-By default, DBR includes the trailing check digit for CODE_128 in the decoded byte results. This is a known issue in versions 11.0.0 - 11.0.6000 and has been fixed in version 11.2.
-
-**Solution**  
-Set `IncludeTrailingCheckDigit` to `0` in the `BarcodeFormatSpecification` for Code128. This will prevent the SDK from returning the trailing check digit.
-
-**Example JSON Configuration**
-
-```json
-{
-  "BarcodeFormatSpecificationOptions": [
-    {
-      "Name": "bfs1",
-      "BarcodeFormatIds": [
-        "BF_CODE_128"
-      ],
-      "MinResultConfidence": 30,
-      "RequireStartStopChars": 1,
-      "ReturnPartialBarcodeValue": 1,
-      "VerifyCheckDigit": 0,
-      "IncludeTrailingCheckDigit": 0
-    }
-  ],
-  #...Other Settings
-}
+**Example (JavaScript):**
+```javascript
+let settings = await router.getSimplifiedSettings('ReadSingleBarcode');
+settings.barcodeSettings.minResultConfidence = 40; //setting confidence
+settings.barcodeSettings.minBarcodeTextLength = 5; //setting barcodeTextLength
+await router.updateSettings('ReadSingleBarcode', settings);
 ```

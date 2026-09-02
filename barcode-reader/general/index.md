@@ -13,7 +13,7 @@ Please use the links below to find answers to common questions and configuration
 
 - [Does Dynamsoft Barcode Reader (DBR) support PDF?](dbr-supports-pdf.html)
 - [How to avoid incorrect barcode results?](avoid-incorrect-barcode-results.html)
-- [How to filter incorrect results with the barcode result length?](avoid-incorrect-results.html)
+- [CODE_128 decoding returns an extra byte?](code-128-extra-trailing-byte.html)
 - [Check Current Version](check-current-version.html)
 - [Different Editions of DBR](different-editions-of-dbr.html)
 - [How to scan US driver's license?](scan-us-drivers-license.html)
