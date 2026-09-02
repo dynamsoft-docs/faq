@@ -34,6 +34,15 @@ sad_icon: /faq/assets/img-icon/icon-sad.png
 plugins:
   - jekyll-sitemap
 
+# Archived, version-pinned FAQ content. Kept in the repo for reference,
+# but not built/hosted on the live site and not listed in sitemap.xml.
+exclude:
+  - barcode-reader/mobile/archive
+  - barcode-reader/server/archive
+  - barcode-reader/web/archive
+  # Plain repo-contributor README, not a site page.
+  - README.md
+
 defaults:
   - scope:
       path: ""
@@ -44,6 +53,15 @@ defaults:
       needGenerateH3Content: true
   - scope:
       path: "Hide_Tree_Page.html"
+    values:
+      sitemap: false
+  - scope:
+      # license/ is shared content, duplicated at build time under
+      # /faq/barcode-reader/license/ and /faq/mrz-scanner/license/. Those
+      # product-scoped URLs are the ones linked from the site and correctly
+      # highlighted in the sidebar; this bare path has no product context
+      # for the sidebar to highlight, so keep it out of the sitemap.
+      path: "license"
     values:
       sitemap: false
   - scope:

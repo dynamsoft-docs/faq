@@ -29,7 +29,7 @@ noTitleIndex: true
 
 10. [Can I reduce the size of the final Android app?](reduce-final-size.md)
 
-11. [How to use Debug Mode in Barcode Scanner X?](debug-mode-barcodescannerx.md)
+11. [How to use Debug Mode in Barcode Scanner X?](debug-mode.md)
 
 12. [How to prevent project build failure after shrinking code?](proguard.md)
 

@@ -9,6 +9,6 @@ noTitleIndex: true
 
 # UI Customization Index
 
-- [Add or Remove Beep Sound](ui-customization/add-remove-beep-sound.html)
-- [Different Ways to Customize UI](ui-customization/different-ways-to-customize-ui.html)
-- [Hide Laser Bar and Message in Default UI](ui-customization/hide-laser-message-ui.html)
+- [Add or Remove Beep Sound](add-remove-beep-sound.html)
+- [Different Ways to Customize UI](different-ways-to-customize-ui.html)
+- [Hide Laser Bar and Message in Default UI](hide-laser-message-ui.html)

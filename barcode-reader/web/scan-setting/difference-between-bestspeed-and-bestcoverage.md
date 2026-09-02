@@ -1,12 +1,12 @@
 ---
 layout: default-layout
-title: What are the differences between the 'speed', 'coverage', 'balance, and 'single' runtime templates?
+title: What are the differences between the 'speed', 'coverage', 'balance', and 'single' runtime templates?
 keywords: Dynamsoft Barcode Reader, FAQ, Troubleshooting / User Cases, speed, coverage
-description: What are the differences between the 'speed', 'coverage', 'balance, and 'single' runtime templates?
+description: What are the differences between the 'speed', 'coverage', 'balance', and 'single' runtime templates?
 needAutoGenerateSidebar: false
 ---
 
-# What are the differences between the 'speed', 'coverage', 'balance, and 'single' runtime templates?
+# What are the differences between the 'speed', 'coverage', 'balance', and 'single' runtime templates?
 
 `SpeedFirst`, as the name suggests, prioritizes time cost over the accuracy of the results, and `ReadRateFirst` is vice versa.
 

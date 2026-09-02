@@ -48,7 +48,7 @@ Below are the common files you'll find and their purposes.
 
 > [!IMPORTANT]
 > The dbr-bundle dynamically selects the most suitable WebAssembly variant based on the current browser environment, in order to maximize browser performance as much as possible. This means that in most cases, only one set of `*.wasm` + `*.wasm.js` files will actually be used at runtime.
-> For details about the different WASM variants, please refer to [What Is Adaptive WebAssembly (Wasm) Loading and How Does It Work?](adaptive-wasm-loading.md).
+> For details about the different WASM variants, please refer to [What Is Adaptive WebAssembly (Wasm) Loading and How Does It Work?](adaptive-wasm-loading.html).
 
 
 ## 6. Other Auxiliary Resources
