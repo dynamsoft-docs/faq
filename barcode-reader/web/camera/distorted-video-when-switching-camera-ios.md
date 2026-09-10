@@ -31,7 +31,7 @@ We reported this issue to Apple during the iOS 27 beta program. As of iOS 27 RC,
 Any web app built on a package that includes [Dynamsoft Camera Enhancer](https://www.dynamsoft.com/camera-enhancer/docs/web/) for camera video rendering can be affected — that is, any app using:
 
 - `dynamsoft-barcode-reader-bundle`
-- `dynamsoft-capture-vision-bundle` (a superset that also includes `dynamsoft-barcode-reader-bundle`'s functionality)
+- `dynamsoft-capture-vision-bundle`
 
 This covers products such as the Dynamsoft Barcode Reader JavaScript SDK and Dynamsoft MRZ Scanner, as well as any other product built on these bundles.
 
@@ -43,8 +43,6 @@ We've added a workaround for this iOS behavior starting with:
 - `dynamsoft-capture-vision-bundle` **3.6.3200** and above
 
 **We recommend upgrading to one of these versions or later** before iOS 27 is publicly released.
-
-If you're not able to upgrade right away, avoid switching the camera device while in portrait mode at a resolution under 1080p on iOS 27 — for example, prompt users to select a camera device before opening the video stream, rather than switching afterward.
 
 ## Need more help?
 
