@@ -28,10 +28,12 @@ We reported this issue to Apple during the iOS 27 beta program. As of iOS 27 RC,
 
 ## Who is affected
 
-Any web app that uses [Dynamsoft Camera Enhancer](https://www.dynamsoft.com/camera-enhancer/docs/web/) to render the camera video stream can be affected, including:
+Any web app built on a package that includes [Dynamsoft Camera Enhancer](https://www.dynamsoft.com/camera-enhancer/docs/web/) for camera video rendering can be affected — that is, any app using:
 
-- Dynamsoft Barcode Reader JavaScript SDK (`dynamsoft-barcode-reader-bundle`, `dynamsoft-capture-vision-bundle`)
-- Dynamsoft MRZ Scanner
+- `dynamsoft-barcode-reader-bundle`
+- `dynamsoft-capture-vision-bundle` (a superset that also includes `dynamsoft-barcode-reader-bundle`'s functionality)
+
+This covers products such as the Dynamsoft Barcode Reader JavaScript SDK and Dynamsoft MRZ Scanner, as well as any other product built on these bundles.
 
 ## Workaround
 
