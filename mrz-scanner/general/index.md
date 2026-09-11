@@ -22,3 +22,4 @@ Please use the links below to find answers to common questions and configuration
 - [Are there any performance options to improve accuracy or speed?](performance-optimization.html)
 - [What is the recommended font height to ensure reliable MRZ readability?](recommended-font-height.html)
 - [Does the orientation of the MRZ code matter?](does-mrz-orientation-matter.html)
+- [Why does the camera video look distorted after switching cameras on iOS 27?](distorted-video-when-switching-camera-ios.html)
