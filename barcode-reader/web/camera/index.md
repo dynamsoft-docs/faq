@@ -10,7 +10,7 @@ noTitleIndex: true
 # Camera FAQ Index
 
 - [Camera cannot open in PWA](camera-cannot-open-in-pwa.html)
-- [Why does the camera video look distorted after switching cameras on iOS 27?](distorted-video-when-switching-camera-ios.html)
+- [Why does the camera preview render incorrectly on iOS 27?](camera-preview-renders-incorrectly-ios.html)
 - [How to check camera permissions programmatically](check-camera.html)
 - [Delay when opening camera](delay-when-open-camera.html)
 - [How to stop the camera stream from opening right away after DBR-JS demo is loaded?](stop-camera-to-open-right-away.html)

@@ -1,0 +1,1 @@
+../../barcode-reader/web/camera/camera-preview-renders-incorrectly-ios.md

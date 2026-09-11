@@ -1,1 +1,0 @@
-../../barcode-reader/web/camera/distorted-video-when-switching-camera-ios.md
