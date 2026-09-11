@@ -60,7 +60,7 @@ The distortion requires `object-fit: fill` on the video element plus an ancestor
 }
 ```
 
-`!important` is needed because the SDK sets `object-fit` inline. The JavaScript equivalent, via [`CameraView.getVideoElement()`](https://www.dynamsoft.com/camera-enhancer/docs/web/programming/javascript/api-reference/cameraview.html?product=dbr&lang=javascript#getvideoelement):
+`!important` is needed because the SDK sets `object-fit` inline. The JavaScript equivalent, via [`cameraView.getVideoElement()`](https://www.dynamsoft.com/camera-enhancer/docs/web/programming/javascript/api-reference/cameraview.html?product=dbr&lang=javascript#getvideoelement):
 
 ```javascript
 let videoElement = cameraView.getVideoElement();
