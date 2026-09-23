@@ -12,10 +12,7 @@ needAutoGenerateSidebar: false
 In version 10, use the `dynamsoft camera enhancer` to utilize the [testCameraAccess](https://www.dynamsoft.com/camera-enhancer/docs/web/programming/javascript/api-reference/camera-control.html#testCameraAccess) method to check the camera status programmatically.
 
 
-## Version 9.6.10 till version 10
-You can utilize the [testCameraAccess](https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/api-reference/BarcodeScanner.html#testcameraaccess) method to check the camera status programmatically.
-
-## Version older than 9.6.10
+## Version older than 9.6.42
 You can check the status using a try-catch block as shown below:
 
 ```javascript
