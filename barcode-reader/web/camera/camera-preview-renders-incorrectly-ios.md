@@ -6,6 +6,6 @@ description: On iOS 27, switching cameras or resolution can distort or misfit th
 needAutoGenerateSidebar: false
 ---
 
-# Why does the camera preview render incorrectly on iOS 27?
+# Why does the Barcode Reader's camera preview render incorrectly on iOS 27?
 
 {% include shared/camera-preview-renders-incorrectly-ios.md %}
