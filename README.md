@@ -26,8 +26,6 @@ The scripts clone the shared template's preview branch into `.dev/`, merge it wi
 
 ## Checking links
 
-`check_links.py` crawls the repo's Markdown files and reports broken links. Run it before submitting a change that touches links:
+`check_links.py` checks external HTTP(S) links in publishable FAQ Markdown (not archived pages or generated workspaces). It verifies HTTPS certificates, reports confirmed 4xx and Dynamsoft soft-404 pages as failures, and reports access-denied, rate-limited, server, and network errors as inconclusive warnings. It does not check relative links or anchors; the shared Jekyll template performs its own internal-link check during the build.
 
-```bash
-python check_links.py
-```
+`python check_links.py` checks all published Markdown and exits nonzero for confirmed broken URLs. Existing broken URLs may be reported until fixed. GitHub Actions checks only URLs newly introduced since the PR base or preceding push, so legacy failures do not block unrelated changes. The separate `Check-Links` job must pass before the build-and-sync jobs run on `main` and `preview`.
