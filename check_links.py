@@ -26,6 +26,7 @@ def find_md_files(root_dir):
     for root, dirs, files in os.walk(root_dir):
         if '.git' in dirs: dirs.remove('.git')
         if '_site' in dirs: dirs.remove('_site')
+        if '.dev' in dirs: dirs.remove('.dev')
         
         for file in files:
             if file.endswith('.md'):

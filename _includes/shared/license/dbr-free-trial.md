@@ -1,13 +1,3 @@
----
-layout: default-layout
-title: How to get a free trial?
-keywords: Dynamsoft Barcode Reader, FAQ, DBR Introduction, General, free trial
-description: How to get a free trial?
-needAutoGenerateSidebar: false
----
-
-# How to get a free trial?
-
 To get a free trial of the SDK, please download it from [our website](https://www.dynamsoft.com/barcode-reader/downloads/).
 
 The main way to get the trial license is via the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dbr&utm_source=docs){:target="\_blank"} link through which you can extend your trial license once your original expires. The trial can be extended twice, for 15 days each, and a total of 30 days.

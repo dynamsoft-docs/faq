@@ -1,13 +1,3 @@
----
-layout: default-layout
-title: How to track the number of devices?
-keywords: Dynamsoft Barcode Reader, FAQ, Pricing/Licensing, General, track license
-description: How to track the number of devices?
-needAutoGenerateSidebar: false
----
-
-# How to track the number of devices?
-
 The Dynamsoft License Server (Dynamsoft hosted or self-hosted) is able to keep a track of the number of devices in different ways, depending on the edition of the SDK.
 
 - On the browser (JavaScript Edition), a device is counted as a specific browser on that device. This license gets cached in the indexedDB of the browser. If another browser is used, or the indexedDB is cleared, then a new license seat is taken up by the same device.

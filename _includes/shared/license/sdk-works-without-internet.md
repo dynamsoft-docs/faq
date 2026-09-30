@@ -1,13 +1,3 @@
----
-layout: default-layout
-title: Can the SDK work without internet connection?
-keywords: Dynamsoft Barcode Reader, FAQ, Pricing/Licensing, General, internet
-description: Can the SDK work without internet connection?
-needAutoGenerateSidebar: false
----
-
-# Can the SDK work without internet connection?
-
 The SDK can indeed be used without an internet connection. In order to use the SDK without an internet connection, it is best to use the Self Hosting option when it comes to setting up the Dynamsoft License Server once you obtain a full license. If the Dynamsoft Hosted option is chosen, an internet connection will be needed for the per barcode scan and various per device license types in order to connect to the license server and validate the license.
 
 - By using the Self Hosting option, the users will mainly just need an intranet connection in order to use the SDK since the server is hosted on the internal server(s) of the organization.

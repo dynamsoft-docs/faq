@@ -1,13 +1,3 @@
----
-layout: default-layout
-title: How to expand the quota of a runtime license?
-keywords: Dynamsoft Barcode Reader, FAQ, Pricing/Licensing, General, expand quota
-description: How to expand the quota of a runtime license?
-needAutoGenerateSidebar: false
----
-
-# How to expand the quota of a runtime license?
-
 The quota of a runtime license can be expanded before the license expires. This can be done in a couple of ways.
 
 - By accessing the license page in the [customer portal](https://www.dynamsoft.com/customer/license/fullLicense), under the `Manage License` operation, one of the options include `Add Quota`. This leads the user to a checkout page confirming the extra quantity that they want to add (by default they will be adding the same quantity that they originally bought, which can be multiplied by the `Quantity` number. After confirming the customer details and payment info, the order will be processed for the quota expansion.
