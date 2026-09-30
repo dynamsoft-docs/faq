@@ -22,7 +22,7 @@ Or on Windows:
 ./scripts/dev.ps1
 ```
 
-The scripts clone the shared template's preview branch into `.dev/`, merge it with this FAQ source, install gems, and serve Jekyll at `http://localhost:5555/faq/`. The generated `.dev/` workspace is ignored by Git and omits archived FAQ content and local worktrees. Use `--no-serve` / `-NoServe` to prepare without serving, then rerun without that flag to serve; `--no-template-update` / `-NoTemplateUpdate` reuses the cloned template. Changes to FAQ files require rerunning the script to refresh the merged workspace.
+The scripts clone the shared template's preview branch into `.dev/`, merge it with this FAQ source, install gems, and serve Jekyll at `http://localhost:5555/faq/`. The generated `.dev/` workspace is ignored by Git and omits archived FAQ content and local worktrees. Use `--no-serve` / `-NoServe` to prepare without serving, then rerun without that flag to serve; `--no-template-update` / `-NoTemplateUpdate` reuses the cloned template. Changes to FAQ files require rerunning the script to refresh the merged workspace. The Barcode Reader and MRZ Scanner iOS 27 camera-preview pages share their answer body in `_includes/shared/` while keeping separate page metadata.
 
 ## Checking links
 

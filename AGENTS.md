@@ -37,6 +37,8 @@ Rules:
 - `mrz-scanner/general/` — MRZ Scanner FAQs
 - `license/` — licensing FAQs shared across products
 
+For an answer published in more than one product section, keep each page’s own frontmatter and question H1, and put the common answer body in `_includes/shared/`. The iOS 27 camera-preview FAQ follows this pattern for Barcode Reader and MRZ Scanner; edit the shared include for answer changes.
+
 ## Archived content (`*/archive/*`)
 
 Directories named `archive` under `barcode-reader/{mobile,server,web}/` hold historical, version-pinned content (e.g. `-v9.6.40`, `-v10.4.2000` snapshots). They are:
