@@ -8,3 +8,4 @@ temp/*
 .idea
 .dev/
 # *.py
+__pycache__/

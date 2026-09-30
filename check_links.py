@@ -1,178 +1,153 @@
-import os
+"""Check external links in published FAQ Markdown (Python 3.10+, standard library)."""
+
+import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
 import re
-import urllib.request
-import urllib.error
 import ssl
-import concurrent.futures
+import subprocess
+import sys
+from urllib.error import HTTPError, URLError
+from urllib.parse import urldefrag, urlsplit
+from urllib.request import Request, urlopen
 
-# Configuration
-ROOT_DIR = os.getcwd()
-MAX_THREADS = 20
-SOFT_404_KEYWORDS = [
-    'id="pageNotFound"',
-    "Oops! That page can't be found.",
-    "alt=\"Page Not Found\"",
-    "illus-404.png",
-]
+ROOT = Path(__file__).resolve().parent
+PUBLISHED_ROOTS = {"barcode-reader", "mrz-scanner", "license"}
+MARKDOWN_LINK = re.compile(r"!?\[[^\]\n]*\]\(\s*<?(https?://[^\s)>]+)", re.I)
+REFERENCE_LINK = re.compile(r"^\s{0,3}\[[^\]]+\]:\s*<?(https?://[^\s>]+)", re.I)
+HTML_LINK = re.compile(r"\b(?:href|src)\s*=\s*['\"](https?://[^'\"]+)", re.I)
+AUTOLINK = re.compile(r"<(https?://[^>\s]+)>", re.I)
+FENCE = re.compile(r"^\s*(`{3,}|~{3,})")
 
 
-# Context for https requests
-ctx = ssl.create_default_context()
-ctx.check_hostname = False
-ctx.verify_mode = ssl.CERT_NONE 
+def published(path):
+    parts = path.parts
+    return (path.suffix.lower() == ".md" and
+            ((len(parts) == 1 and parts[0] in {"index.md", "search.md"}) or
+             (parts[0] in PUBLISHED_ROOTS and "archive" not in parts)))
 
-def find_md_files(root_dir):
-    md_files = []
-    for root, dirs, files in os.walk(root_dir):
-        if '.git' in dirs: dirs.remove('.git')
-        if '_site' in dirs: dirs.remove('_site')
-        if '.dev' in dirs: dirs.remove('.dev')
-        
-        for file in files:
-            if file.endswith('.md'):
-                md_files.append(os.path.join(root, file))
-    return md_files
 
-DS_SOFT_404_MARKERS = [
-    'id="pagenotfound"',                 # DOM id（你 lower() 了，所以用小写）
-    'illus-404.png',                     # 404 图片
-    "oops! that page can't be found.",   # 404 H1 文案
-    'alt="page not found"',              # 图片 alt
-]
+def links(text):
+    """Return URL -> first line number, omitting fenced examples and fragments."""
+    found = {}
+    fence = None
+    for number, line in enumerate(text.splitlines(), 1):
+        marker = FENCE.match(line)
+        if marker:
+            run = marker.group(1)
+            if fence is None:
+                fence = run
+            elif run[0] == fence[0] and len(run) >= len(fence):
+                fence = None
+            continue
+        if fence:
+            continue
+        for pattern in (MARKDOWN_LINK, REFERENCE_LINK, HTML_LINK, AUTOLINK):
+            for match in pattern.finditer(line):
+                url = urldefrag(match.group(1).rstrip(".,;"))[0]
+                found.setdefault(url, number)
+    return found
 
-def is_soft_404(content_lower: str) -> str | None:
-    # 返回命中的 marker，便于 debug
-    for m in DS_SOFT_404_MARKERS:
-        if m in content_lower:
-            return m
-    return None
 
-def check_url(url):
+def git(*args):
+    return subprocess.run(["git", *args], cwd=ROOT, check=True, capture_output=True).stdout
+
+
+def candidates(base_ref):
+    if not base_ref:
+        for root in ("index.md", "search.md", *sorted(PUBLISHED_ROOTS)):
+            path = ROOT / root
+            if path.is_file():
+                yield Path(root), set()
+            elif path.is_dir():
+                for file in sorted(path.rglob("*.md")):
+                    rel = file.relative_to(ROOT)
+                    if published(rel):
+                        yield rel, set()
+        return
+
+    # Compare URLs, not just files: old failures must not block unrelated edits.
+    fields = git("diff", "--name-status", "--find-renames", "-z", base_ref, "HEAD", "--").decode().split("\0")
+    index = 0
+    while index < len(fields) - 1:
+        status = fields[index]
+        index += 1
+        old_path = fields[index]
+        index += 1
+        new_path = old_path
+        if status[0] in "RC":
+            new_path = fields[index]
+            index += 1
+        rel = Path(new_path)
+        if status[0] == "D" or not published(rel) or not (ROOT / rel).is_file():
+            continue
+        previous = set()
+        if status[0] != "A":
+            previous = set(links(git("show", f"{base_ref}:{old_path}").decode("utf-8")))
+        yield rel, previous
+
+
+def check(url):
+    """Return (broken, explanation); None means the remote result is inconclusive."""
     try:
-        req = urllib.request.Request(
-            url,
-            headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
-        )
-        with urllib.request.urlopen(req, timeout=15, context=ctx) as response:
-            code = response.getcode()
+        request = Request(url, headers={"User-Agent": "FAQ-Link-Checker/1.0"})
+        with urlopen(request, timeout=15) as response:  # default verified TLS context
+            final_host = urlsplit(response.url).hostname or ""
+            if final_host == "dynamsoft.com" or final_host.endswith(".dynamsoft.com"):
+                body = response.read(50000).decode("utf-8", errors="replace").lower()
+                if (re.search(r'id=["\']pagenotfound["\']', body) or
+                        re.search(r"<title>\s*(?:404|page not found|oops! that page can't be found)", body)):
+                    return True, "Dynamsoft soft 404"
+            return False, "OK"
+    except HTTPError as error:
+        if error.code in (401, 403, 408, 429) or error.code >= 500:
+            return None, f"HTTP {error.code} (inconclusive)"
+        return True, f"HTTP {error.code}"
+    except URLError as error:
+        if isinstance(error.reason, ssl.SSLCertVerificationError):
+            return True, f"TLS certificate verification failed: {error.reason}"
+        return None, f"Network error (inconclusive): {error.reason}"
+    except (TimeoutError, OSError) as error:
+        return None, f"Network error (inconclusive): {error}"
 
-            # 3xx 也算 OK（已允许重定向则一般拿到最终 200，这里保留逻辑）
-            if 200 <= code < 400:
-                try:
-                    # 建议读多一点，Dynamsoft 的 pageNotFound 区块可能不在前 15KB
-                    content = response.read(50000).decode('utf-8', errors='ignore').lower()
-
-                    # ✅ 先做“强特征” soft-404 判断（更准）
-                    hit = is_soft_404(content)
-                    if hit:
-                        return False, code, f"Soft 404 (marker: {hit})"
-
-                    # ✅ 再做你原来的 title/h1 关键词检测（兜底）
-                    if "<title>" in content:
-                        title_part = content.split("<title>", 1)[1].split("</title>", 1)[0]
-                        for keyword in SOFT_404_KEYWORDS:
-                            if keyword in title_part:
-                                return False, code, f"Soft 404 (Title: '{keyword}')"
-
-                    # h1 可能有属性，例如 <h1 class="...">，所以用更宽松的方式找
-                    if "<h1" in content and "</h1>" in content:
-                        h1_block = content.split("<h1", 1)[1].split("</h1>", 1)[0]
-                        for keyword in SOFT_404_KEYWORDS:
-                            if keyword in h1_block:
-                                return False, code, f"Soft 404 (H1: '{keyword}')"
-
-                except Exception:
-                    pass
-
-                return True, code, "OK"
-            else:
-                return False, code, f"Status {code}"
-
-    except urllib.error.HTTPError as e:
-        return False, e.code, f"HTTP Error {e.code}"
-    except urllib.error.URLError as e:
-        return False, 0, f"URL Error: {e.reason}"
-    except Exception as e:
-        return False, 0, f"Error: {str(e)}"
-
-def scan_file_for_https_links(file_path):
-    links = []
-    try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            content = f.read()
-            
-        md_links = re.findall(r'\[.*?\]\((https://.*?)\)', content)
-        html_srcs = re.findall(r'src=["\'](https://.*?)["\']', content)
-        
-        for link in md_links + html_srcs:
-            clean_link = link.split()[0].strip('()')
-            links.append(clean_link)
-    except Exception as e:
-        print(f"Error reading {file_path}: {e}")
-    return links
 
 def main():
-    print(f"Scanning for HTTPS links in: {ROOT_DIR}")
-    files = find_md_files(ROOT_DIR)
-    
-    file_links_map = {} 
-    all_urls = set()
-    
-    for file_path in files:
-        links = scan_file_for_https_links(file_path)
-        if links:
-            file_links_map[file_path] = links
-            all_urls.update(links)
-    
-    print(f"Found {len(all_urls)} unique HTTPS links to check.")
-    print(f"Checking links (Concurrent Status + Soft 404 Check) ...")
-    
-    url_status = {} 
-    
-    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-        future_to_url = {executor.submit(check_url, url): url for url in all_urls}
-        completed = 0
-        total = len(all_urls)
-        
-        for future in concurrent.futures.as_completed(future_to_url):
-            url = future_to_url[future]
-            try:
-                result = future.result()
-                url_status[url] = result
-            except Exception as e:
-                url_status[url] = (False, 0, str(e))
-            
-            completed += 1
-            if completed % 10 == 0 or completed == total:
-                print(f"Progress: {completed}/{total}", end='\r')
-                
-    print(f"\nProgress: {total}/{total}")
-    print("\n--- Broken or Soft 404 Links Report ---\n")
-    
-    broken_count = 0
-    files_with_issues = 0
-    
-    for file_path, links in file_links_map.items():
-        issues_in_file = []
-        for link in links:
-            if link in url_status:
-                is_valid, code, msg = url_status[link]
-                if not is_valid:
-                    issues_in_file.append((link, code, msg))
-        
-        if issues_in_file:
-            files_with_issues += 1
-            rel_path = os.path.relpath(file_path, ROOT_DIR)
-            print(f"📄 {rel_path}")
-            for link, code, msg in issues_in_file:
-                print(f"  ❌ [{code}] {link} -> {msg}")
-                broken_count += 1
-            print("")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--base-ref", help="Only check URLs added since this git revision (for CI)")
+    args = parser.parse_args()
+    try:
+        occurrences = {}
+        files = 0
+        for path, previous in candidates(args.base_ref):
+            files += 1
+            for url, line in links((ROOT / path).read_text(encoding="utf-8")).items():
+                if url not in previous:
+                    occurrences.setdefault(url, []).append(f"{path.as_posix()}:{line}")
+    except (OSError, UnicodeError, subprocess.CalledProcessError) as error:
+        print(f"Cannot scan FAQ links: {error}", file=sys.stderr)
+        return 2
 
-    if broken_count == 0:
-        print("✅ No broken links found!")
-    else:
-        print(f"❌ Found {broken_count} issues in {files_with_issues} files.")
+    print(f"Checking {len(occurrences)} external URL(s) in {files} published Markdown file(s).")
+    broken = warnings = 0
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        futures = {pool.submit(check, url): url for url in occurrences}
+        for future in as_completed(futures):
+            url = futures[future]
+            try:
+                result, reason = future.result()
+            except Exception as error:
+                result, reason = None, f"Unexpected check error (inconclusive): {error}"
+            if result is False:
+                continue
+            if result is True:
+                broken += 1
+            else:
+                warnings += 1
+            for location in occurrences[url]:
+                print(f"{location}: {'BROKEN' if result else 'WARNING'} {url} — {reason}")
+    print(f"Result: {broken} broken URL(s), {warnings} inconclusive URL(s).")
+    return 1 if broken else 0
+
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
