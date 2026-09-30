@@ -24,8 +24,8 @@ Or on Windows:
 
 The scripts clone the shared template's preview branch into `.dev/`, merge it with this FAQ source, install gems, and serve Jekyll at `http://localhost:5555/faq/`. The generated `.dev/` workspace is ignored by Git and omits archived FAQ content and local worktrees. Use `--no-serve` / `-NoServe` to prepare without serving, then rerun without that flag to serve; `--no-template-update` / `-NoTemplateUpdate` reuses the cloned template. Changes to FAQ files require rerunning the script to refresh the merged workspace.
 
-Shared answers live in `_includes/shared/`. Product FAQ pages retain their own frontmatter and question H1, then include the answer body. The license FAQs are regular pages under `license/`, `barcode-reader/license/`, and `mrz-scanner/license/`; they share `_includes/shared/license/` and preserve their existing URLs. Edit shared answer text in the include, not in each page.
-The license screenshots are stored once in `barcode-reader/server/assets/` and referenced through `site.dbr_server_assets` from the shared answer. Do not copy them into the license directories.
+Shared answers live in `_includes/shared/`. Product FAQ pages retain their own frontmatter and question H1, then include the answer body. The license FAQs are regular pages under `barcode-reader/license/` and `mrz-scanner/license/`; they share `_includes/shared/license/` and preserve their product URLs. Edit shared answer text in the include, not in each page.
+The license screenshots are stored once in `assets/license/` and referenced through `site.assets` from the shared answer. Do not copy them into the product license directories.
 
 ## Checking links
 

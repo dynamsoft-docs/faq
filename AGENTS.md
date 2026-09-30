@@ -26,7 +26,7 @@ Rules:
 - **Link it from `index.md`.** Every subdirectory (`barcode-reader/general/`, `barcode-reader/web/configuration/`, `mrz-scanner/general/`, etc.) has an `index.md` that lists every article in that section. A new article with no entry there is orphaned — it exists but no one can navigate to it. Add a bullet there when you add the file, and remove the bullet if you remove the file.
 - **Internal links use `.html`, not `.md`.** Link to sibling/other articles as `some-page.html` (Jekyll serves the built output), and to a parent-directory archive as `../archive/some-page.html`, etc. A link ending in `.md` will not resolve on the live site.
 - **Don't add "back to index" links inside articles.** They were deliberately removed repo-wide; the sidebar/index already provides navigation.
-- **Images** go through a site variable per product/edition — `{{site.dbr_web_assets}}`, `{{site.dbr_mobile_assets}}`, `{{site.dbr_server_assets}}` (defined in `_config.yml`), pointing at that edition's `assets/` directory. Before referencing an image, confirm the file actually exists at that path — a stale or placeholder filename (e.g. a literal `undefined.png`) will silently 404.
+- **Images** go through a site variable — `{{site.assets}}` for shared assets or `{{site.dbr_web_assets}}`, `{{site.dbr_mobile_assets}}`, `{{site.dbr_server_assets}}` for edition assets (defined in `_config.yml`). Before referencing an image, confirm the file actually exists at that path — a stale or placeholder filename (e.g. a literal `undefined.png`) will silently 404.
 - **Write the answer as a direct statement, not a raw Q&A fragment.** Don't leave phrasing like "Yes — ..." or "This can be expanded ..." floating with no visible question or antecedent above it — the H1 is the question; the body should read as its answer, not as a leftover snippet.
 - **Don't duplicate a section under a second heading.** If a "what's new"/changelog-style heading and a "how to" heading right below it cover the same ground, merge them.
 
@@ -35,13 +35,13 @@ Rules:
 - `barcode-reader/general/` — cross-edition Barcode Reader FAQs
 - `barcode-reader/mobile/`, `barcode-reader/server/`, `barcode-reader/web/` — edition-specific Barcode Reader FAQs, each split into topic subdirectories (`configuration/`, `capabilities/`, `debug/`, `scan-setting/`, etc.)
 - `mrz-scanner/general/` — MRZ Scanner FAQs
-- `license/` — licensing FAQs shared across products
+- `barcode-reader/license/`, `mrz-scanner/license/` — published licensing FAQs for each product; shared answer bodies live in `_includes/shared/license/`
 
 ## Shared FAQ answers
 
-Published FAQs are regular Markdown pages under each product path. For an answer reused across products, keep the frontmatter and question H1 in each page and put only the answer body in `_includes/shared/`; include it with `{% include shared/<file>.md %}`. Edit the include for shared answer changes, and keep each product section’s `index.md` linked to its own page. Do not use filesystem symlinks. `license/` remains published for existing bare-path URLs, but the product-scoped license pages and the corresponding `license/` pages all use `_includes/shared/license/` for their answers.
+Published FAQs are regular Markdown pages under each product path. For an answer reused across products, keep the frontmatter and question H1 in each page and put only the answer body in `_includes/shared/`; include it with `{% include shared/<file>.md %}`. Edit the include for shared answer changes, and keep each product section’s `index.md` linked to its own page. Do not use filesystem symlinks. The two product license sections share `_includes/shared/license/` for their answers; there is no bare `license/` section.
 
-The shared offline-registration answer references six screenshots through `{{site.dbr_server_assets}}`. Their only source files are in `barcode-reader/server/assets/`; do not add copies under `license/assets/` or either product license directory.
+The shared offline-registration answer references six screenshots through `{{site.assets}}license/`. Their only source files are in `assets/license/`; do not add copies in either product license directory.
 
 ## Archived content (`*/archive/*`)
 

@@ -56,14 +56,6 @@ defaults:
     values:
       sitemap: false
   - scope:
-      # license/ retains the existing bare URLs. Its pages and the product-
-      # scoped license pages include the same answer bodies, but only the
-      # product-scoped URLs have sidebar context; keep the bare path out
-      # of the sitemap.
-      path: "license"
-    values:
-      sitemap: false
-  - scope:
       path: "barcode-reader/mobile/capabilities"
     values:
       highlightMenu: "/faq/barcode-reader/mobile/index.html#capabilities"
