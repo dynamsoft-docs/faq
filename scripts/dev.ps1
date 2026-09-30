@@ -95,10 +95,16 @@ if (-not (Test-Path $templateRoot)) {
 }
 
 Write-Step "Rebuilding merged site workspace"
+if (Test-Path $docHome) {
+    Remove-Item -LiteralPath $docHome -Recurse -Force
+}
 New-Item -ItemType Directory -Force -Path $docHome | Out-Null
 Invoke-Robocopy -Source $repoRoot -Destination $docHome -ExtraArgs @(
     "/MIR",
-    "/XD", ".git", ".dev", ".vs", "node_modules", "_site", ".bundle", ".jekyll-cache", ".sass-cache", "vendor"
+    "/XD", ".git", ".dev", ".claude", ".vs", "node_modules", "_site", ".bundle", ".jekyll-cache", ".sass-cache", "vendor",
+    (Join-Path $repoRoot "barcode-reader\mobile\archive"),
+    (Join-Path $repoRoot "barcode-reader\server\archive"),
+    (Join-Path $repoRoot "barcode-reader\web\archive")
 )
 Invoke-Robocopy -Source $templateRoot -Destination $docHome -ExtraArgs @(
     "/E",
@@ -143,8 +149,7 @@ try {
     Invoke-Native -FilePath "bundle" -Arguments @("install")
 
     if ($NoServe) {
-        Write-Step "Build workspace prepared. Start server with:"
-        Write-Host "bundle exec jekyll serve -P $Port --trace --host=$BindHost --livereload --destination `"$siteDir`""
+        Write-Step "Workspace prepared. Run this script again without -NoServe to start Jekyll."
     } else {
         Write-Step "Starting Jekyll server on port $Port"
         Invoke-Native -FilePath "bundle" -Arguments @("exec", "jekyll", "serve", "-P", "$Port", "--trace", "--host=$BindHost", "--livereload", "--destination", "$siteDir")

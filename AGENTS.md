@@ -47,6 +47,12 @@ Directories named `archive` under `barcode-reader/{mobile,server,web}/` hold his
 
 If you find yourself wanting to *add* content to an archive directory, it almost certainly belongs in the live directory instead.
 
+## Testing the local site
+
+The Jekyll layout comes from `Docs-Template-Repo`, not this repository. Install Git and Ruby/Bundler plus `rsync` (Bash) or `robocopy` (PowerShell). From the repo root, run `./scripts/dev.sh` or `./scripts/dev.ps1` to prepare `.dev/DocHome` and serve at `http://localhost:5555/faq/`. The scripts exclude archived FAQ directories and local worktrees from that merged workspace.
+
+For preparation without a server, use `./scripts/dev.sh --no-serve` or `./scripts/dev.ps1 -NoServe`; rerun the script without that flag to start the server. Use `--no-template-update` / `-NoTemplateUpdate` to reuse the cloned template. Rerun after editing FAQ source because the merged workspace is a copy, then check the changed page in the local site. `.dev/` is generated and Git-ignored; do not edit it as source.
+
 ## Before finishing
 
 Run the link checker from the repo root and fix anything it flags in files you touched:

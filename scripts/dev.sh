@@ -124,6 +124,10 @@ mkdir -p "$doc_home"
 rsync -a --delete \
   --exclude '.git' \
   --exclude '.dev' \
+  --exclude '.claude' \
+  --exclude '/barcode-reader/mobile/archive/' \
+  --exclude '/barcode-reader/server/archive/' \
+  --exclude '/barcode-reader/web/archive/' \
   --exclude '.vs' \
   --exclude 'node_modules' \
   --exclude '_site' \
@@ -149,7 +153,8 @@ for dir_name in "_includes" "_layouts"; do
   fi
 
   while IFS= read -r -d '' file_path; do
-    sed -i "s|$search|$replace|g" "$file_path"
+    sed -i.bak "s|$search|$replace|g" "$file_path"
+    rm -f -- "$file_path.bak"
   done < <(find "$dir_path" -type f -print0)
 done
 
@@ -167,8 +172,7 @@ write_step "Installing Ruby dependencies"
 bundle install
 
 if [[ "$no_serve" == "true" ]]; then
-  write_step "Build workspace prepared. Start server with:"
-  echo "bundle exec jekyll serve -P $port --trace --host=$bind_host --livereload --destination \"$site_dir\""
+  write_step "Workspace prepared. Run this script again without --no-serve to start Jekyll."
 else
   write_step "Starting Jekyll server on port $port"
   bundle exec jekyll serve -P "$port" --trace --host="$bind_host" --livereload --destination "$site_dir"
