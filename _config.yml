@@ -56,11 +56,10 @@ defaults:
     values:
       sitemap: false
   - scope:
-      # license/ is shared content, duplicated at build time under
-      # /faq/barcode-reader/license/ and /faq/mrz-scanner/license/. Those
-      # product-scoped URLs are the ones linked from the site and correctly
-      # highlighted in the sidebar; this bare path has no product context
-      # for the sidebar to highlight, so keep it out of the sitemap.
+      # license/ retains the existing bare URLs. Its pages and the product-
+      # scoped license pages include the same answer bodies, but only the
+      # product-scoped URLs have sidebar context; keep the bare path out
+      # of the sitemap.
       path: "license"
     values:
       sitemap: false
