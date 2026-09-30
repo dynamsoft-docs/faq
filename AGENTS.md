@@ -41,6 +41,8 @@ Rules:
 
 Published FAQs are regular Markdown pages under each product path. For an answer reused across products, keep the frontmatter and question H1 in each page and put only the answer body in `_includes/shared/`; include it with `{% include shared/<file>.md %}`. Edit the include for shared answer changes, and keep each product section’s `index.md` linked to its own page. Do not use filesystem symlinks. `license/` remains published for existing bare-path URLs, but the product-scoped license pages and the corresponding `license/` pages all use `_includes/shared/license/` for their answers.
 
+The shared offline-registration answer references six screenshots through `{{site.dbr_server_assets}}`. Their only source files are in `barcode-reader/server/assets/`; do not add copies under `license/assets/` or either product license directory.
+
 ## Archived content (`*/archive/*`)
 
 Directories named `archive` under `barcode-reader/{mobile,server,web}/` hold historical, version-pinned content (e.g. `-v9.6.40`, `-v10.4.2000` snapshots). They are:
