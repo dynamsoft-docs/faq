@@ -1,13 +1,3 @@
----
-layout: default-layout
-title: How to properly use concurrent instance license?
-keywords: Dynamsoft Barcode Reader, FAQ, Pricing/Licensing, General, ensure no overuse
-description: How to properly use concurrent instance license?
-needAutoGenerateSidebar: false
----
-
-# How to properly use concurrent instance license?
-
 The standard way to use concurrent instance license is:
 
 * Call method `SetMaxConcurrentInstanceCount` to set the license count you purchased.
