@@ -12,7 +12,7 @@ You can obtain a copy of the DBR JS deployable files using one of the following 
 
 ## 1. Download the DBR-JS package from website
 
- Visit the [Dynamsoft website](https://www.dynamsoft.com/barcode-reader/downloads) or the [Dynamsoft Customer Portal](https://www.dynamsoft.com/customer/download) (select the "Download Center" menu on the left-hand side).
+ Visit the [Dynamsoft website](https://www.dynamsoft.com/barcode-reader/downloads/) or the [Dynamsoft Customer Portal](https://www.dynamsoft.com/customer/download) (select the "Download Center" menu on the left-hand side).
 
  The resources can be found at the path: `dynamsoft-barcode-reader-js-{version-number}\dist`.
 

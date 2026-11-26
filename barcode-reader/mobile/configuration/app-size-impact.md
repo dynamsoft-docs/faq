@@ -61,6 +61,6 @@ We can help:
 - Exclude features not needed by your app
 - Deliver a **lighter-weight SDK** tailored to your usage
 
-📩 To learn more, please [contact us](https://www.dynamsoft.com/company/contact/).
+📩 To learn more, please [contact us](https://www.dynamsoft.com/contact/).
 
 ---
